@@ -114,3 +114,7 @@
 @media(max-width:700px){.live-result.live-panel{padding:44px 15px 30px;min-height:620px;border-radius:18px}.live-result-podium{gap:10px}.live-podium-team{padding:18px 14px;min-height:170px}.live-win-medallion{width:100px;height:100px;border-radius:27px}.live-win-medallion span{font-size:55px}.live-party-popper{font-size:28px}.live-result-actions .btn{width:100%}}
 @media(max-width:360px){.live-result-podium{grid-template-columns:1fr}.live-podium-team{min-height:130px}.live-result h2{font-size:23px}}
 @media(prefers-reduced-motion:reduce){.live-celebration-effects .live-confetti-piece,.live-celebration-effects .live-burst,.live-celebration-effects .live-party-popper,.live-celebration-glow,.live-win-medallion,.live-result h2,.live-result-subtitle,.live-podium-team{animation:none!important}.live-confetti-piece{display:none}.live-burst{display:none}}
+
+.live-result.live-draw-result{background:linear-gradient(155deg,#f4f7ff,#fff 65%);box-shadow:0 8px 30px #354c990b}
+.live-draw-result .live-win-medallion{background:linear-gradient(140deg,#e4eafa,#f6f8fe);box-shadow:0 8px 22px #354c9912;animation:none}
+.live-draw-result .live-result-podium{margin-top:25px}
