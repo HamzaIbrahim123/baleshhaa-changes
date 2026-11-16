@@ -196,8 +196,8 @@ export default function LiveMatch({categories,onExit,soundEnabled}:{categories:P
   {stage==='reveal'&&<button className="btn btn-outline" type="button" onClick={()=>setStage('question')} disabled={busy}>العودة للسؤال</button>}
   {stage==='question'?btn(busy?'جارٍ كشف الإجابة...':'اكشف الإجابة',()=>void reveal()):btn('تأكيد النتيجة ومتابعة',applyResult,choice==='unset')}
  </div></>}
- {stage==='result'&&<section className="live-result live-panel" aria-label="النتيجة النهائية">
-   <div className="live-celebration-effects" aria-hidden="true">
+ {stage==='result'&&<section className={'live-result live-panel '+(winnerIndex===null?'live-draw-result':'')} aria-label="النتيجة النهائية">
+   {winnerIndex!==null&&<div className="live-celebration-effects" aria-hidden="true">
     <div className="live-celebration-glow live-glow-right"/><div className="live-celebration-glow live-glow-left"/>
     <div className="live-burst live-burst-right">{Array.from({length:10},(_,i)=><i key={i} style={{transform:'rotate('+(i*36)+'deg) translateY(-46px)'}}/>)}</div>
     <div className="live-burst live-burst-left">{Array.from({length:10},(_,i)=><i key={i} style={{transform:'rotate('+(i*36)+'deg) translateY(-46px)'}}/>)}</div>
@@ -206,7 +206,7 @@ export default function LiveMatch({categories,onExit,soundEnabled}:{categories:P
        backgroundColor:['#4058bc','#a99bff','#f3b343','#f29a67','#48bd9d','#fff1a8'][i%6]
     }}/>)}</div>
     <span className="live-party-popper live-party-right">🎉</span><span className="live-party-popper live-party-left">🎊</span>
-   </div>
+   </div>}
    <div className="live-result-content">
     <div className="live-win-medallion"><span aria-hidden="true">{winnerIndex===null?'🤝':'🏆'}</span></div>
     <p className="live-result-kicker">بلّشها • ليلة حماسية</p>
