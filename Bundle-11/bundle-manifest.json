@@ -1,0 +1,57 @@
+{
+  "bundle": "Bundle-11",
+  "frontend_only_zip": true,
+  "original_repo": "HamzaIbrahim123/Baleshhaa",
+  "changes_repo": "HamzaIbrahim123/baleshhaa-changes",
+  "frontend_files": [
+    {
+      "path": "src/App.tsx",
+      "status": "modified",
+      "source_sha": "29b72d8e4dfb6c48b715335829f3b186d6538003",
+      "baseline_sha": "03f9a1b1cac998f05e7e328605fe54950ced3c84"
+    },
+    {
+      "path": "src/liveApi.ts",
+      "status": "new",
+      "source_sha": "5778eab8594990db5352e619569d9f00978417f5"
+    },
+    {
+      "path": "src/LiveMatch.tsx",
+      "status": "new",
+      "source_sha": "9102818ec3859db46386e6726666cfde4328d398"
+    },
+    {
+      "path": "src/live-match.css",
+      "status": "new",
+      "source_sha": "e557874e6db11fb41bddd4e0772f61fe32456d95"
+    }
+  ],
+  "frontend_zip": "FigmaMake-Changes-Only.zip",
+  "frontend_zip_sha": "6d614443650bfd3795bd542e30b84d987945e107",
+  "backend": {
+    "project_id": "restless-tree-71310827",
+    "database": "baleshhaa",
+    "game_function": "baleshhaagame",
+    "deployment_id": 1,
+    "status": "completed",
+    "source_sha": "6c4e6e99aaeeaf66dc49d480fe78d49c4624c1a3"
+  },
+  "database": {
+    "schema_version": "003_matches_per_user_usage",
+    "question_count": 180,
+    "levels": [
+      200,
+      400,
+      600
+    ],
+    "per_level_per_category": 30,
+    "categories": [
+      "دوري أبطال أوروبا",
+      "كأس العالم"
+    ],
+    "user_question_consumption_by_user_id": true,
+    "opened_question_idempotent": true
+  },
+  "user_accounts_unchanged": true,
+  "winner_redesign_deferred": true
+}
