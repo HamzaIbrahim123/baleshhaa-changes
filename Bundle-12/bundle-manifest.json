@@ -8,7 +8,7 @@
     "src/LiveMatch.tsx",
     "src/live-match.css"
   ],
-  "zip_blob_sha": "a4d4fc800ce41a6276d1d726e36530a981dc4cb1",
+  "zip_blob_sha": "6fce78f4f570cf99917cab1c0f4febdf53837e31",
   "backend_changed": false,
   "neon_changed": false,
   "features": [
@@ -18,5 +18,7 @@
     "replay/reset",
     "reduced motion support"
   ],
-  "requires_figma_make_import": true
+  "requires_figma_make_import": true,
+  "zip_size_bytes": 86812,
+  "tie_celebration": "calm, no confetti"
 }
