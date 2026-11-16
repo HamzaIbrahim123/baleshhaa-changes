@@ -1,0 +1,65 @@
+{
+  "bundle_id": "Bundle-01",
+  "baseline_repository": "HamzaIbrahim123/Baleshhaa",
+  "target_changes_repository": "HamzaIbrahim123/baleshhaa-changes",
+  "design_file": "F8QbCCsYhe27xaDWFygUlK",
+  "design_page": "127:140",
+  "scope": "Figma Make UI-only build",
+  "files": [
+    {
+      "path": "src/App.tsx",
+      "status": "modified",
+      "baseline_blob_sha": "2cf9e0fa17c8878be118f23dc7d2f88bd4b86463",
+      "sha256": "5a2de11b698406070c9be37b4dc2835be5294c0328e20c172773b203e70cba98",
+      "size_bytes": 34406
+    },
+    {
+      "path": "src/index.css",
+      "status": "modified",
+      "baseline_blob_sha": "d4b5078586e291f9dc7d6f04a380aa3c1b52b84b",
+      "sha256": "c5933e3719e94847919921038867f21db6868d95e1f1d4e3f08f7ddf8505df59",
+      "size_bytes": 26812
+    },
+    {
+      "path": "src/data.ts",
+      "status": "added",
+      "baseline_blob_sha": null,
+      "sha256": "13f9f6ad9e45bef52121b3dacaa7335d2773af6c8451aa8b9f6d13bb060e59d7",
+      "size_bytes": 4412
+    },
+    {
+      "path": "public/art/seen-jeem.webp",
+      "status": "added",
+      "baseline_blob_sha": null,
+      "sha256": "1e37cbd4e3681c06b16f7ca88f42ff4111ffec9694edd8d33fb73238d40c392e",
+      "size_bytes": 38492
+    },
+    {
+      "path": "public/art/letters.webp",
+      "status": "added",
+      "baseline_blob_sha": null,
+      "sha256": "f3f0b489fb497271e5ff204a888f5119d1718ffca43b00fa88a2f9c357f76a99",
+      "size_bytes": 45550
+    },
+    {
+      "path": "public/art/codenames.webp",
+      "status": "added",
+      "baseline_blob_sha": null,
+      "sha256": "f84e45123c1171c6dfd02ae51c3f3bcb63469a87803a2b5dcea7081224e7f03e",
+      "size_bytes": 46622
+    },
+    {
+      "path": "public/art/thirty.webp",
+      "status": "added",
+      "baseline_blob_sha": null,
+      "sha256": "b02cb24a9297701611795d2652580be17fbf05c9180b2840484659b11f58bdd7",
+      "size_bytes": 51288
+    }
+  ],
+  "not_included": [
+    "backend",
+    "database migrations",
+    "real account storage",
+    "approved real question bank"
+  ]
+}
