@@ -1,0 +1,22 @@
+{
+  "bundle": "Bundle-12",
+  "changes_repo": "HamzaIbrahim123/baleshhaa-changes",
+  "original_repo": "HamzaIbrahim123/Baleshhaa",
+  "frontend_only_zip": "FigmaMake-Changes-Only.zip",
+  "files": [
+    "src/App.tsx",
+    "src/LiveMatch.tsx",
+    "src/live-match.css"
+  ],
+  "zip_blob_sha": "a4d4fc800ce41a6276d1d726e36530a981dc4cb1",
+  "backend_changed": false,
+  "neon_changed": false,
+  "features": [
+    "sorted 200/200 400/400 600/600",
+    "personal remaining game counts per category",
+    "win/draw celebration and scores",
+    "replay/reset",
+    "reduced motion support"
+  ],
+  "requires_figma_make_import": true
+}
