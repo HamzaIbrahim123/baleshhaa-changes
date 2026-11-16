@@ -1,0 +1,49 @@
+{
+  "bundle": "Bundle-04",
+  "based_on": "HamzaIbrahim123/Baleshhaa",
+  "changes_only": true,
+  "files": [
+    {
+      "path": "src/App.tsx",
+      "status": "modified",
+      "base_git_sha": "02e82df7a2fa333ed06dab162344aa2123a2f081",
+      "new_git_sha": "034ef13042487c424d75d1cf590a705d94d28f08"
+    },
+    {
+      "path": "src/index.css",
+      "status": "modified",
+      "base_git_sha": "317ca069ad3df857e2fababb146738479faf996e",
+      "new_git_sha": "e0a13be8d96e5d41ffeff6f047eae8bb6c352f24"
+    },
+    {
+      "path": "src/data.ts",
+      "status": "modified",
+      "base_git_sha": "a9e2ac4f78a5562994feb766ee4655c78deef8e7",
+      "new_git_sha": "8b38c8b825d794324edc67c72e3acff9d8a4e256"
+    }
+  ],
+  "functional_checks": {
+    "latinDigits": true,
+    "scoreLocale": true,
+    "noPreselect": true,
+    "explicitNone": true,
+    "trapQuestionOnly": true,
+    "trapScore": true,
+    "noConfirmIfUnset": true,
+    "trapThrowerNeverScores": true,
+    "helpIcons": true,
+    "winnerPyramid": true
+  },
+  "scoring_cases_passed": [
+    "trap correct",
+    "trap wrong",
+    "trap by second correct",
+    "trap by second wrong",
+    "ordinary none",
+    "ordinary winner",
+    "pit by first"
+  ],
+  "backend_changed": false,
+  "database_changed": false,
+  "frontend_zip": "FigmaMake-Changes-Only.zip"
+}
