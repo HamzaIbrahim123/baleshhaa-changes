@@ -17,7 +17,7 @@
 
 Neon Console: https://console.neon.tech/app/projects/restless-tree-71310827
 
-**Current status:** Neon project and 5 tables created, four game names seeded; Neon Function deployment 3 is completed. Temporary admin is configured as a private hashed secret in Neon Function env and will be inserted on the **first API request**. The API has not been end-to-end tested from the published Figma Make site yet.
+**Current status:** Neon project and 5 tables created, four game names seeded; Neon Function deployment 4 is completed. Temporary admin is configured as a private hashed secret in Neon Function env and will be inserted on the **first API request**. The API has not been end-to-end tested from the published Figma Make site yet.
 
 **Testing:** Open Figma Make Preview after importing 3 files → try real registration → confirm Neon app_users count → log in as temporary admin and verify users list → change temporary credentials. The design remains light RTL as approved.
 

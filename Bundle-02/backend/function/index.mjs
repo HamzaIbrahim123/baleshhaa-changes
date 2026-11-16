@@ -27,7 +27,7 @@ async function seedInitialAdmin(){
  if(adminSeeded||!process.env.INITIAL_ADMIN_HASH)return;
  const username=process.env.INITIAL_ADMIN_USERNAME||'baleshhaa_admin';
  if(!usernameRE.test(username))throw Error('Invalid bootstrap admin username');
- await sql("INSERT INTO app_users(username,display_name,password_hash,role) VALUES($1,$2,$3,'admin') ON CONFLICT(username) DO NOTHING",[username,'Baleshhaa Admin',process.env.INITIAL_ADMIN_HASH]);
+ await sql("INSERT INTO app_users(username,display_name,password_hash,role) SELECT $1,$2,$3,'admin' WHERE NOT EXISTS(SELECT 1 FROM app_users WHERE role='admin') ON CONFLICT(username) DO NOTHING",[username,'Baleshhaa Admin',process.env.INITIAL_ADMIN_HASH]);
  adminSeeded=true;
 }
 async function handle(req){

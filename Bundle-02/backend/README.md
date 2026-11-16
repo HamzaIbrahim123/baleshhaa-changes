@@ -5,7 +5,7 @@
 **Function slug:** `baleshhaaapi`.
 **Public URL:** `https://br-autumn-pond-b92zfumu-baleshhaaapi.compute.c-7.eu-central-1.aws.neon.tech/`
 
-This folder holds source for a function deployed to Neon (Node 24), **not a process to run in Figma Make**. The server receives the Neon `DATABASE_URL` from Neon Functions' private environment; never expose it to Figma or GitHub. Neon Functions currently shows deployment 3 as `completed`. HTTP request/response and end-to-end sign-in have **not yet been independently verified** from this environment.
+This folder holds source for a function deployed to Neon (Node 24), **not a process to run in Figma Make**. The server receives the Neon `DATABASE_URL` from Neon Functions' private environment; never expose it to Figma or GitHub. Neon Functions currently shows deployment 4 as `completed`. HTTP request/response and end-to-end sign-in have **not yet been independently verified** from this environment.
 
 ## Endpoints
 
@@ -25,7 +25,7 @@ Passwords are salted/hashed with scrypt in the server; session tokens are hashed
 
 ## Temporary Admin bootstrap
 
-Neon Function deployment contains `INITIAL_ADMIN_USERNAME` and a **scrypt hash**, `INITIAL_ADMIN_HASH`, as private environment variables, not GitHub source. On the **first API request**, the function inserts the temporary admin account if the username does not exist. This is a one-time idempotent bootstrap.
+Neon Function deployment contains `INITIAL_ADMIN_USERNAME` and a **scrypt hash**, `INITIAL_ADMIN_HASH`, as private environment variables, not GitHub source. On the **first API request**, the function inserts the temporary admin account **only if no admin account exists**. This protects against re-creating a retired temporary admin after its username or password changes. This is a one-time idempotent bootstrap.
 
 The account will not appear in `app_users` until an API invocation executes. After verifying successful admin sign-in, remove the bootstrap variables from the function environment and change username and password inside the protected Admin page. Do not ship public onboarding with this bootstrap enabled long term.
 
