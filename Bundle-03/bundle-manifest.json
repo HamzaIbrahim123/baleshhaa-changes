@@ -1,0 +1,52 @@
+{
+  "bundle": "Bundle-03",
+  "baseline": "HamzaIbrahim123/Baleshhaa/main",
+  "repo": "HamzaIbrahim123/baleshhaa-changes",
+  "purpose": "Player category selection UX + admin content management; Neon migrations and API deployed",
+  "figma_make_zip": "FigmaMake-Changes-Only.zip",
+  "figma_make_files": [
+    {
+      "path": "src/App.tsx",
+      "action": "replace",
+      "sha": "02e82df7a2fa333ed06dab162344aa2123a2f081",
+      "base_sha": "c7de034712fc0767930f85d7fb5c5ce82adf13e9"
+    },
+    {
+      "path": "src/index.css",
+      "action": "replace",
+      "sha": "317ca069ad3df857e2fababb146738479faf996e",
+      "base_sha": "bab91e553adb0ad6a6f5c21f5857e2d5434cc675"
+    },
+    {
+      "path": "src/data.ts",
+      "action": "replace",
+      "sha": "a9e2ac4f78a5562994feb766ee4655c78deef8e7",
+      "base_sha": "74de5dbf81358b92d815fdf3157ea3a2a53f3acc"
+    },
+    {
+      "path": "src/api.ts",
+      "action": "replace",
+      "sha": "eb8840fb235ecb5e9634620aef7b648c6d65ebe7",
+      "base_sha": "43157303883fdd1bf499cedb549f871913487a5d"
+    },
+    {
+      "path": "src/AdminStudio.tsx",
+      "action": "add",
+      "sha": "fd952b5588a4caa71545f970f90697a10aa392d0"
+    }
+  ],
+  "backend": {
+    "source": "backend/function/index.mjs",
+    "sha": "7395b2175abd417da01f0e9022b184192e19eb4f",
+    "migration": "backend/migrations/002_admin_content.sql",
+    "status": "neon_function_deployment_5_completed",
+    "project": "restless-tree-71310827"
+  },
+  "notes": [
+    "Do not copy backend to Figma Make.",
+    "No real match/question consumption yet.",
+    "No user hard delete.",
+    "Use backend role authorization.",
+    "No credentials committed."
+  ]
+}
