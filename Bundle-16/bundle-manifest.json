@@ -1,0 +1,20 @@
+{
+  "bundle": "Bundle-16",
+  "build_from": "HamzaIbrahim123/Baleshhaa default branch",
+  "zip": "FigmaMake-Changes-Only.zip",
+  "zip_sha": "0230cdee585b753e6ac76b1f19f1cd1a1b64e7c4",
+  "zip_bytes": 62798,
+  "modified_files": [
+    "src/LiveMatch.tsx",
+    "src/live-match.css"
+  ],
+  "qa_neon_fixes_applied": 8,
+  "db_changed": true,
+  "backend_functions_changed": false,
+  "figma_reference": {
+    "four": "175:263",
+    "six": "175:412",
+    "eight": "175:608"
+  },
+  "validation": "Static source structure and ZIP CRC32 passed; Figma Make live build and visual QA pending import"
+}
