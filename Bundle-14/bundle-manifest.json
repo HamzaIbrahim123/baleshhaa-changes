@@ -1,0 +1,14 @@
+{
+  "bundle": "Bundle-14",
+  "base_bundle": "Bundle-13",
+  "fix": "Unterminated JSX conditional / unexpected closing div causing Vite parse error",
+  "source": "src/LiveMatch.tsx",
+  "zip": "FigmaMake-Changes-Only.zip",
+  "zip_sha": "13c687a6982e2d47cd2e8ba777dca6d41720ad99",
+  "zip_bytes": 21754,
+  "number_of_modified_characters": 1,
+  "other_files_modified": false,
+  "backend_changed": false,
+  "database_changed": false,
+  "verification": "Exact diff validated and ZIP CRC passed. Runtime Vite check pending Figma Make import."
+}
