@@ -177,7 +177,7 @@ export default function LiveMatch({categories,onExit,soundEnabled}:{categories:P
   setRestOwner(null);setActiveHelp(null);setChoice('unset');setError('');
   setStage('teams');void refresh();
  };
- return <main className="live-match" dir="rtl">
+ return <main className={'live-match '+(stage==='board'?'live-match-board':'')} dir="rtl">
  <div className="live-header"><div><span className="live-eyebrow">بلّشها / سين جيم</span><h1>{stage==='categories'?'اختار التصنيفات':stage==='teams'?'جهّز الفرق':stage==='board'?'لوحة سين جيم — '+num(categoryList.length)+' تصنيفات':stage==='result'?'نهاية المباراة':'السؤال الحالي'}</h1>{stage==='board'&&<p className="live-board-heading-caption">صورة التصنيف في الوسط، وأسئلة 200 / 400 / 600 على الجانبين</p>}</div>{stage!=='board'&&<button className="btn btn-outline" disabled={busy} onClick={()=>void quit()}>{stage==='result'?'العودة للتصنيفات':'العودة وإلغاء المباراة'}</button>}</div>
  {testMode&&<p className="live-test-note">نسخة اختبار بتصنيفين. كل سؤال تفتحه يُحسب على حسابك فعلًا.</p>}
  {error&&<div className="live-error" role="alert">{error} <button type="button" onClick={()=>setError('')}>×</button></div>}
