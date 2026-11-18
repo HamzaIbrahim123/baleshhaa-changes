@@ -23,7 +23,7 @@ function HelpIcon({id}:{id:HelpId}){
  };
  return <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{paths[id]}</svg>;
 }
-export default function LiveMatch({categories,onExit,onNewGame,soundEnabled,initialMatch}:{categories:PublicCategory[];onExit:()=>void;onNewGame?:()=>void;soundEnabled:boolean;initialMatch?:MatchRecord|null}){
+export default function LiveMatch({categories,onExit,onNewGame,onToggleSound,soundEnabled,initialMatch}:{categories:PublicCategory[];onExit:()=>void;onNewGame?:()=>void;onToggleSound?:()=>void;soundEnabled:boolean;initialMatch?:MatchRecord|null}){
  const startingWithMatch=!!initialMatch;
  const initialCount=(initialMatch?.category_ids.length??4) as 2|4|6|8;
  const initialHelpSelections:HelpSelection=initialMatch?
@@ -107,17 +107,23 @@ export default function LiveMatch({categories,onExit,onNewGame,soundEnabled,init
  };
  const open=async(cell:Cell)=>{
   if(!matchId||busy||usedCells.includes(cell.id))return;
+  // Unlock the browser audio in the actual user click, before awaiting the server.
+  if(soundEnabled)unlockGameAudio();
   setBusy(true);setError('');
   try{
    const r=await gameApi.open(matchId,{cellId:cell.id,categoryId:cell.categoryId,points:cell.points});
    setQuestion(r.question);setActiveCell(cell);setRevealedCell(null);setAnswer('');setSourceUrl('');setChoice('unset');setStage('question');
+   if(soundEnabled)playGameSound('question');
   }catch(e){setError(msg(e))}finally{setBusy(false)}
  };
  const reveal=async()=>{
-  if(!matchId||!question||busy)return;setBusy(true);setError('');
+  if(!matchId||!question||busy)return;
+  if(soundEnabled)unlockGameAudio();
+  setBusy(true);setError('');
   try{
    const r=await gameApi.reveal(matchId,question.cellId);
    setAnswer(r.answer);setSourceUrl(r.sourceUrl);setRevealedCell(question.cellId);setChoice('unset');setStage('reveal');
+   if(soundEnabled)playGameSound('reveal');
   }catch(e){setError(msg(e))}finally{setBusy(false)}
  };
  const applyResult=()=>{
@@ -126,10 +132,14 @@ export default function LiveMatch({categories,onExit,onNewGame,soundEnabled,init
   const next=[...scores] as [number,number];
   if(activeHelp==='trap'){
    next[opponent]+=choice===opponent?points:-points;
-   if(choice!==opponent&&soundEnabled)playGameSound('trap');
   }else if(choice!==null){
    next[choice]+=points;
-   if(activeHelp==='pit'&&choice===turn){next[opponent]-=points;if(soundEnabled)playGameSound('pit');}
+   if(activeHelp==='pit'&&choice===turn)next[opponent]-=points;
+  }
+  if(soundEnabled){
+   if(activeHelp==='trap'&&choice!==opponent)playGameSound('trap');
+   else if(activeHelp==='pit'&&choice===turn)playGameSound('pit');
+   else playGameSound(choice===null?'next':'correct');
   }
   setScores(next);
   setUsedHelps(prev=>prev.map((list,i)=>[...new Set([...list,...(i===turn&&activeHelp?[activeHelp]:[]),...(i===restOwner?['rest' as HelpId]:[])])]) as HelpSelection);
@@ -186,7 +196,14 @@ export default function LiveMatch({categories,onExit,onNewGame,soundEnabled,init
   setStage('teams');void refresh();
  };
  return <main className={'live-match '+(stage==='board'?'live-match-board':'')} dir="rtl">
- <div className="live-header"><div><span className="live-eyebrow">بلّشها / سين جيم</span><h1>{stage==='categories'?'اختار التصنيفات':stage==='teams'?'جهّز الفرق':stage==='board'?'لوحة سين جيم — '+num(categoryList.length)+' تصنيفات':stage==='result'?'نهاية المباراة':'السؤال الحالي'}</h1>{stage==='board'&&<p className="live-board-heading-caption">صورة التصنيف في الوسط، وأسئلة 200 / 400 / 600 على الجانبين</p>}</div>{stage!=='board'&&<button className="btn btn-outline" disabled={busy} onClick={()=>void quit()}>{stage==='result'?'العودة للتصنيفات':'العودة وإلغاء المباراة'}</button>}</div>
+ <div className="live-header"><div><span className="live-eyebrow">بلّشها / سين جيم</span><h1>{stage==='categories'?'اختار التصنيفات':stage==='teams'?'جهّز الفرق':stage==='board'?'لوحة سين جيم — '+num(categoryList.length)+' تصنيفات':stage==='result'?'نهاية المباراة':'السؤال الحالي'}</h1>{stage==='board'&&<p className="live-board-heading-caption">صورة التصنيف في الوسط، وأسئلة 200 / 400 / 600 على الجانبين</p>}</div>
+ <div className="live-header-actions">
+  <button type="button" className="live-sound-toggle" aria-pressed={soundEnabled} aria-label={soundEnabled?'كتم مؤثرات اللعبة':'تشغيل مؤثرات اللعبة'} title={soundEnabled?'الصوت شغّال — اضغط للكتم':'الصوت مكتوم — اضغط للتشغيل'} onClick={()=>{
+    if(!soundEnabled){unlockGameAudio();playGameSound('question')}
+    onToggleSound?.();
+  }}>{soundEnabled?'🔊 الصوت شغّال':'🔇 الصوت مكتوم'}</button>
+  {stage!=='board'&&<button type="button" className="btn btn-outline" disabled={busy} onClick={()=>void quit()}>{stage==='result'?'العودة للتصنيفات':'العودة وإلغاء المباراة'}</button>}
+ </div></div>
  {testMode&&<p className="live-test-note">نسخة اختبار بتصنيفين. كل سؤال تفتحه يُحسب على حسابك فعلًا.</p>}
  {error&&<div className="live-error" role="alert">{error} <button type="button" onClick={()=>setError('')}>×</button></div>}
  {loading&&<p role="status">جارٍ تحميل رصيد أسئلتك من Neon...</p>}
@@ -326,12 +343,16 @@ export default function LiveMatch({categories,onExit,onNewGame,soundEnabled,init
     <p className="live-result-kicker">بلّشها • ليلة حماسية</p>
     <h2>{winnerIndex===null?'انتهت بالتعادل!':'مبروك يا '+names[winnerIndex]+'!'}</h2>
     <p className="live-result-subtitle">{winnerIndex===null?'التحدّي كان متكافئًا، والمنافسة أحلى مع بعض.':'مبروك الفوز! استاهلتوا الصدارة والاحتفال.'}</p>
-    <div className="live-result-podium" role="group" aria-label="نقاط الفريقين">
-     {([0,1] as const).map(i=><div key={i} className={'live-podium-team '+(winnerIndex===null?'live-podium-tie':winnerIndex===i?'live-podium-winner':'live-podium-runner')}>
-      <span className="live-podium-status">{winnerIndex===null?'تعادل':winnerIndex===i?'★ الفريق الفائز':'الفريق الآخر'}</span>
-      <strong className="live-podium-name">{names[i]}</strong>
-      <div className="live-podium-score"><b>{num(celebrationScores[i])}</b><span>نقطة</span></div>
-     </div>)}
+    <div className="live-result-podium live-podium-single" role="group" aria-label={winnerIndex===null?'نتيجة التعادل':'الفريق الفائز'}>
+     {winnerIndex===null?
+      <div className="live-podium-team live-podium-tie">
+       <span className="live-podium-status">تعادل</span><strong className="live-podium-name">{names[0]} و{names[1]}</strong>
+       <div className="live-podium-score"><b>{num(celebrationScores[0])}</b><span>نقطة لكل فريق</span></div>
+      </div>:
+      <div className="live-podium-team live-podium-winner">
+       <span className="live-podium-status">★ الفريق الفائز</span><strong className="live-podium-name">{names[winnerIndex]}</strong>
+       <div className="live-podium-score"><b>{num(celebrationScores[winnerIndex])}</b><span>نقطة</span></div>
+      </div>}
     </div>
     <p className="live-result-inventory-note">الأسئلة المفتوحة حُفظت على حسابك. رصيد الألعاب المتبقي لكل تصنيف:</p>
     <div className="live-result-balances">{categoryList.map(c=><span key={c.id}><b>{c.title_ar}</b> {currentProgress(c.id)?'باقي '+num(currentProgress(c.id)!.remainingGames)+' لعبة':'جارٍ تحديث الرصيد...'}</span>)}</div>
