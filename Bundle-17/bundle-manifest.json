@@ -1,0 +1,14 @@
+{
+  "bundle": "Bundle-17",
+  "parent": "Bundle-16",
+  "zip": "FigmaMake-Changes-Only.zip",
+  "zip_sha": "aa340ed03052ebee953f1b4cc712c448cb059ce0",
+  "zip_bytes": 37029,
+  "files": [
+    "src/live-match.css"
+  ],
+  "reason": "Bundle 16 background shorthand unintentionally cleared locally mapped category background images",
+  "neon_changed": false,
+  "backend_changed": false,
+  "qa": "CSS collision and ZIP CRC-32 verified; final browser check pending Figma Make import"
+}
