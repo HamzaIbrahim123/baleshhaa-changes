@@ -1,0 +1,19 @@
+/* Bundle 21 — category photographs are selected from src/categoryCover.ts.
+ *
+ * Previous versions replaced Neon SVG icons with photographs via a brittle
+ * :has(img[alt=...]) background-image selector, and hid <img> with opacity:0.
+ * Changing accessible alt text broke that selector and exposed the SVG icons.
+ *
+ * Category pictures are now real <img src="/art/categories/*.webp"> elements,
+ * independent of alt text. Keep them visible in BOTH catalogue and game board.
+ * Questions' images continue to load dynamically from Neon Object Storage.
+ */
+.catalogue-cover > img,
+.live-category-image > img {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center;
+  opacity:1;
+}
