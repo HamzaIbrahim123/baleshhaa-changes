@@ -25,6 +25,9 @@ export default function AdminStudio(){
  const [showForm,setShowForm]=useState(false);
  const [draft,setDraft]=useState<Draft>(emptyDraft);
  const [upload,setUpload]=useState<File|null>(null);
+ const [batchFiles,setBatchFiles]=useState<File[]>([]);
+ const [batchResults,setBatchResults]=useState<{filename:string;imageId:string;reused:boolean}[]>([]);
+ const [batchBusy,setBatchBusy]=useState(false);
  const update=(key:keyof Draft,value:string)=>setDraft(d=>({...d,[key]:value}));
 
  const refresh=useCallback(async()=>{
@@ -87,6 +90,28 @@ export default function AdminStudio(){
   }catch(e){setError(userMessage(e)=== 'تعذّر الوصول للسيرفر. تحقق من الاتصال وحاول مجددًا.' && e instanceof Error?e.message:userMessage(e))}
   finally{setBusy(false)}
  };
+ const uploadImageBatch=async()=>{
+  if(!batchFiles.length||batchBusy)return;
+  setBatchBusy(true);setBatchResults([]);setError('');setSuccess('');
+  const results:{filename:string;imageId:string;reused:boolean}[]=[];
+  try{
+   for(const file of batchFiles){
+    if(file.size>3145728||!['image/png','image/jpeg','image/webp'].includes(file.type))
+     throw Error('نوع أو حجم صورة غير صالح: '+file.name);
+    const uploaded=await assetsApi.upload(await readImage(file));
+    results.push({filename:file.name,imageId:uploaded.id,reused:uploaded.reused});
+    setBatchResults([...results]);
+   }
+   setSuccess('تم حفظ '+results.length+' صورة في Neon Storage. استخدم معرفاتها لربط الصور بالأسئلة.');
+  }catch(e){setError(e instanceof Error?e.message:'فشل رفع صورة. راجع النتائج الجزئية قبل إعادة المحاولة.')}
+  finally{setBatchBusy(false)}
+ };
+ const downloadImageIndex=()=>{
+  if(!batchResults.length)return;
+  const csv='filename,image_id,reused\n'+batchResults.map(x=>[x.filename,x.imageId,String(x.reused)].map(v=>'"'+v.replace(/"/g,'""')+'"').join(',')).join('\n');
+  const url=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));
+  const link=document.createElement('a');link.href=url;link.download='baleshhaa-image-ids.csv';link.click();URL.revokeObjectURL(url);
+ };
  const list=(tab==='games'?games:tab==='sections'?sections:tab==='categories'?categories:questions) as (GameRow|SectionRow|CategoryRow|QuestionRow)[];
  const gameLabel=(id:string)=>games.find(g=>g.id===id)?.title_ar||id;
  const sectionLabel=(id:string)=>sections.find(s=>s.id===id)?.title_ar||id;
@@ -103,7 +128,17 @@ export default function AdminStudio(){
    {userDetail&&<div className="admin-detail-panel"><button type="button" className="admin-close" onClick={()=>setUserDetail(null)}>إغلاق ✕</button><h3>تفاصيل الحساب</h3><p><strong>اسم المستخدم:</strong> {userDetail.username}</p><p><strong>الاسم:</strong> {userDetail.displayName}</p><p><strong>الصلاحية:</strong> {userDetail.role==='admin'?'مدير':'لاعب'}</p><p><strong>الحالة:</strong> {userDetail.disabled?'معطّل':'نشط'}</p><p><strong>جلسات فعالة:</strong> {userDetail.activeSessions}</p><p><strong>تاريخ التسجيل:</strong> {userDetail.createdAt?new Date(userDetail.createdAt).toLocaleDateString('ar-JO'):'—'}</p></div>}
   </>:<>
    <div className="admin-workspace-controls"><span>{labels[tab]} المسجّلة: {list.length}</span><button className="btn btn-primary" onClick={beginNew} type="button">إضافة {tab==='games'?'لعبة':tab==='sections'?'سيكشن':tab==='categories'?'تصنيف':'سؤال'}</button></div>
-   {showForm&&<form className="admin-editor" onSubmit={save}>
+   {tab==='questions'&&<div className="admin-editor" aria-label="رفع صور الأسئلة بالجملة">
+     <h3>مكتبة الصور الديناميكية — رفع دفعة واحدة</h3>
+     <p className="admin-muted">ارفع عدة صور PNG / JPG / WebP، بحد 3MB لكل صورة. الملفات المتطابقة تشترك في نفس Image ID، والصور محفوظة خارج قاعدة البيانات.</p>
+     <input type="file" accept="image/png,image/jpeg,image/webp" multiple disabled={batchBusy} onChange={e=>setBatchFiles(Array.from(e.target.files||[]))}/>
+     <div className="admin-editor-buttons">
+      <button type="button" className="btn btn-primary" disabled={batchBusy||!batchFiles.length} onClick={()=>void uploadImageBatch()}>{batchBusy?'جارٍ رفع الصور...':'رفع '+batchFiles.length+' صورة'}</button>
+      {batchResults.length>0&&<button type="button" className="btn btn-outline" onClick={downloadImageIndex}>تنزيل جدول أسماء الصور ومعرفاتها (CSV)</button>}
+     </div>
+     {batchResults.length>0&&<p className="admin-muted">تم رفع {batchResults.length} من {batchFiles.length} صورة. احتفظ بملف CSV لربط الصور بأسئلتها.</p>}
+    </div>}
+    {showForm&&<form className="admin-editor" onSubmit={save}>
     <h3>{editingId?'تعديل':'إضافة'} {tab==='games'?'لعبة':tab==='sections'?'سيكشن':tab==='categories'?'تصنيف':'سؤال'}</h3>
     {tab==='games'&&<label>المعرّف بالإنجليزي (مثل new-game)<input value={draft.slug} onChange={e=>update('slug',e.target.value)} disabled={!!editingId} required pattern="[a-z0-9-]{2,40}" placeholder="game-id"/></label>}
     {tab==='sections'&&<label>اللعبة التابعة<select value={draft.gameId} disabled={!!editingId} onChange={e=>update('gameId',e.target.value)} required>{games.map(g=><option value={g.id} key={g.id}>{g.title_ar}</option>)}</select></label>}
@@ -114,6 +149,7 @@ export default function AdminStudio(){
      <label>الإجابة<textarea value={draft.answerText} onChange={e=>update('answerText',e.target.value)} maxLength={1200} required rows={2}/></label>
      <label>قيمة السؤال<select value={draft.points} onChange={e=>update('points',e.target.value)}><option value="200">200</option><option value="400">400</option><option value="600">600</option></select></label>
      <label>مصدر السؤال (اختياري)<input value={draft.sourceReference} onChange={e=>update('sourceReference',e.target.value)} maxLength={500}/></label>
+     <label>Image ID لصورة محفوظة مسبقًا (اختياري)<input value={draft.imageId} onChange={e=>update('imageId',e.target.value.trim())} placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" pattern="[0-9a-fA-F-]{36}"/></label>
     </>}
     <label>الحالة<select value={draft.status} onChange={e=>update('status',e.target.value)}>
      {tab==='games'?<><option value="coming_soon">قريبًا</option><option value="active">متاح</option><option value="hidden">مخفي</option></>:tab==='questions'?<><option value="draft">مسودة</option><option value="published">معتمد / منشور</option></>:<><option value="active">ظاهر</option><option value="hidden">مخفي</option></>}
