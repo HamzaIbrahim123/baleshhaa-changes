@@ -171,9 +171,6 @@ const liveCategoryCard=(c:PublicCategory,withSelect:boolean)=>{
      <strong className="catalogue-card-title">{c.title_ar}</strong>
      <span className={`catalogue-status ${ready?'catalogue-ready':''}`}>{ready?'متاح':'بانتظار الأسئلة'}</span>
      <div className={`catalogue-games-remaining ${hasQuota?'catalogue-games-empty':''}`} role="status"><span aria-hidden="true">🎯</span><span>{remainingText}</span></div>
-     {withSelect&&<span className={`catalogue-choice-caption ${chosen?'is-selected':''}`} aria-hidden="true">
-       {chosen?'✓ تم الاختيار':isFull?'العدد مكتمل':hasQuota?'نفد الرصيد':checking?'جارٍ تحميل الرصيد':ready?'اضغط على الكارد للاختيار':'غير متاح'}
-     </span>}
    </article>;
  };
 const catalogSections=<div className="catalogue-sections">
