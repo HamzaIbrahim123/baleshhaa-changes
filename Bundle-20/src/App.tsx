@@ -138,8 +138,7 @@ const liveCategoryCard=(c:PublicCategory,withSelect:boolean)=>{
    const allGames=Math.max(0,Math.min(Math.floor(c.count_200/2),Math.floor(c.count_400/2),Math.floor(c.count_600/2)));
    const availableGames=!user?allGames:balance?.remainingGames;
    const hasQuota=availableGames===0;
-   const checking=user&&(!categoryBalances||balanceError);
-   const selectable=ready&&!isFull&&!hasQuota&&!checking;
+   const checking=!!user&&(!categoryBalances||balanceError);
    const remainingText=!ready?'بانتظار الأسئلة':!user?n(allGames)+' لعبة للحساب الجديد':
       balanceError?'تعذّر تحميل رصيد الألعاب':!categoryBalances?'جارٍ تحميل رصيدك...':
       !balance?'الرصيد غير متاح':hasQuota?'نفد رصيد الألعاب':
