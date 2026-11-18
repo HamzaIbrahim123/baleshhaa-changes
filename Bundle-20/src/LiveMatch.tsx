@@ -22,7 +22,7 @@ function HelpIcon({id}:{id:HelpId}){
  };
  return <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{paths[id]}</svg>;
 }
-export default function LiveMatch({categories,onExit,soundEnabled,initialMatch}:{categories:PublicCategory[];onExit:()=>void;soundEnabled:boolean;initialMatch?:MatchRecord|null}){
+export default function LiveMatch({categories,onExit,onNewGame,soundEnabled,initialMatch}:{categories:PublicCategory[];onExit:()=>void;onNewGame?:()=>void;soundEnabled:boolean;initialMatch?:MatchRecord|null}){
  const startingWithMatch=!!initialMatch;
  const initialCount=(initialMatch?.category_ids.length??4) as 2|4|6|8;
  const initialHelpSelections:HelpSelection=initialMatch?
@@ -177,6 +177,7 @@ export default function LiveMatch({categories,onExit,soundEnabled,initialMatch}:
  const usedCount=usedCells.length,allCells=categoryList.length*6;
  const winnerIndex=scores[0]===scores[1]?null:(scores[0]>scores[1]?0:1);
  const playAgain=()=>{
+  if(onNewGame){onNewGame();return}
   setMatchId(null);setFinished(false);setPrevious(null);setUsedCells([]);
   setUsedHelps([[],[]]);setScores([0,0]);setTurn(0);setActiveCell(null);
   setQuestion(null);setAnswer('');setSourceUrl('');setRevealedCell(null);
@@ -335,7 +336,7 @@ export default function LiveMatch({categories,onExit,soundEnabled,initialMatch}:
     <div className="live-result-balances">{categoryList.map(c=><span key={c.id}><b>{c.title_ar}</b> {currentProgress(c.id)?'باقي '+num(currentProgress(c.id)!.remainingGames)+' لعبة':'جارٍ تحديث الرصيد...'}</span>)}</div>
     <div className="live-result-actions">
      {btn('العب مرة ثانية',playAgain)}
-     <button className="btn btn-outline" type="button" onClick={onExit}>العودة للتصنيفات</button>
+     <button className="btn btn-outline" type="button" onClick={onExit}>العودة لتفاصيل اللعبة</button>
     </div>
     {winnerIndex!==null&&<div className="live-replay-audio">
      {soundEnabled?<button type="button" className="live-sound-replay-btn" onClick={()=>playGameSound('win')}><span aria-hidden="true">🔊</span> اسمع صوت الفوز مرة ثانية</button>:
