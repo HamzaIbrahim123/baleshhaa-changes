@@ -4,6 +4,7 @@ on:
     paths:
       - '.github/workflows/build-rooms-qa.yml'
       - 'Bundle-25/backend/rooms/**'
+      - 'Bundle-26/backend/rooms/**'
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,6 +21,8 @@ jobs:
         run: |
           npm install --no-audit --no-fund
           npm install --no-save --no-audit --no-fund esbuild
+      - name: Use Bundle 26 Neon runtime fix
+        run: cp Bundle-26/backend/rooms/index.mjs Bundle-25/backend/rooms/index.mjs
       - name: Produce self-contained Neon ESM function
         working-directory: Bundle-25/backend/rooms
         run: |
