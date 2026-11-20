@@ -1,0 +1,74 @@
+name: Bundle 27 — Verify and package changes only
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle27.yml'
+      - 'Bundle-27/src/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify-and-zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install build/test dependencies
+        run: npm install --no-audit --no-fund --no-save typescript@5.8.3 esbuild@0.25.12 @types/react@19 @types/react-dom@19
+      - name: Check App syntax and route contract
+        run: |
+          ./node_modules/.bin/esbuild Bundle-27/src/App.tsx --loader:.tsx=tsx --format=esm --outfile=/tmp/bundle27-App.js
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const s=fs.readFileSync('Bundle-27/src/App.tsx','utf8');
+          assert.match(s,/game\.id==='letters'/);
+          assert.match(s,/letters\?'letters':'details'/);
+          assert.match(s,/display'\) === '1' \? 'letters-viewer'/);
+          assert.match(s,/mode="host"/);
+          assert.match(s,/mode="viewer"/);
+          assert.match(s,/initialCode=\{new URLSearchParams\(window\.location\.search\)\.get\('room'\)/);
+          assert.match(s,/page==='live'\|\|lettersFullScreen\?null:navbar/);
+          assert.match(s,/page==='live'\?'main live-root'/);
+          assert.match(s,/<MainTag/);
+          assert.match(s,/<\/MainTag>/);
+          assert.match(s,/import \{LettersRoomLobby\} from '\.\/letters\/RoomLobby';/);
+          assert.match(s,/import \{LettersEntry\} from '\.\/letters\/LettersEntry';/);
+          const source=fs.readFileSync('Bundle-27/src/letters/LettersEntry.tsx','utf8');
+          assert.match(source,/onHost=|onHost\}/);
+          assert.match(source,/onViewer=|onViewer\}/);
+          assert.match(source,/backendConfigured/);
+          console.log('App route and room-link assertions passed');
+          JS
+      - name: Strict TypeScript check for all Letters modules
+        run: |
+          mkdir -p .qa27/src/letters
+          cp Bundle-24/src/letters/engine.ts .qa27/src/letters/
+          cp Bundle-25/src/letters/roomClient.ts .qa27/src/letters/
+          cp Bundle-26/src/letters/RoomLobby.tsx Bundle-26/src/letters/RoomLobby.css .qa27/src/letters/
+          cp Bundle-27/src/letters/LettersEntry.tsx Bundle-27/src/letters/LettersEntry.css .qa27/src/letters/
+          printf "declare module '*.css';\n" > .qa27/global.d.ts
+          cat > .qa27/tsconfig.json <<'JSON'
+          {"compilerOptions":{"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","lib":["ES2022","DOM","DOM.Iterable"],"strict":true,"noEmit":true,"jsx":"react-jsx","skipLibCheck":true,"allowSyntheticDefaultImports":true,"types":["react","react-dom"]},"include":["./src/letters/**/*.ts","./src/letters/**/*.tsx","./global.d.ts"]}
+          JSON
+          ./node_modules/.bin/tsc -p .qa27/tsconfig.json
+      - name: Pack strictly modified files, no nested ZIP
+        run: |
+          cd Bundle-27
+          zip -q Changes-Only.zip src/App.tsx src/letters/LettersEntry.tsx src/letters/LettersEntry.css
+          unzip -Z1 Changes-Only.zip > /tmp/bundle27-files.txt
+          printf '%s\n' 'src/App.tsx' 'src/letters/LettersEntry.tsx' 'src/letters/LettersEntry.css' > /tmp/expected-files.txt
+          diff -u /tmp/expected-files.txt /tmp/bundle27-files.txt
+          unzip -t Changes-Only.zip
+          sha256sum Changes-Only.zip
+      - name: Commit verified ZIP into changes repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-27/Changes-Only.zip
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build Bundle 27 one changes-only ZIP'
+            git push
+          fi
