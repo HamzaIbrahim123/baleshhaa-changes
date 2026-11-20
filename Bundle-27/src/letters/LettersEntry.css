@@ -1,0 +1,51 @@
+/* Isolated Letter Arena entry; does not alter global Seen Jeem styles. */
+.letters-entry {
+  --le-bg: #071522;
+  --le-surface: #10283a;
+  --le-line: #27465a;
+  --le-text: #f4fcfd;
+  --le-muted: #adc5cc;
+  --le-orange: #ffb155;
+  --le-green: #61dc9a;
+  --le-teal: #30d7c3;
+  color: var(--le-text);
+  background: radial-gradient(circle at 22% 15%, #153d4b 0, transparent 37%), var(--le-bg);
+  min-height: 100vh;
+  padding: 26px max(24px, calc((100% - 1180px) / 2));
+  font-family: Cairo, 'Noto Sans Arabic', system-ui, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+.letters-entry * { box-sizing: border-box; }
+.letters-entry button { font: inherit; cursor: pointer; }
+.letters-entry h1, .letters-entry h2, .letters-entry p { margin: 0; text-align: right; }
+.letters-entry__top { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.letters-entry__brand { font-weight: 800; font-size: 17px; color: var(--le-teal); }
+.letters-entry__back { color: var(--le-text); background: transparent; border: 1px solid var(--le-line); border-radius: 12px; padding: 11px 17px; }
+.letters-entry__back:hover { border-color: var(--le-teal); }
+.letters-entry__hero { min-height: 310px; display: flex; justify-content: space-between; align-items: center; gap: 28px; padding-block: 50px 25px; }
+.letters-entry__copy { max-width: 630px; display: grid; gap: 15px; }
+.letters-entry__eyebrow { font-size: 13px; letter-spacing: .03em; color: var(--le-teal); font-weight: 700; }
+.letters-entry__copy h1 { font-size: clamp(35px, 5vw, 63px); font-weight: 850; color: var(--le-text); line-height: 1.35; }
+.letters-entry__copy > p { color: var(--le-muted); font-size: 17px; line-height: 2; }
+.letters-entry__copy .letters-entry__notice { padding: 11px 15px; font-size: 13px; color: #b9e3eb; background: #18394b; border-inline-start: 3px solid var(--le-teal); border-radius: 10px; }
+.letters-entry__art { width: 230px; min-width: 230px; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; gap: 1px 8px; transform: rotate(-5deg); }
+.letters-entry__hex { width: 91px; height: 100px; clip-path: polygon(50% 0, 100% 25%,100% 75%,50% 100%,0 75%,0 25%); display: grid; place-items: center; font-size: 31px; font-weight: 850; }
+.letters-entry__hex > span { line-height: 1; text-align: center; }
+.letters-entry__hex--orange { color: #41240b; background: var(--le-orange); }
+.letters-entry__hex--green { color: #0f3725; background: var(--le-green); }
+.letters-entry__options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
+.letters-entry__option { background: #11293b; border: 1px solid var(--le-line); border-radius: 22px; min-height: 270px; padding: 28px; display: flex; align-items: flex-start; flex-direction: column; gap: 16px; }
+.letters-entry__option-icon { width: 49px; height: 49px; display: grid; place-items: center; border-radius: 13px; font-size: 26px; font-weight: 800; }
+.letters-entry__option-icon--orange { background: #403022; color: var(--le-orange); }
+.letters-entry__option-icon--green { background: #1c4037; color: var(--le-green); }
+.letters-entry__option-body { display: grid; gap: 9px; flex: 1; }
+.letters-entry__option h2 { font-size: 22px; line-height: 1.4; color: var(--le-text); }
+.letters-entry__option p { color: var(--le-muted); line-height: 1.9; font-size: 14px; }
+.letters-entry__button { padding: 13px 20px; border-radius: 12px; border: none; width: 100%; font-weight: 800; font-size: 15px; transition: opacity .15s,transform .15s; }
+.letters-entry__button:hover { opacity: .9; transform: translateY(-1px); }
+.letters-entry__button--orange { background: var(--le-orange); color: #291809; }
+.letters-entry__button--green { background: var(--le-green); color: #0b2b1b; }
+.letters-entry__footnote { color: var(--le-muted); font-size: 13px; padding-top: 27px; text-align: right; }
+@media(max-width:770px) { .letters-entry { padding: 18px; }.letters-entry__hero { padding-block: 38px 23px; }.letters-entry__art { display:none; }.letters-entry__options { grid-template-columns:1fr; gap:14px; }.letters-entry__option { padding:22px; min-height:225px; }.letters-entry__top { flex-wrap:wrap; }.letters-entry__copy > p { font-size: 15px; } }
+@media(prefers-reduced-motion:reduce) { .letters-entry__button { transition:none; } }
