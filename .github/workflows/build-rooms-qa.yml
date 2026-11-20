@@ -36,7 +36,8 @@ jobs:
         run: |
           mkdir -p Bundle-26/qa
           cp qa-neonrooms-built.zip Bundle-26/qa/neonrooms-built.zip
+          base64 -w 0 qa-neonrooms-built.zip > Bundle-26/qa/neonrooms-built.b64.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Bundle-26/qa/neonrooms-built.zip
+          git add Bundle-26/qa/neonrooms-built.zip Bundle-26/qa/neonrooms-built.b64.txt
           if ! git diff --cached --quiet; then git commit -m "Build QA-only Neon rooms function bundle"; git push; fi
