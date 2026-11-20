@@ -1,0 +1,29 @@
+name: Smoke test Neon QA rooms API
+on:
+  push:
+    paths:
+      - '.github/workflows/smoke-rooms-qa.yml'
+  workflow_dispatch:
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exercise QA function with public safe requests
+        env:
+          URL: https://br-late-math-b9m0r7gn-baleshhaarooms.compute.c-7.eu-central-1.aws.neon.tech
+        run: |
+          set -euo pipefail
+          check() {
+            local expected="$1"; shift
+            local actual
+            actual=$(curl -sS -m 20 -o /tmp/rooms-response -w '%{http_code}' "$@")
+            printf 'Expected %s, got %s for %s\n' "$expected" "$actual" "$*"
+            if [ "$actual" != "$expected" ]; then cat /tmp/rooms-response; exit 1; fi
+          }
+          check 200 "$URL/health"
+          grep -q '"ok":true' /tmp/rooms-response
+          check 401 "$URL/api/rooms/active"
+          check 403 -H 'Origin: https://evil.invalid' "$URL/health"
+          check 204 -X OPTIONS -H 'Origin: http://localhost:5173' "$URL/api/rooms"
+          check 404 -X POST -H 'Content-Type: application/json' -d '{}' "$URL/api/rooms/ZZZZZZ/join"
+          echo 'QA smoke suite complete'
