@@ -1,0 +1,50 @@
+/* Bundle 30: offline host role simulation, inherits the refreshed board aesthetics. */
+.letters-presenter__error{background:#572c3c;border:1px solid #c17c88;border-radius:14px;padding:12px 16px;color:#ffe3e8;margin-bottom:16px}
+.letters-presenter__setup{max-width:850px;display:grid;gap:20px}
+.letters-presenter__setup h2{font-size:25px}
+.letters-presenter__setup>p{color:var(--ld-muted);font-size:13px}
+.letters-presenter__fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.letters-presenter__fields label{display:grid;gap:8px;color:var(--ld-text);font-weight:700}
+.letters-presenter__fields input{background:#1c3c4c;border:1px solid var(--ld-line);border-radius:12px;color:white;padding:13px;width:100%;text-align:right}
+.letters-presenter__formats{border:0;padding:0;display:flex;gap:12px;flex-wrap:wrap}
+.letters-presenter__formats legend{font-weight:800;padding-bottom:10px}
+.letters-presenter__formats label{display:flex;gap:6px;align-items:center;padding:10px 15px;background:#1a374a;border:1px solid var(--ld-line);border-radius:11px;cursor:pointer}
+.letters-presenter__formats input{accent-color:var(--ld-teal)}
+.letters-presenter__start{width:fit-content;min-width:225px}
+.letters-presenter__score-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:15px;margin-bottom:14px;color:var(--ld-muted);font-weight:800}
+.letters-presenter__teams{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-bottom:17px}
+.letters-presenter__team{display:grid;grid-template-columns:1fr auto;gap:5px 12px;align-items:center;padding:18px;background:var(--ld-panel);border:2px solid var(--ld-line);border-radius:17px}
+.letters-presenter__team>span{font-weight:900;font-size:19px}
+.letters-presenter__team>b{font-size:29px}
+.letters-presenter__team>small{grid-column:1 / -1;color:var(--ld-muted)}
+.letters-presenter__team--orange{border-color:var(--ld-orange)}
+.letters-presenter__team--green{border-color:var(--ld-green)}
+.letters-presenter__toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:14px}
+.letters-presenter__toolbar span{flex:1;color:var(--ld-muted);font-size:14px;line-height:1.7}
+.letters-presenter__toolbar button[aria-pressed=true]{border-color:var(--ld-teal);background:#19595c}
+.letters-presenter__columns{grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr)}
+.letters-presenter__columns>.letters-demo__panel{min-width:0}
+.letters-presenter__board-hint{color:var(--ld-muted);font-size:13px;text-align:center}
+.letters-demo__hex:disabled{cursor:not-allowed;opacity:1}
+.letters-demo__hex:disabled:hover{filter:none}
+.letters-demo__hex--active{filter:drop-shadow(0 0 8px #fff) brightness(1.07)}
+.letters-presenter__controls{display:grid;gap:13px;align-content:start}
+.letters-presenter__controls>h2{font-size:22px}
+.letters-presenter__controls>p{line-height:1.8;color:var(--ld-muted)}
+.letters-presenter__label{color:var(--ld-teal);font-weight:800;font-size:14px}
+.letters-presenter__question{font-size:23px;line-height:1.7}
+.letters-presenter__secret{padding:18px;background:#1b4142;border-radius:13px;border:1px solid #277f72;display:grid;gap:6px}
+.letters-presenter__secret small{color:var(--ld-muted)}
+.letters-presenter__secret strong{color:var(--ld-green);font-size:22px}
+.letters-presenter__info{padding:14px;background:#193a49;border-inline-start:4px solid var(--ld-teal);border-radius:11px;line-height:1.8}
+.letters-presenter__answer-buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.letters-presenter__answer{border:0;border-radius:12px;padding:12px 9px;font-weight:900}
+.letters-presenter__answer--orange{background:var(--ld-orange);color:#392414}
+.letters-presenter__answer--green{background:var(--ld-green);color:#113a28}
+.letters-presenter__controls button:disabled{opacity:.44;cursor:not-allowed}
+.letters-presenter__viewer-toggle{margin-top:13px}
+.letters-presenter__viewer{display:grid;gap:8px;background:#1c3f4e;border:1px solid var(--ld-line);border-radius:12px;padding:15px}
+.letters-presenter__viewer>p{color:var(--ld-text);line-height:1.8}
+.letters-presenter__viewer>small{color:var(--ld-muted)}
+@media(max-width:1050px){.letters-presenter__columns{grid-template-columns:1fr}}
+@media(max-width:620px){.letters-presenter__fields{grid-template-columns:1fr}.letters-presenter__answer-buttons{grid-template-columns:1fr}.letters-presenter__team{padding:11px}.letters-presenter__team>span{font-size:14px}.letters-presenter__team>b{font-size:21px}.letters-presenter__start{width:100%}}
