@@ -1,0 +1,120 @@
+name: Bundle 30 — Hex visuals, 3-click cycle and mock presenter QA
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle30.yml'
+      - 'Bundle-30/src/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install compiler and React types
+        run: npm install --no-audit --no-fund --no-save typescript@5.8.3 esbuild@0.25.12 react@19 react-dom@19 @types/react@19 @types/react-dom@19
+      - name: Strict TypeScript and TSX check, including presenter
+        run: |
+          mkdir -p .qa30/src/letters
+          cp Bundle-24/src/letters/engine.ts .qa30/src/letters/
+          cp Bundle-30/src/letters/*.tsx Bundle-30/src/letters/*.css .qa30/src/letters/
+          printf "declare module '*.css';\n" > .qa30/global.d.ts
+          cat > .qa30/tsconfig.json <<'JSON'
+          {"compilerOptions":{"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","lib":["ES2022","DOM","DOM.Iterable"],"strict":true,"noEmit":true,"jsx":"react-jsx","skipLibCheck":true,"allowSyntheticDefaultImports":true,"types":["react","react-dom"]},"include":["./src/letters/**/*.ts","./src/letters/**/*.tsx","./global.d.ts"]}
+          JSON
+          ./node_modules/.bin/tsc -p .qa30/tsconfig.json
+          ./node_modules/.bin/esbuild Bundle-30/src/App.tsx --format=esm --outfile=/tmp/bundle30-app.js
+          ./node_modules/.bin/esbuild Bundle-30/src/letters/LettersPresenterDemo.tsx --format=esm --outfile=/tmp/bundle30-presenter.js
+          ./node_modules/.bin/esbuild .qa30/src/letters/engine.ts --format=esm --outfile=/tmp/bundle30-engine.mjs
+      - name: Test actual game state, win paths, and all six scenarios
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          import {
+            winningPath, CELL_COUNT, startMatch, openQuestion,
+            awardCell, recordWrongAnswer, bothSurrender, retrySameCell,
+            cycleOwner, nextRound, publicState, colorForTeam
+          } from '/tmp/bundle30-engine.mjs';
+          const make=(color,cells)=>{const out=Array(CELL_COUNT).fill(null);for(const i of cells)out[i]=color;return out};
+          for(const [color,cells] of [
+            ['orange',[10,11,12,13,14]],['orange',[5,6,12,13,14]],
+            ['green',[2,7,12,17,22]],['green',[1,6,12,17,23]]
+          ])assert.ok(winningPath(make(color,cells),color).length>=5);
+          assert.equal(winningPath(make('orange',[10,11,12,13]),'orange').length,0);
+          const scattered=make('orange',[0,6,13,21]);for(const i of [4,8,16,24])scattered[i]='green';
+          assert.equal(winningPath(scattered,'orange').length,0);
+          assert.equal(winningPath(scattered,'green').length,0);
+          assert.equal(winningPath(make('orange',[2,7,12,17,22]),'orange').length,0);
+          assert.equal(winningPath(make('green',[10,11,12,13,14]),'green').length,0);
+          let match=startMatch('offline',['فريق أ','فريق ب'],3,()=>0.5);
+          let target=match.startingCell, letter=match.letters[target];
+          match=openQuestion(match,target,{id:'q1',text:'سؤال مثال',answer:letter,letter});
+          assert.equal(match.stage,'question');
+          assert.ok(publicState(match).question && !('revealedAnswer' in publicState(match).question));
+          match=recordWrongAnswer(match);
+          assert.equal(match.attempt,'free');
+          match=awardCell(match,0);
+          assert.equal(match.owners[target],colorForTeam(0,1));
+          let edit=startMatch('offline2',['أ','ب'],1,()=>0.5);
+          edit=cycleOwner(edit,0);assert.equal(edit.owners[0],'orange');
+          edit=cycleOwner(edit,0);assert.equal(edit.owners[0],'green');
+          edit=cycleOwner(edit,0);assert.equal(edit.owners[0],null);
+          let retry=startMatch('offline3',['أ','ب'],1,()=>0.5);
+          const cell=retry.startingCell, initial=retry.letters[cell];
+          retry=openQuestion(retry,cell,{id:'qa',text:'أ',answer:initial,letter:initial});
+          retry=bothSurrender(retry);
+          assert.equal(publicState(retry).question.revealedAnswer,initial);
+          retry=retrySameCell(retry,{id:'qb',text:'ب',answer:initial,letter:initial});
+          assert.ok(!('revealedAnswer' in publicState(retry).question));
+          let a=startMatch('next-round',['أ','ب'],3,()=>0.5);
+          a={...a,stage:'between_rounds',winner:0,wins:[1,0]};
+          a=nextRound(a,()=>0.4);
+          assert.equal(a.round,2);assert.equal(a.stage,'playing');
+          assert.equal(colorForTeam(0,1),'orange');assert.equal(colorForTeam(0,2),'green');
+          console.log('PASS: six scenarios + negative controls + presenter engine transitions + answer secrecy');
+          JS
+      - name: Validate isolated routing and precise 3-click logic
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs'; import assert from 'node:assert/strict';
+          const app=fs.readFileSync('Bundle-30/src/App.tsx','utf8');
+          const entry=fs.readFileSync('Bundle-30/src/letters/LettersEntry.tsx','utf8');
+          const demo=fs.readFileSync('Bundle-30/src/letters/LettersDemo.tsx','utf8');
+          const presenter=fs.readFileSync('Bundle-30/src/letters/LettersPresenterDemo.tsx','utf8');
+          assert.match(app,/page==='letters-presenter-demo'&&<LettersPresenterDemo onBack=/);
+          assert.match(app,/page==='letters-demo'&&<LettersDemo onBack=/);
+          assert.match(app,/page==='letters-host'&&<LettersRoomLobby/);
+          assert.match(app,/page==='letters-viewer'&&<LettersRoomLobby/);
+          assert.match(entry,/onClick=\{onPresenterDemo\}>تجربة دور المقدّم/);
+          assert.match(entry,/onClick=\{onDemo\}>تجربة اللوحة الآن/);
+          assert.match(demo,/previous\[cell\]===null \? 'orange' : previous\[cell\]==='orange' \? 'green' : null/);
+          assert.doesNotMatch(demo,/setBrush|onClick=\{\(\)=>setBrush/);
+          assert.match(presenter,/openQuestion\(/);
+          assert.match(presenter,/awardCell\(/);
+          assert.match(presenter,/publicState\(/);
+          assert.match(presenter,/retrySameCell\(/);
+          assert.doesNotMatch(demo+'\n'+presenter,/roomApi|\bfetch\(|localStorage|sessionStorage|VITE_LETTERS_ROOM_API_BASE|DATABASE_URL/);
+          console.log('PASS: routes, offline safety and three-click cycle');
+          JS
+      - name: Build exactly ONE ZIP of the seven changed files
+        run: |
+          cd Bundle-30
+          zip -q Changes-Only.zip src/App.tsx src/letters/LettersEntry.tsx src/letters/LettersEntry.css src/letters/LettersDemo.tsx src/letters/LettersDemo.css src/letters/LettersPresenterDemo.tsx src/letters/LettersPresenterDemo.css
+          unzip -Z1 Changes-Only.zip | sort > /tmp/bundle30-actual.txt
+          printf '%s\n' src/App.tsx src/letters/LettersEntry.tsx src/letters/LettersEntry.css src/letters/LettersDemo.tsx src/letters/LettersDemo.css src/letters/LettersPresenterDemo.tsx src/letters/LettersPresenterDemo.css | sort > /tmp/bundle30-expected.txt
+          diff -u /tmp/bundle30-expected.txt /tmp/bundle30-actual.txt
+          unzip -t Changes-Only.zip
+      - name: Commit checked ZIP to changes repo
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-30/Changes-Only.zip
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build Bundle 30 changes-only ZIP after QA'
+            git push
+          fi
