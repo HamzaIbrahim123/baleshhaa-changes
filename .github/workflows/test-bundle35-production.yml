@@ -1,0 +1,19 @@
+name: Bundle 35 — Production safe read-only smoke
+on:
+  push:
+    paths:
+      - '.github/workflows/test-bundle35-production.yml'
+      - 'Bundle-35/qa/production-readonly-smoke.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  production-readonly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Test production rooms health, private counts and public site CORS
+        run: node Bundle-35/qa/production-readonly-smoke.mjs
