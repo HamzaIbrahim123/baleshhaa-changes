@@ -1,0 +1,19 @@
+name: Bundle 34 — QA real rooms end-to-end
+on:
+  push:
+    paths:
+      - '.github/workflows/test-bundle34-qa.yml'
+      - 'Bundle-34/qa/qa-room-e2e.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  qa-room-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify registered host can create, join, start and sync in QA
+        run: node Bundle-34/qa/qa-room-e2e.mjs
