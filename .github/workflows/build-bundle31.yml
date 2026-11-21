@@ -1,0 +1,145 @@
+name: Bundle 31 — Direct-cell presenter flow and changes-only ZIP
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle31.yml'
+      - 'Bundle-31/src/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  test-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install strict TypeScript and React dependencies
+        run: npm install --no-audit --no-fund --no-save typescript@5.8.3 esbuild@0.25.12 react@19 react-dom@19 @types/react@19 @types/react-dom@19
+      - name: Strict typecheck presenter and shared engine
+        run: |
+          mkdir -p .qa31/src/letters
+          cp Bundle-24/src/letters/engine.ts .qa31/src/letters/
+          cp Bundle-31/src/letters/*.ts Bundle-31/src/letters/*.tsx .qa31/src/letters/
+          cp Bundle-30/src/letters/LettersDemo.css Bundle-30/src/letters/LettersPresenterDemo.css .qa31/src/letters/
+          printf "declare module '*.css';\n" > .qa31/global.d.ts
+          cat > .qa31/tsconfig.json <<'JSON'
+          {"compilerOptions":{"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","lib":["ES2022","DOM","DOM.Iterable"],"strict":true,"noEmit":true,"jsx":"react-jsx","skipLibCheck":true,"allowSyntheticDefaultImports":true,"types":["react","react-dom"]},"include":["./src/letters/**/*.ts","./src/letters/**/*.tsx","./global.d.ts"]}
+          JSON
+          ./node_modules/.bin/tsc -p .qa31/tsconfig.json
+          ./node_modules/.bin/esbuild .qa31/src/letters/engine.ts --format=esm --outfile=/tmp/bundle31-engine.mjs
+          ./node_modules/.bin/esbuild .qa31/src/letters/presenterLocalRules.ts --bundle --platform=node --format=esm --outfile=/tmp/bundle31-local-rules.mjs
+          ./node_modules/.bin/esbuild .qa31/src/letters/LettersPresenterDemo.tsx --format=esm --outfile=/tmp/bundle31-presenter.js
+      - name: Test click cycle, surrender, winner and privacy
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import fs from 'node:fs';
+          import {
+            startMatch, bothSurrender, retrySameCell, publicState,
+            nextRound, teamForColor
+          } from '/tmp/bundle31-engine.mjs';
+          import {presenterCellEnabled, presenterClickCell} from '/tmp/bundle31-local-rules.mjs';
+          let serial = 0;
+          const sample = letter => ({id:'sample-'+(++serial),text:'سؤال '+letter,answer:letter,letter});
+          let a=startMatch('test-a',['أ','ب'],3,()=>0.5);
+          const index=a.startingCell;
+          assert.equal(presenterCellEnabled(a,index),true);
+          assert.equal(presenterCellEnabled(a,(index+1)%25),false,'other cell must be disabled before opening');
+          a=presenterClickCell(a,index,sample);
+          assert.equal(a.stage,'question','first click opens a question');
+          assert.equal(a.owners[index],null,'first click does not paint');
+          assert.equal(a.question.letter,a.letters[index]);
+          assert.ok(!('revealedAnswer' in publicState(a).question),'viewer cannot read secret answer');
+          assert.equal(presenterCellEnabled(a,(index+1)%25),false,'other cells blocked while asking');
+          a=presenterClickCell(a,index,sample);
+          assert.equal(a.stage,'playing','second click closes question');
+          assert.equal(a.owners[index],'orange','second click orange');
+          assert.equal(a.question,null,'question is cleared after painting');
+          assert.equal(a.turn,teamForColor('orange',1));
+          a=presenterClickCell(a,index,sample);
+          assert.equal(a.owners[index],'green','third click green');
+          assert.equal(a.turn,teamForColor('green',1),'team follows color');
+          a=presenterClickCell(a,index,sample);
+          assert.equal(a.owners[index],null,'fourth click neutral');
+          a=presenterClickCell(a,index,sample);
+          assert.equal(a.stage,'question','fifth click may reopen another question');
+
+          let surrender=startMatch('test-b',['أ','ب'],1,()=>0.5);
+          const target=surrender.startingCell;
+          surrender=presenterClickCell(surrender,target,sample);
+          surrender=bothSurrender(surrender);
+          assert.ok('revealedAnswer' in publicState(surrender).question,'answer revealed after surrender');
+          assert.equal(presenterCellEnabled(surrender,target),false,'must retry before painting');
+          const unchanged=presenterClickCell(surrender,target,sample);
+          assert.equal(unchanged,surrender,'surrender blocks accidental painting');
+          surrender=retrySameCell(surrender,sample(surrender.letters[target]));
+          assert.equal(presenterCellEnabled(surrender,target),true,'question can be retried');
+          assert.ok(!('revealedAnswer' in publicState(surrender).question),'new answer hidden');
+          surrender=presenterClickCell(surrender,target,sample);
+          assert.equal(surrender.owners[target],'orange');
+
+          let orange=startMatch('test-orange',['أ','ب'],1,()=>0.5);
+          orange={...orange,turn:0};
+          for(const i of [10,11,12,13,14]){
+            orange=presenterClickCell(orange,i,sample);
+            assert.equal(orange.stage,'question');
+            orange=presenterClickCell(orange,i,sample);
+          }
+          assert.equal(orange.stage,'finished');
+          assert.equal(orange.winner,teamForColor('orange',1));
+          assert.ok(orange.winningPath.length>=5);
+
+          let green=startMatch('test-green',['أ','ب'],1,()=>0.5);
+          green={...green,turn:0};
+          for(const i of [2,7,12,17,22]){
+            green=presenterClickCell(green,i,sample);
+            green=presenterClickCell(green,i,sample);
+            green=presenterClickCell(green,i,sample);
+          }
+          assert.equal(green.stage,'finished');
+          assert.equal(green.winner,teamForColor('green',1));
+          assert.ok(green.winningPath.length>=5);
+          let partial=startMatch('test-no-win',['أ','ب'],1,()=>0.5);
+          partial={...partial,turn:0};
+          for(const i of [10,11,12,13]){
+            partial=presenterClickCell(partial,i,sample);
+            partial=presenterClickCell(partial,i,sample);
+          }
+          assert.equal(partial.stage,'playing');
+          assert.equal(partial.winner,null);
+          let second=startMatch('test-rounds',['أ','ب'],3,()=>0.5);
+          second={...second,stage:'between_rounds',wins:[1,0],winner:0};
+          second=nextRound(second,()=>0.4);
+          assert.equal(second.round,2);
+          assert.equal(teamForColor('orange',2),1,'team colors alternate across rounds');
+
+          const ui=fs.readFileSync('Bundle-31/src/letters/LettersPresenterDemo.tsx','utf8');
+          const logic=fs.readFileSync('Bundle-31/src/letters/presenterLocalRules.ts','utf8');
+          assert.doesNotMatch(ui,/صح •|خطأ \/ نقل الفرصة|تصحيح لون خلية|setEditing\(|recordWrongAnswer\(/,'remove unnecessary controls');
+          assert.match(ui,/استسلام الفريقين \/ كشف الإجابة/);
+          assert.match(ui,/سؤال جديد لنفس الحرف/);
+          assert.match(ui,/معاينة شاشة المتسابقين/,'viewer preview is preserved');
+          assert.match(ui,/presenterCellEnabled\(state,i\)/);
+          assert.match(ui,/presenterClickCell\(current, cell, mockQuestion\)/);
+          assert.doesNotMatch(ui+'\n'+logic,/roomApi|\bfetch\(|localStorage|sessionStorage|DATABASE_URL|VITE_LETTERS_ROOM_API_BASE/,'demo must remain fully offline');
+          console.log('PASS: 4-click cell flow, question secrecy, surrender/retry, orange/green wins, no false win, round swap');
+          JS
+      - name: Build exactly one two-file changes-only ZIP
+        run: |
+          cd Bundle-31
+          zip -q Changes-Only.zip src/letters/LettersPresenterDemo.tsx src/letters/presenterLocalRules.ts
+          unzip -Z1 Changes-Only.zip | sort > /tmp/actual.txt
+          printf '%s\n' src/letters/LettersPresenterDemo.tsx src/letters/presenterLocalRules.ts | sort > /tmp/expected.txt
+          diff -u /tmp/expected.txt /tmp/actual.txt
+          unzip -t Changes-Only.zip
+      - name: Commit validated ZIP
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-31/Changes-Only.zip
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build Bundle 31 verified changes-only ZIP'
+            git push
+          fi
