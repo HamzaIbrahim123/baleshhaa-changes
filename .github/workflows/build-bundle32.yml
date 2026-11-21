@@ -1,0 +1,155 @@
+name: Bundle 32 — One question per cell and synchronized offline viewer QA
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle32.yml'
+      - 'Bundle-32/src/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install compiler and React typings
+        run: npm install --no-audit --no-fund --no-save typescript@5.8.3 esbuild@0.25.12 react@19 react-dom@19 @types/react@19 @types/react-dom@19
+      - name: Strict TSX typecheck and app route parsing
+        run: |
+          mkdir -p .qa32/src/letters
+          cp Bundle-24/src/letters/engine.ts .qa32/src/letters/engine.ts
+          cp Bundle-32/src/letters/* .qa32/src/letters/
+          cp Bundle-30/src/letters/LettersDemo.css .qa32/src/letters/
+          printf "declare module '*.css';\n" > .qa32/global.d.ts
+          cat > .qa32/tsconfig.json <<'JSON'
+          {"compilerOptions":{"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","lib":["ES2022","DOM","DOM.Iterable"],"strict":true,"noEmit":true,"jsx":"react-jsx","skipLibCheck":true,"allowSyntheticDefaultImports":true,"types":["react","react-dom"]},"include":["./src/letters/**/*.ts","./src/letters/**/*.tsx","./global.d.ts"]}
+          JSON
+          ./node_modules/.bin/tsc -p .qa32/tsconfig.json
+          ./node_modules/.bin/esbuild Bundle-32/src/App.tsx --format=esm --outfile=/tmp/bundle32-app.js
+          ./node_modules/.bin/esbuild .qa32/src/letters/presenterLocalRules.ts --bundle --platform=node --format=esm --outfile=/tmp/bundle32-rules.mjs
+          ./node_modules/.bin/esbuild .qa32/src/letters/engine.ts --format=esm --outfile=/tmp/bundle32-engine.mjs
+      - name: Test question-once, focus lock, editing older cells, surrender and game winners
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import fs from 'node:fs';
+          import {startMatch,bothSurrender,retrySameCell,nextRound,publicState,teamForColor} from '/tmp/bundle32-engine.mjs';
+          import {presenterCellEnabled,presenterClickCell} from '/tmp/bundle32-rules.mjs';
+          let serial=0;
+          const question=(letter)=>({id:'demo-'+(++serial),text:'اذكر '+letter,answer:letter,letter});
+          let match=startMatch('first',['أ','ب'],3,()=>0.5);
+          let context={askedCells:[],focusedCell:null,correctionMode:false};
+          let first=match.startingCell;
+          const click=i=>{const updated=presenterClickCell(match,i,context,question);match=updated.match;context={...context,askedCells:updated.askedCells,focusedCell:updated.focusedCell};};
+          assert.equal(presenterCellEnabled(match,first,context),true);
+          assert.equal(presenterCellEnabled(match,(first+1)%25,context),false,'random opener only');
+          click(first);
+          assert.equal(match.stage,'question');assert.equal(match.question.letter,match.letters[first]);
+          assert.equal(context.askedCells.length,1);assert.equal(match.owners[first],null);
+          assert.equal(presenterCellEnabled(match,(first+1)%25,context),false,'others locked during question');
+          assert.ok(!('revealedAnswer' in publicState(match).question));
+          click(first);assert.equal(match.stage,'playing');assert.equal(match.owners[first],'orange');
+          click(first);assert.equal(match.owners[first],'green');
+          click(first);assert.equal(match.owners[first],null,'fourth click neutral');
+          const next=(first+1)%25;
+          assert.equal(presenterCellEnabled(match,next,context),false,'no next until current has color');
+          click(first);
+          assert.equal(match.owners[first],'orange','fifth click orange, NOT question');
+          assert.equal(match.question,null);
+          assert.equal(context.askedCells.length,1,'question must never reopen');
+          assert.equal(presenterCellEnabled(match,next,context),true);
+          click(next);assert.equal(match.stage,'question');
+          assert.equal(context.askedCells.length,2);
+          const currentQuestion=match.question.id;
+          assert.equal(presenterCellEnabled(match,first,context),false,'older cells locked in normal mode');
+          assert.equal(presenterCellEnabled(match,next,context),true);
+          context={...context,correctionMode:true};
+          assert.equal(presenterCellEnabled(match,first,context),true,'correction available');
+          assert.equal(presenterCellEnabled(match,next,context),false,'current question cannot change in correction mode');
+          click(first);assert.equal(match.owners[first],'green','older color corrects in correction mode');
+          assert.equal(match.question.id,currentQuestion,'editing old cell must not replace current question');
+          assert.equal(match.stage,'question','question stays open after old-cell edit');
+          context={...context,correctionMode:false};
+          click(next);assert.equal(match.owners[next],'orange');
+          assert.equal(match.stage,'playing');
+          match=bothSurrender((()=>{const a=startMatch('surrender',['أ','ب'],1,()=>0.5);return presenterClickCell(a,a.startingCell,{askedCells:[],focusedCell:null,correctionMode:false},question).match;})());
+          assert.equal(publicState(match).question.revealedAnswer,match.question.answer,'revealed answer visible');
+          const oldRevealedId=match.question.id;
+          const before=presenterClickCell(match,match.startingCell,{askedCells:[match.startingCell],focusedCell:match.startingCell,correctionMode:false},question);
+          assert.equal(before.match,match,'surrender requires retry before painting');
+          match=retrySameCell(match,question(match.letters[match.currentCell]));
+          assert.notEqual(match.question.id,oldRevealedId);
+          assert.ok(!('revealedAnswer' in publicState(match).question),'new question answer hidden');
+
+          function playPath(color, cells){
+            let s=startMatch('win-'+color,['أ','ب'],1,()=>0.5);
+            s={...s,turn:0};
+            let ctx={askedCells:[],focusedCell:null,correctionMode:false};
+            for(const cell of cells){
+              let r=presenterClickCell(s,cell,ctx,question);
+              assert.equal(r.match.stage,'question');
+              s=r.match;ctx={...ctx,askedCells:r.askedCells,focusedCell:r.focusedCell};
+              r=presenterClickCell(s,cell,ctx,question);
+              s=r.match;ctx={...ctx,askedCells:r.askedCells,focusedCell:r.focusedCell};
+              if(color==='green'){
+                r=presenterClickCell(s,cell,ctx,question);
+                s=r.match;ctx={...ctx,askedCells:r.askedCells,focusedCell:r.focusedCell};
+              }
+            }
+            return s;
+          }
+          const orange=playPath('orange',[10,11,12,13,14]);
+          assert.equal(orange.stage,'finished');assert.equal(orange.winner,teamForColor('orange',1));
+          const green=playPath('green',[2,7,12,17,22]);
+          assert.equal(green.stage,'finished');assert.equal(green.winner,teamForColor('green',1));
+          const incomplete=playPath('orange',[10,11,12,13]);
+          assert.equal(incomplete.stage,'playing');
+          const z=nextRound({...startMatch('rounds',['أ','ب'],3,()=>0.5),stage:'between_rounds',winner:0,wins:[1,0]},()=>0.4);
+          assert.equal(z.round,2);assert.equal(teamForColor('orange',2),1);
+          console.log('PASS: question once, cycle never reopens, locked neutral, older-cell edit, surrender/retry, both wins and score');
+          JS
+      - name: Check offline spectator route and no leakage or real backend calls
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs'; import assert from 'node:assert/strict';
+          const app=fs.readFileSync('Bundle-32/src/App.tsx','utf8');
+          const host=fs.readFileSync('Bundle-32/src/letters/LettersPresenterDemo.tsx','utf8');
+          const rules=fs.readFileSync('Bundle-32/src/letters/presenterLocalRules.ts','utf8');
+          const viewer=fs.readFileSync('Bundle-32/src/letters/LettersLocalViewer.tsx','utf8');
+          assert.match(app,/params\.has\('lettersPreview'\)/);
+          assert.match(app,/page==='letters-local-viewer'&&<LettersLocalViewer/);
+          assert.match(app,/page==='letters-host'&&<LettersRoomLobby/);
+          assert.match(app,/page==='letters-viewer'&&<LettersRoomLobby/);
+          assert.match(host,/publicState\(state\)/);
+          assert.match(host,/kind:'snapshot',payload:viewer/);
+          assert.match(viewer,/kind:'viewer-ready'/);
+          assert.match(viewer,/kind!=='snapshot'/);
+          assert.match(host,/تعديل خلية سابقة/);
+          assert.match(host,/سؤال جديد لنفس الحرف/);
+          assert.match(host,/استسلام الفريقين \/ كشف الإجابة/);
+          assert.match(rules,/context\.askedCells\.includes\(cell\)/);
+          assert.match(viewer,/state\.question\.revealedAnswer/);
+          assert.doesNotMatch(host+'\n'+viewer+'\n'+rules,/roomApi|\bfetch\(|sessionStorage|localStorage|DATABASE_URL|VITE_LETTERS_ROOM_API_BASE/);
+          assert.doesNotMatch(viewer,/\.question\.answer\b/,'viewer must not reference secret answer');
+          console.log('PASS: isolated route, public snapshot only, visitor is read-only, no real backend');
+          JS
+      - name: Package exactly six changed or added files
+        run: |
+          cd Bundle-32
+          zip -q Changes-Only.zip src/App.tsx src/letters/LettersPresenterDemo.tsx src/letters/LettersPresenterDemo.css src/letters/presenterLocalRules.ts src/letters/LettersLocalViewer.tsx src/letters/LettersLocalViewer.css
+          unzip -Z1 Changes-Only.zip | sort > /tmp/actual32.txt
+          printf '%s\n' src/App.tsx src/letters/LettersPresenterDemo.tsx src/letters/LettersPresenterDemo.css src/letters/presenterLocalRules.ts src/letters/LettersLocalViewer.tsx src/letters/LettersLocalViewer.css | sort > /tmp/expected32.txt
+          diff -u /tmp/expected32.txt /tmp/actual32.txt
+          unzip -t Changes-Only.zip
+      - name: Commit one validated ZIP
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-32/Changes-Only.zip
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build Bundle 32 verified changes-only ZIP'
+            git push
+          fi
