@@ -1,0 +1,83 @@
+name: Bundle 33 — Verify spectator deep link and build changes-only ZIP
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle33.yml'
+      - 'Bundle-33/src/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check-and-zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install TypeScript and React types
+        run: npm install --no-audit --no-fund --no-save typescript@5.8.3 esbuild@0.25.12 react@19 react-dom@19 @types/react@19 @types/react-dom@19
+      - name: Strict presenter typecheck and app TSX parsing
+        run: |
+          mkdir -p .qa33/src/letters
+          cp Bundle-24/src/letters/engine.ts .qa33/src/letters/
+          cp Bundle-32/src/letters/presenterLocalRules.ts .qa33/src/letters/
+          cp Bundle-33/src/letters/LettersPresenterDemo.tsx .qa33/src/letters/
+          cp Bundle-30/src/letters/LettersDemo.css Bundle-32/src/letters/LettersPresenterDemo.css .qa33/src/letters/
+          printf "declare module '*.css';\n" > .qa33/global.d.ts
+          cat > .qa33/tsconfig.json <<'JSON'
+          {"compilerOptions":{"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","lib":["ES2022","DOM","DOM.Iterable"],"strict":true,"noEmit":true,"jsx":"react-jsx","skipLibCheck":true,"allowSyntheticDefaultImports":true,"types":["react","react-dom"]},"include":["./src/letters/**/*.ts","./src/letters/**/*.tsx","./global.d.ts"]}
+          JSON
+          ./node_modules/.bin/tsc -p .qa33/tsconfig.json
+          ./node_modules/.bin/esbuild Bundle-33/src/App.tsx --format=esm --outfile=/tmp/bundle33-app.js
+      - name: Test real URL parsing and auth-redirect fix
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import fs from 'node:fs';
+          import ts from 'typescript';
+          const source=fs.readFileSync('Bundle-33/src/App.tsx','utf8');
+          const host=fs.readFileSync('Bundle-33/src/letters/LettersPresenterDemo.tsx','utf8');
+          const start=source.indexOf('type Page='),end=source.indexOf('type TeamDraft=',start);
+          assert.ok(start>=0 && end>start,'route helpers present');
+          const code=source.slice(start,end)+'\nexport { localLettersPreviewId, initialPage };';
+          const js=ts.transpileModule(code,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText;
+          const route=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+          const id='bd90eac0-849f-4e91-9085-596fa3231f2b';
+          const check=(search,hash,page,expectedId)=>{
+            globalThis.window={location:{search,hash}};
+            assert.equal(route.initialPage(),page);
+            assert.equal(route.localLettersPreviewId(),expectedId);
+          };
+          check('','#lettersPreview='+id,'letters-local-viewer',id);
+          check('?lettersPreview='+id,'','letters-local-viewer',id);
+          check('?display=1','','letters-viewer','');
+          check('','','home','');
+          check('','#lettersPreview=invalid','home','');
+          const example=new URL('https://baleshhaa.figma.site/?foo=bar');
+          example.hash=new URLSearchParams({lettersPreview:id}).toString();
+          check(example.search,example.hash,'letters-local-viewer',id);
+          assert.match(host,/url\.hash=new URLSearchParams\(\{lettersPreview:sessionId\.current\}\)\.toString\(\)/);
+          assert.match(source,/setPage\(current => current==='letters-local-viewer' \|\| current==='letters-viewer' \? current : 'home'\)/);
+          assert.match(source,/page==='letters-local-viewer'&&<LettersLocalViewer previewId=\{localLettersPreviewId\(\)\}/);
+          assert.match(source,/if\(url\.hash\.startsWith\('#lettersPreview='\)\)url\.hash=''/);
+          assert.match(host,/kind:'snapshot',payload:viewer/);
+          console.log('PASS: hash and query deep links, auth restoration guard, viewer routing, replay after refresh');
+          JS
+      - name: Package exactly two changed files into one ZIP
+        run: |
+          cd Bundle-33
+          zip -q Changes-Only.zip src/App.tsx src/letters/LettersPresenterDemo.tsx
+          unzip -Z1 Changes-Only.zip | sort > /tmp/actual33.txt
+          printf '%s\n' src/App.tsx src/letters/LettersPresenterDemo.tsx | sort > /tmp/expected33.txt
+          diff -u /tmp/expected33.txt /tmp/actual33.txt
+          unzip -t Changes-Only.zip
+      - name: Commit verified ZIP
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-33/Changes-Only.zip
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build Bundle 33 verified changes-only ZIP'
+            git push
+          fi
