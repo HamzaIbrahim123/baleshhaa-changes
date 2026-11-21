@@ -1,0 +1,76 @@
+name: Bundle 34 — Compile real room client and pack changes-only ZIP
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle34.yml'
+      - 'Bundle-34/src/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-check-zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install TypeScript and React tooling
+        run: npm install --no-audit --no-fund --no-save typescript@5.8.3 esbuild@0.25.12 react@19 react-dom@19 @types/react@19 @types/react-dom@19
+      - name: Strict room UI and client typecheck
+        run: |
+          mkdir -p .qa34/src/letters
+          cp Bundle-24/src/letters/engine.ts .qa34/src/letters/
+          cp Bundle-34/src/letters/*.ts Bundle-34/src/letters/*.tsx .qa34/src/letters/
+          cp Bundle-26/src/letters/RoomLobby.css .qa34/src/letters/
+          cp Bundle-28/src/letters/HostGameControls.css .qa34/src/letters/
+          printf "declare module '*.css';\n" > .qa34/global.d.ts
+          cat > .qa34/tsconfig.json <<'JSON'
+          {"compilerOptions":{"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","lib":["ES2022","DOM","DOM.Iterable"],"strict":true,"noEmit":true,"jsx":"react-jsx","skipLibCheck":true,"allowSyntheticDefaultImports":true,"types":["react","react-dom"]},"include":["./src/letters/**/*.ts","./src/letters/**/*.tsx","./global.d.ts"]}
+          JSON
+          ./node_modules/.bin/tsc -p .qa34/tsconfig.json
+          ./node_modules/.bin/esbuild Bundle-34/src/App.tsx --format=esm --outfile=/tmp/bundle34-app.js
+          ./node_modules/.bin/esbuild Bundle-34/src/letters/RoomLobby.tsx --format=esm --outfile=/tmp/bundle34-room-lobby.js
+      - name: Check real API path, safe auth and waiting-room cancellation
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import fs from 'node:fs';
+          const client=fs.readFileSync('Bundle-34/src/letters/roomClient.ts','utf8');
+          const app=fs.readFileSync('Bundle-34/src/App.tsx','utf8');
+          const lobby=fs.readFileSync('Bundle-34/src/letters/RoomLobby.tsx','utf8');
+          const host=fs.readFileSync('Bundle-34/src/letters/HostGameControls.tsx','utf8');
+          assert.match(client,/br-autumn-pond-b92zfumu-baleshhaarooms\.compute\.c-7\.eu-central-1\.aws\.neon\.tech/);
+          assert.match(client,/VITE_LETTERS_ROOM_API_BASE/);
+          assert.match(client,/Bearer /);
+          assert.match(client,/roomApi/);
+          assert.match(client,/sessionStorage\.setItem\(VIEWER_PREFIX \+ clean, result\.viewerToken\)/);
+          assert.match(app,/backendConfigured=\{roomsBackendConfigured\(\)\}/);
+          assert.match(app,/page==='letters-host'&&<LettersRoomLobby/);
+          assert.match(app,/page==='letters-viewer'&&<LettersRoomLobby/);
+          assert.match(lobby,/roomApi\.create/);
+          assert.match(lobby,/roomApi\.command\(room\.room\.code, room\.room\.revision, \{kind:'end_match'\}/);
+          assert.match(lobby,/إلغاء الغرفة التجريبية/);
+          assert.match(lobby,/room\.room\.displayConnected/);
+          assert.match(host,/تعديل ألوان الحروف/);
+          assert.match(host,/بنك أسئلة الحروف لم يُفعّل بعد/);
+          assert.doesNotMatch(client,/DATABASE_URL|ROOM_IP_PEPPER|INITIAL_ADMIN_HASH/);
+          console.log('PASS: production public rooms URL, typed host/viewer routes, cancellation and staged UI');
+          JS
+      - name: Package one ZIP with only four changed files
+        run: |
+          cd Bundle-34
+          zip -q Changes-Only.zip src/App.tsx src/letters/roomClient.ts src/letters/RoomLobby.tsx src/letters/HostGameControls.tsx
+          unzip -Z1 Changes-Only.zip | sort > /tmp/actual34.txt
+          printf '%s\n' src/App.tsx src/letters/roomClient.ts src/letters/RoomLobby.tsx src/letters/HostGameControls.tsx | sort > /tmp/expected34.txt
+          diff -u /tmp/expected34.txt /tmp/actual34.txt
+          unzip -t Changes-Only.zip
+      - name: Commit verified ZIP
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-34/Changes-Only.zip
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build Bundle 34 verified changes-only ZIP'
+            git push
+          fi
