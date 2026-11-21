@@ -1,0 +1,19 @@
+name: Bundle 35 — QA real question allocation, privacy and color cycling
+on:
+  push:
+    paths:
+      - '.github/workflows/test-bundle35-qa.yml'
+      - 'Bundle-35/qa/real-qa-e2e.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real-rooms:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify real Neon QA question allocation and match flow
+        run: node Bundle-35/qa/real-qa-e2e.mjs
