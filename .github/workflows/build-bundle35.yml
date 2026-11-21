@@ -1,0 +1,76 @@
+name: Bundle 35 — Validate 280 Arabic questions, server rules, UI and package
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle35.yml'
+      - 'Bundle-35/src/**'
+      - 'Bundle-35/backend/rooms/**'
+      - 'Bundle-35/qa/**'
+      - 'Bundle-35/content/pilot-*.json'
+      - 'Bundle-35/content/validate-and-seed.mjs'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install TSX type checking and build dependencies
+        run: npm install --no-audit --no-fund --no-save typescript@5.8.3 esbuild@0.25.12 react@19 react-dom@19 @types/react@19 @types/react-dom@19
+      - name: Validate all 280 original questions and generate idempotent SQL
+        run: |
+          node Bundle-35/content/validate-and-seed.mjs
+          node Bundle-35/content/validate-and-seed.mjs --sql > Bundle-35/content/seed-280.sql
+          test "$(grep -c 'INSERT INTO public.letter_questions' Bundle-35/content/seed-280.sql)" -eq 4
+      - name: Test server transitions and private viewer projection
+        run: node Bundle-35/qa/server-contracts.mjs
+      - name: Strict frontend TypeScript, separate real room lobby and host controls
+        run: |
+          mkdir -p .qa35/src/letters
+          cp Bundle-24/src/letters/engine.ts .qa35/src/letters/
+          cp Bundle-34/src/letters/RoomLobby.tsx .qa35/src/letters/
+          cp Bundle-26/src/letters/RoomLobby.css .qa35/src/letters/
+          cp Bundle-35/src/letters/* .qa35/src/letters/
+          printf "declare module '*.css';\n" > .qa35/global.d.ts
+          cat > .qa35/tsconfig.json <<'JSON'
+          {"compilerOptions":{"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","lib":["ES2022","DOM","DOM.Iterable"],"strict":true,"noEmit":true,"jsx":"react-jsx","skipLibCheck":true,"allowSyntheticDefaultImports":true,"types":["react","react-dom"]},"include":["./src/letters/**/*.ts","./src/letters/**/*.tsx","./global.d.ts"]}
+          JSON
+          ./node_modules/.bin/tsc -p .qa35/tsconfig.json
+          ./node_modules/.bin/esbuild Bundle-35/src/letters/HostGameControls.tsx --format=esm --outfile=/tmp/b35-HostGameControls.js
+      - name: Build self-contained Neon QA Rooms function
+        run: |
+          mkdir -p .qa35/backend/rooms
+          cp Bundle-35/backend/rooms/* .qa35/backend/rooms/
+          cp Bundle-25/backend/rooms/package.json .qa35/backend/rooms/
+          npm install --prefix .qa35/backend/rooms --no-audit --no-fund
+          mkdir -p Bundle-35/backend/build .qa35/backend/rooms/dist
+          cat > .qa35/backend/rooms/dist/banner.js <<'EOF'
+          import { createRequire as __createRequire } from 'node:module';
+          const require = __createRequire(import.meta.url);
+          EOF
+          ./node_modules/.bin/esbuild .qa35/backend/rooms/index.mjs --bundle --platform=node --format=esm --target=node24 --external:pg-native --banner:js="$(cat .qa35/backend/rooms/dist/banner.js)" --outfile=.qa35/backend/rooms/dist/index.mjs
+          printf '{"type":"module","private":true}' > .qa35/backend/rooms/dist/package.json
+          (cd .qa35/backend/rooms/dist && zip -q ../../../../Bundle-35/backend/build/rooms-function.zip index.mjs package.json)
+          base64 -w 0 Bundle-35/backend/build/rooms-function.zip > Bundle-35/backend/build/rooms-function.b64.txt
+          unzip -t Bundle-35/backend/build/rooms-function.zip
+      - name: Package ONE Figma Make changes-only ZIP
+        run: |
+          cd Bundle-35
+          zip -q Changes-Only.zip src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css
+          unzip -Z1 Changes-Only.zip | sort > /tmp/actual-b35.txt
+          printf '%s\n' src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css | sort > /tmp/expected-b35.txt
+          diff -u /tmp/expected-b35.txt /tmp/actual-b35.txt
+          unzip -t Changes-Only.zip
+      - name: Commit verified build artifacts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-35/Changes-Only.zip Bundle-35/content/seed-280.sql Bundle-35/backend/build/rooms-function.zip Bundle-35/backend/build/rooms-function.b64.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle 35: verified Figma ZIP, 280-question pilot and Neon rooms function'
+            git push
+          fi
