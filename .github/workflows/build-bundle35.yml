@@ -9,6 +9,9 @@ on:
       - 'Bundle-35/content/pilot-*.json'
       - 'Bundle-35/content/validate-and-seed.mjs'
   workflow_dispatch:
+concurrency:
+  group: bundle35-verified-artifacts
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -54,13 +57,15 @@ jobs:
           EOF
           ./node_modules/.bin/esbuild .qa35/backend/rooms/index.mjs --bundle --platform=node --format=esm --target=node24 --external:pg-native --banner:js="$(cat .qa35/backend/rooms/dist/banner.js)" --outfile=.qa35/backend/rooms/dist/index.mjs
           printf '{"type":"module","private":true}' > .qa35/backend/rooms/dist/package.json
-          (cd .qa35/backend/rooms/dist && zip -q ../../../../Bundle-35/backend/build/rooms-function.zip index.mjs package.json)
+          touch -t 202601010101 .qa35/backend/rooms/dist/index.mjs .qa35/backend/rooms/dist/package.json
+          (cd .qa35/backend/rooms/dist && zip -X -q ../../../../Bundle-35/backend/build/rooms-function.zip index.mjs package.json)
           base64 -w 0 Bundle-35/backend/build/rooms-function.zip > Bundle-35/backend/build/rooms-function.b64.txt
           unzip -t Bundle-35/backend/build/rooms-function.zip
       - name: Package ONE Figma Make changes-only ZIP
         run: |
           cd Bundle-35
-          zip -q Changes-Only.zip src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css
+          touch -t 202601010101 src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css
+          zip -X -q Changes-Only.zip src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css
           unzip -Z1 Changes-Only.zip | sort > /tmp/actual-b35.txt
           printf '%s\n' src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css | sort > /tmp/expected-b35.txt
           diff -u /tmp/expected-b35.txt /tmp/actual-b35.txt
@@ -72,5 +77,7 @@ jobs:
           git add Bundle-35/Changes-Only.zip Bundle-35/content/seed-280.sql Bundle-35/backend/build/rooms-function.zip Bundle-35/backend/build/rooms-function.b64.txt
           if ! git diff --cached --quiet; then
             git commit -m 'Bundle 35: verified Figma ZIP, 280-question pilot and Neon rooms function'
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
