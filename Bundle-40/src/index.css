@@ -254,7 +254,7 @@
 
 
 /* Bundle 40 — homepage carousel; keeps Seen Jeem and Letters game code isolated. */
-.home-hero--rotating{position:relative;padding-bottom:45px;transition:background .45s ease}
+.home-hero--rotating{display:block;position:relative;padding-bottom:45px;transition:background .45s ease}
 .home-hero--letters{background:radial-gradient(ellipse at 30% 45%,#164344 0,transparent 54%),#111f30}
 .home-hero__slide{display:grid;grid-template-columns:1fr .92fr;gap:20px;align-items:center;min-width:0;animation:home-hero-enter .55s ease both}
 .home-hero__slide .hero-copy{min-width:0}
