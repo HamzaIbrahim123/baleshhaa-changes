@@ -36,7 +36,7 @@
     "answer": "أهرامات",
     "question": "ما اسم المباني الحجرية الضخمة ذات الأوجه المثلثة المشهورة في الجيزة بمصر؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -52,7 +52,7 @@
     "answer": "إيثار",
     "question": "ما الخُلُق الذي يعني تقديم حاجة الآخرين على حاجة النفس؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -84,7 +84,7 @@
     "answer": "إسطنبول",
     "question": "ما المدينة التركية التي يفصل مضيق البوسفور بين جزأيها الأوروبي والآسيوي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -116,7 +116,7 @@
     "answer": "إلكترون",
     "question": "ما الجسيم دون الذري ذو الشحنة الكهربائية السالبة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -124,7 +124,7 @@
     "answer": "أطلس",
     "question": "ما الاسم الشائع لكتاب يضم مجموعة خرائط جغرافية؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -140,7 +140,7 @@
     "answer": "ألاسكا",
     "question": "ما الولاية الأمريكية الأكبر مساحة والواقعة شمال غرب كندا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -148,7 +148,7 @@
     "answer": "أوزبكستان",
     "question": "ما الدولة الآسيوية التي عاصمتها طشقند؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -156,7 +156,7 @@
     "answer": "أندلس",
     "question": "ما الاسم التاريخي للمناطق من شبه الجزيرة الإيبيرية التي خضعت للحكم الإسلامي؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -188,7 +188,7 @@
     "answer": "أوعية دموية",
     "question": "ما اسم الأنابيب التي ينقل الدم من خلالها داخل الجسم؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -196,7 +196,7 @@
     "answer": "أكسيد الحديد",
     "question": "ما المادة الناتجة من اتحاد الحديد بالأكسجين في عمليات الأكسدة، وتدخل بعض أنواعها في الصدأ؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -212,7 +212,7 @@
     "answer": "بكتيريا",
     "question": "ما الكائنات الدقيقة أحادية الخلية التي لا تحتوي على نواة محاطة بغشاء؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -276,7 +276,7 @@
     "answer": "بخار",
     "question": "ما الحالة الغازية للماء التي تتشكل عند غليانه؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -292,7 +292,7 @@
     "answer": "بلجيكا",
     "question": "ما الدولة الأوروبية التي عاصمتها بروكسل؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -308,7 +308,7 @@
     "answer": "برشلونة",
     "question": "ما النادي الإسباني الذي يلعب مبارياته تاريخيًا في ملعب كامب نو؟",
     "category": "كرة قدم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -316,7 +316,7 @@
     "answer": "بروتين",
     "question": "ما العنصر الغذائي الذي يُبنى من الأحماض الأمينية ويساهم في بناء أنسجة الجسم؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -324,7 +324,7 @@
     "answer": "برمائيات",
     "question": "ما طائفة الحيوانات الفقارية التي تضم الضفادع والسمادل؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -348,7 +348,7 @@
     "answer": "بوخارست",
     "question": "ما عاصمة رومانيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -356,7 +356,7 @@
     "answer": "بريد إلكتروني",
     "question": "ما وسيلة إرسال الرسائل الرقمية بين العناوين عبر الإنترنت؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -388,7 +388,7 @@
     "answer": "بصمة",
     "question": "ما الأثر المميز الذي تتركه الخطوط الدقيقة في طرف إصبع الإنسان؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -396,7 +396,7 @@
     "answer": "بؤبؤ",
     "question": "ما الفتحة الداكنة في وسط قزحية العين التي يدخل الضوء عبرها؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -444,7 +444,7 @@
     "answer": "تورنتو",
     "question": "ما أكبر مدن كندا من حيث عدد السكان وتقع في مقاطعة أونتاريو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -460,7 +460,7 @@
     "answer": "تكاثف",
     "question": "ما العملية التي يتحول فيها بخار الماء إلى قطرات سائلة عند التبريد؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -468,7 +468,7 @@
     "answer": "تلوث",
     "question": "ما الاسم الذي يطلق على وجود مواد ضارة في الهواء أو الماء أو التربة؟",
     "category": "بيئة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -476,7 +476,7 @@
     "answer": "تيار كهربائي",
     "question": "ما اسم حركة الشحنات الكهربائية عبر موصل؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -500,7 +500,7 @@
     "answer": "تاج محل",
     "question": "ما الضريح الرخامي الأبيض الشهير الموجود في مدينة أغرا الهندية؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -508,7 +508,7 @@
     "answer": "تريليون",
     "question": "ما العدد الذي يساوي ألف مليار في النظام العددي القصير المستخدم حديثًا؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -548,7 +548,7 @@
     "answer": "تخدير",
     "question": "ما الإجراء الطبي الذي يمنع الإحساس بالألم أثناء العمليات الجراحية؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -564,7 +564,7 @@
     "answer": "ترمومتر",
     "question": "ما الجهاز المستخدم لقياس درجة الحرارة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -572,7 +572,7 @@
     "answer": "تشفير",
     "question": "ما العملية التي تحول البيانات إلى صيغة غير مقروءة دون مفتاح فكها؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -580,7 +580,7 @@
     "answer": "تربيع",
     "question": "في الحساب، ما اسم ضرب عدد في نفسه؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -636,7 +636,7 @@
     "answer": "ثلث",
     "question": "ما الكسر الذي يمثل جزءًا واحدًا من ثلاثة أجزاء متساوية؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -652,7 +652,7 @@
     "answer": "ثقافة",
     "question": "ما الاسم الذي يشمل معارف المجتمع وفنونه وعاداته وقيمه؟",
     "category": "ثقافة عامة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -684,7 +684,7 @@
     "answer": "ثغرة",
     "question": "ما الاسم المستخدم لخلل أمني في برنامج يمكن استغلاله للهجوم؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -692,7 +692,7 @@
     "answer": "ثنائية",
     "question": "ما الصفة الرياضية التي تشير إلى وجود عنصرين أو جزأين؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -716,7 +716,7 @@
     "answer": "ثكنة",
     "question": "ما المنشأة التي يقيم فيها الجنود للتدريب أو الإيواء؟",
     "category": "ثقافة عامة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -732,7 +732,7 @@
     "answer": "ثورة صناعية",
     "question": "ما اسم مرحلة التحول التاريخي إلى الإنتاج الآلي التي بدأت في بريطانيا في القرن الثامن عشر؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -740,7 +740,7 @@
     "answer": "ثقب أسود",
     "question": "ما الجسم الفلكي الذي يمتلك جاذبية قوية لدرجة أن الضوء لا يستطيع الإفلات من داخله؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -748,7 +748,7 @@
     "answer": "ثاني أكسيد الكربون",
     "question": "ما الغاز المكوّن من ذرة كربون وذرتين من الأكسجين ويُعرف بالصيغة CO2؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -764,7 +764,7 @@
     "answer": "ثني",
     "question": "ما المصدر من الفعل الذي يعني طي الشيء على نفسه أو جعله منحنياً؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -772,7 +772,7 @@
     "answer": "ثبات انفعالي",
     "question": "ما الصفة التي تعني القدرة على التحكم بالمشاعر عند التعرض لضغط؟",
     "category": "علم نفس",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -836,7 +836,7 @@
     "answer": "جنين",
     "question": "ما اسم الكائن البشري في مرحلة نموه داخل الرحم بعد المرحلة الجنينية المبكرة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -876,7 +876,7 @@
     "answer": "جرثومة",
     "question": "ما الاسم الشائع الذي يطلق على كائن دقيق قد يسبب مرضًا؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -884,7 +884,7 @@
     "answer": "جليد",
     "question": "ما الاسم الذي يطلق على الماء في حالته الصلبة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -924,7 +924,7 @@
     "answer": "جيولوجيا",
     "question": "ما العلم الذي يدرس الصخور وبنية الأرض وتاريخها الجيولوجي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -932,7 +932,7 @@
     "answer": "جوز الهند",
     "question": "ما الثمرة الاستوائية ذات القشرة الليفية التي تحتوي على ماء ولب أبيض؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -940,7 +940,7 @@
     "answer": "جهاز تنفس",
     "question": "ما الجهاز الطبي الذي يساعد المريض على إدخال الهواء إلى الرئتين وإخراجه؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -948,7 +948,7 @@
     "answer": "جزر القمر",
     "question": "ما الدولة الجزرية العربية الواقعة في المحيط الهندي قرب الساحل الشرقي لإفريقيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -956,7 +956,7 @@
     "answer": "جيبوتي",
     "question": "ما الدولة الإفريقية المطلة على خليج عدن وعاصمتها تحمل اسمها؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -964,7 +964,7 @@
     "answer": "جول",
     "question": "ما وحدة قياس الطاقة والشغل في النظام الدولي للوحدات؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -972,7 +972,7 @@
     "answer": "جذر تربيعي",
     "question": "ما الاسم الرياضي للعدد الذي يعطيك العدد الأصلي عند ضربه في نفسه؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1036,7 +1036,7 @@
     "answer": "حلزون",
     "question": "ما الرخوي الذي يحمل معظم أنواعه البرية صدفة لولبية فوق ظهره؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1060,7 +1060,7 @@
     "answer": "حنطة",
     "question": "ما اسم آخر لنبات القمح في اللغة العربية؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1076,7 +1076,7 @@
     "answer": "حاسة الشم",
     "question": "أي حاسة نستخدمها لتمييز روائح الأزهار والطعام؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1084,7 +1084,7 @@
     "answer": "حجر رشيد",
     "question": "ما الحجر الذي ساعد العثور عليه في فهم الكتابة الهيروغليفية المصرية؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1116,7 +1116,7 @@
     "answer": "حمض",
     "question": "ما المادة التي تزيد تركيز أيونات الهيدروجين في المحلول المائي وفق تعريف أرهينيوس؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1140,7 +1140,7 @@
     "answer": "حبار",
     "question": "ما الرخوي البحري الذي يملك عادة عشرة أذرع ويمكنه نفث الحبر؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1156,7 +1156,7 @@
     "answer": "حبة البركة",
     "question": "ما البذور السوداء التي تعرف أيضًا بالحبة السوداء وتستخدم في الطعام؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1164,7 +1164,7 @@
     "answer": "حيوان منوي",
     "question": "ما الخلية التناسلية الذكرية التي تندمج مع البويضة في عملية الإخصاب؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1172,7 +1172,7 @@
     "answer": "حفرية",
     "question": "ما البقايا أو الآثار المحفوظة لكائن حي عاش في الماضي الجيولوجي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1196,7 +1196,7 @@
     "answer": "حرف جر",
     "question": "ما الاسم النحوي لكلمات مثل «في» و«من» و«إلى» التي تجر الاسم بعدها؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1220,7 +1220,7 @@
     "answer": "خط الاستواء",
     "question": "ما خط العرض الوهمي عند درجة الصفر الذي يقسم الأرض إلى نصفين شمالي وجنوبي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1252,7 +1252,7 @@
     "answer": "خنفساء",
     "question": "ما الحشرة التي تتميز معظم أنواعها بأجنحة أمامية صلبة تغطي جناحي الطيران؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1276,7 +1276,7 @@
     "answer": "خفقان",
     "question": "ما الاسم الذي يطلق على إحساس الشخص بضربات قلبه السريعة أو القوية؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1284,7 +1284,7 @@
     "answer": "خسوف",
     "question": "ما الظاهرة الفلكية التي تحدث عندما تقع الأرض بين الشمس والقمر فتحجب ضوء الشمس عنه جزئيًا أو كليًا؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1332,7 +1332,7 @@
     "answer": "خلية عصبية",
     "question": "ما الوحدة المتخصصة التي تنقل الإشارات في الجهاز العصبي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1340,7 +1340,7 @@
     "answer": "خوارزمية",
     "question": "ما مجموعة خطوات محددة ومنتهية تستخدم لحل مشكلة أو تنفيذ مهمة؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1348,7 +1348,7 @@
     "answer": "خردل",
     "question": "ما النبات الذي تُصنع من بذوره صلصة صفراء أو بنية ذات طعم لاذع؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1356,7 +1356,7 @@
     "answer": "خروب",
     "question": "ما الثمرة البنية الطويلة التي تُستخدم لصناعة شراب شعبي في بلاد الشام؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1388,7 +1388,7 @@
     "answer": "خلايا الدم الحمراء",
     "question": "ما خلايا الدم المسؤولة أساسًا عن نقل الأكسجين بواسطة الهيموغلوبين؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1396,7 +1396,7 @@
     "answer": "خُطاف",
     "question": "ما اسم طائر صغير معروف بذيله المشقوق وقدرته على التقاط الحشرات أثناء الطيران؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   }
 ]

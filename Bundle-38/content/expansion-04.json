@@ -12,7 +12,7 @@
     "answer": "كبد",
     "question": "ما العضو الكبير في البطن الذي يساهم في إزالة السموم وإنتاج العصارة الصفراوية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -36,7 +36,7 @@
     "answer": "كويكب",
     "question": "ما الجرم الصخري الصغير الذي يدور حول الشمس ويتركز كثير منه بين المريخ والمشتري؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -44,7 +44,7 @@
     "answer": "كربون",
     "question": "ما العنصر الكيميائي الذي رمزه C ويدخل في تركيب المركبات العضوية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -52,7 +52,7 @@
     "answer": "كركم",
     "question": "ما البهار الأصفر المستخرج من جذمور نبات يستخدم في الكاري؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -60,7 +60,7 @@
     "answer": "كبش",
     "question": "ما اسم ذكر الغنم البالغ؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -84,7 +84,7 @@
     "answer": "كرفس",
     "question": "ما الخضار التي تتميز بسيقان مقرمشة وأوراق عطرية وتوضع في الحساء؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -108,7 +108,7 @@
     "answer": "كسوف",
     "question": "ما الظاهرة الفلكية التي يحدث فيها حجب للشمس جزئيًا أو كليًا من منظور راصد على الأرض؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -148,7 +148,7 @@
     "answer": "كريات الدم البيضاء",
     "question": "ما خلايا الدم التي تشارك في الدفاع المناعي عن الجسم ضد العدوى؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -156,7 +156,7 @@
     "answer": "كهرمان",
     "question": "ما المادة الصمغية الأحفورية التي تستخدم في الحلي وتحتفظ أحيانًا بحشرات قديمة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -180,7 +180,7 @@
     "answer": "كيوي",
     "question": "ما الفاكهة صغيرة الحجم ذات قشرة بنية وبرية ولب أخضر عادة؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -236,7 +236,7 @@
     "answer": "لولب",
     "question": "ما الشكل الحلزوني الذي يلتف حول محور وهو مستخدم في النوابض والبراغي؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -244,7 +244,7 @@
     "answer": "ليث",
     "question": "ما الاسم العربي الفصيح الذي يُستخدم بمعنى الأسد؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -252,7 +252,7 @@
     "answer": "ليزر",
     "question": "ما نوع الضوء المتماسك شديد التركيز الذي يستخدم في المسح والطب والاتصالات؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -260,7 +260,7 @@
     "answer": "ليف",
     "question": "ما المادة النباتية الليفية المستخدمة في التنظيف أو صناعة الحبال؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -276,7 +276,7 @@
     "answer": "لحن",
     "question": "ما التسلسل المنظم من النغمات الذي تتكون منه جملة موسيقية؟",
     "category": "فنون",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -308,7 +308,7 @@
     "answer": "لبان",
     "question": "ما المادة التي تُمضغ في الفم لفترة دون ابتلاعها غالبًا؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -324,7 +324,7 @@
     "answer": "لُدونة",
     "question": "ما الخاصية التي تسمح للمادة بتغيير شكلها تغييرًا دائمًا دون انكسار عند قوة مناسبة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -372,7 +372,7 @@
     "answer": "لوزة",
     "question": "ما إحدى الكتلتين اللمفاويتين الموجودتين عند جانبي مؤخرة الحلق؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -388,7 +388,7 @@
     "answer": "لعبة الدومينو",
     "question": "ما لعبة القطع المستطيلة المرقمة بنقاط التي تُرتب القطع فيها حسب الأعداد المتطابقة؟",
     "category": "رياضة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -396,7 +396,7 @@
     "answer": "لجام",
     "question": "ما جزء عدة الحصان الذي يثبت على رأسه ويساعد الفارس على توجيهه؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -412,7 +412,7 @@
     "answer": "معدن",
     "question": "ما المادة الطبيعية الصلبة ذات التركيب الكيميائي المحدد والبنية البلورية غالبًا؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -452,7 +452,7 @@
     "answer": "مرجان",
     "question": "ما الحيوان البحري الصغير الذي يعيش في مستعمرات ويبني هياكل كلسية قد تتكون منها شعاب ضخمة؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -460,7 +460,7 @@
     "answer": "مجهر",
     "question": "ما الجهاز البصري الذي يكبّر الأجسام الدقيقة التي لا ترى بوضوح بالعين المجردة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -500,7 +500,7 @@
     "answer": "مكعب",
     "question": "ما المجسم الهندسي الذي يتكون من ستة أوجه مربعة متساوية؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -548,7 +548,7 @@
     "answer": "ميكروفون",
     "question": "ما الجهاز الذي يحول الموجات الصوتية إلى إشارات كهربائية؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -564,7 +564,7 @@
     "answer": "مساحة",
     "question": "ما الكمية الرياضية التي تقيس مقدار السطح المحصور داخل شكل ثنائي الأبعاد؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -572,7 +572,7 @@
     "answer": "محرك",
     "question": "ما الجهاز الذي يحول شكلًا من الطاقة إلى حركة ميكانيكية؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -580,7 +580,7 @@
     "answer": "مناخ",
     "question": "ما متوسط أحوال الجو المعتادة في مكان على مدى سنوات طويلة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -588,7 +588,7 @@
     "answer": "مئذنة",
     "question": "ما البرج الذي يرتفع قرب المساجد وكان يُرفع منه الأذان تقليديًا؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -596,7 +596,7 @@
     "answer": "ميتوكوندريا",
     "question": "ما العضية الخلوية التي تنتج معظم طاقة ATP في خلايا حقيقية النواة عبر التنفس الخلوي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -660,7 +660,7 @@
     "answer": "نيزك",
     "question": "ما الجسم الصخري أو المعدني الفضائي الذي يصل إلى سطح الأرض بعد مروره بالغلاف الجوي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -676,7 +676,7 @@
     "answer": "ناطحة سحاب",
     "question": "ما المبنى الشاهق ذو الطوابق العديدة الذي يرتفع كثيرًا فوق المباني المجاورة؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -684,7 +684,7 @@
     "answer": "نفط",
     "question": "ما السائل الأحفوري الخام المستخرج من باطن الأرض ويُكرر لإنتاج الوقود؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -692,7 +692,7 @@
     "answer": "نحاس",
     "question": "ما المعدن ذو اللون الأحمر المائل للبني ورمزه الكيميائي Cu؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -700,7 +700,7 @@
     "answer": "نيوتن",
     "question": "من العالم الإنجليزي الذي صاغ قوانين الحركة الثلاثة ووضع قانون الجاذبية الكونية؟",
     "category": "تاريخ وعلوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -708,7 +708,7 @@
     "answer": "نواة",
     "question": "ما الجزء المحاط بغشاء في الخلايا حقيقية النواة ويحتوي معظم مادتها الوراثية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -732,7 +732,7 @@
     "answer": "نسيج",
     "question": "ما مجموعة الخلايا المتشابهة التي تؤدي وظيفة مشتركة في جسم الكائن الحي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -764,7 +764,7 @@
     "answer": "نسبة مئوية",
     "question": "ما الكمية الرياضية التي تُعبّر عن جزء من كل مقداره مئة؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -772,7 +772,7 @@
     "answer": "نظارة",
     "question": "ما الأداة ذات العدستين التي توضع أمام العينين لتحسين الرؤية أو حمايتها؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -780,7 +780,7 @@
     "answer": "نشا",
     "question": "ما الكربوهيدرات المخزنة في النباتات والموجودة بكثرة في البطاطا والأرز؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -828,7 +828,7 @@
     "answer": "هضبة",
     "question": "ما تضاريس الأرض المرتفعة ذات السطح شبه المستوي مقارنة بالمناطق المحيطة؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -836,7 +836,7 @@
     "answer": "هزة أرضية",
     "question": "ما الاهتزاز الذي يحدث لسطح الأرض نتيجة إطلاق طاقة من داخلها؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -860,7 +860,7 @@
     "answer": "هرمون",
     "question": "ما المادة الكيميائية التي تفرزها غدد في الجسم لتنظيم وظائف أعضاء أخرى؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -900,7 +900,7 @@
     "answer": "هوليوود",
     "question": "ما الحي في لوس أنجلوس المرتبط تاريخيًا بصناعة السينما الأمريكية؟",
     "category": "فنون",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -908,7 +908,7 @@
     "answer": "هجاء",
     "question": "ما النوع الأدبي الذي يُعبّر فيه الشاعر عن الذم والسخرية من شخص أو أمر؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -916,7 +916,7 @@
     "answer": "هجرة الطيور",
     "question": "ما انتقال الطيور الموسمي بين مناطق التكاثر والشتاء؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -932,7 +932,7 @@
     "answer": "هكتار",
     "question": "ما وحدة المساحة المستخدمة في الزراعة وتساوي عشرة آلاف متر مربع؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -940,7 +940,7 @@
     "answer": "هلام",
     "question": "ما المادة شبه الصلبة التي تحتفظ بسائل داخل بنية شبكية مثل بعض أنواع الجل؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -964,7 +964,7 @@
     "answer": "هضم",
     "question": "ما العملية التي يفتت فيها الجسم الطعام إلى مواد بسيطة قابلة للامتصاص؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -972,7 +972,7 @@
     "answer": "هشاشة العظام",
     "question": "ما المرض الذي تقل فيه كثافة العظم وتزداد احتمالات تعرضه للكسر؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1004,7 +1004,7 @@
     "answer": "وزن",
     "question": "ما الكمية التي تقيس قوة جذب الجاذبية لجسم معين وتُقاس بالنيوتن؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1052,7 +1052,7 @@
     "answer": "وحيد القرن",
     "question": "ما الحيوان الضخم ذو الجلد السميك المعروف بوجود قرن أو قرنين فوق أنفه؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1060,7 +1060,7 @@
     "answer": "وحي",
     "question": "ما اسم الإبلاغ الإلهي للأنبياء في المفهوم الإسلامي؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1076,7 +1076,7 @@
     "answer": "وسائط متعددة",
     "question": "ما المصطلح الذي يجمع النص والصوت والصورة والفيديو في محتوى رقمي واحد؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1100,7 +1100,7 @@
     "answer": "ورشة",
     "question": "ما المكان الذي يعمل فيه الحرفيون لإصلاح الآلات أو صنع الأشياء؟",
     "category": "ثقافة عامة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1116,7 +1116,7 @@
     "answer": "وميض",
     "question": "ما الضوء السريع القصير الذي يظهر لحظة ثم يختفي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1148,7 +1148,7 @@
     "answer": "وابل",
     "question": "ما الاسم العربي الذي يطلق على المطر الشديد الغزير؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1156,7 +1156,7 @@
     "answer": "وباء",
     "question": "ما انتشار مرض معدٍ على نطاق واسع في مجتمع خلال فترة محددة فوق المستوى المتوقع؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1188,7 +1188,7 @@
     "answer": "وطواط",
     "question": "ما الاسم العربي الذي يطلق على الخفاش؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1196,7 +1196,7 @@
     "answer": "وحدة قياس",
     "question": "ما المعيار المتفق عليه الذي تُقاس به كمية مثل المتر للطول؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1228,7 +1228,7 @@
     "answer": "يود",
     "question": "ما العنصر الكيميائي الذي رمزه I ويُستخدم في بعض المطهرات؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1244,7 +1244,7 @@
     "answer": "يرقان",
     "question": "ما الحالة الطبية التي يصفر فيها الجلد وبياض العينين بسبب ارتفاع البيليروبين؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1252,7 +1252,7 @@
     "answer": "يقين",
     "question": "ما الكلمة العربية التي تعني العلم الجازم الذي لا شك فيه؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1268,7 +1268,7 @@
     "answer": "يَعسوب",
     "question": "ما الحشرة الطائرة ذات الجسم الطويل والجناحين الشفافين المزدوجين التي تصطاد البعوض؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1284,7 +1284,7 @@
     "answer": "يربوع",
     "question": "ما القارض الصحراوي الصغير ذو الرجلين الخلفيتين الطويلتين الذي يتحرك بالقفز؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1292,7 +1292,7 @@
     "answer": "ينبوع",
     "question": "ما الموقع الطبيعي الذي تتدفق منه مياه جوفية إلى سطح الأرض؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1308,7 +1308,7 @@
     "answer": "يوم عرفة",
     "question": "ما اليوم التاسع من ذي الحجة الذي يقف فيه الحجاج بعرفة؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1316,7 +1316,7 @@
     "answer": "يوم عاشوراء",
     "question": "ما اليوم العاشر من شهر محرم في التقويم الهجري؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1324,7 +1324,7 @@
     "answer": "يوم النحر",
     "question": "ما اليوم العاشر من ذي الحجة الذي يبدأ فيه عيد الأضحى؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1340,7 +1340,7 @@
     "answer": "ياردة",
     "question": "ما وحدة الطول البريطانية التي تساوي ثلاثة أقدام أو 0.9144 متر؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {

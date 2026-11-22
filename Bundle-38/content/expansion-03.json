@@ -4,7 +4,7 @@
     "answer": "ضبع",
     "question": "ما الحيوان آكل اللحوم المعروف بفكيه القويين وضحكته التي تشبه القهقهة في بعض أنواعه؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -52,7 +52,7 @@
     "answer": "ضمور",
     "question": "ما المصطلح الطبي الذي يشير إلى نقصان حجم عضلة أو عضو بسبب فقدان أنسجته؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -60,7 +60,7 @@
     "answer": "ضفاف",
     "question": "ما الاسم الذي يطلق على جانبي نهر أو مجرى ماء؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -68,7 +68,7 @@
     "answer": "ضريح",
     "question": "ما البناء الذي يقام فوق قبر شخص تخليدًا لذكراه؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -100,7 +100,7 @@
     "answer": "ضربة ركنية",
     "question": "ما اسم استئناف اللعب من زاوية الملعب بعد خروج الكرة من خط المرمى بلمسة لاعب مدافع دون هدف؟",
     "category": "كرة قدم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -108,7 +108,7 @@
     "answer": "ضربة حرة",
     "question": "ما الركلة التي تمنح في كرة القدم للفريق بعد ارتكاب مخالفة وتكون مباشرة أو غير مباشرة؟",
     "category": "كرة قدم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -124,7 +124,7 @@
     "answer": "ضرع",
     "question": "ما عضو الثدييات الأنثوية الذي يحتوي على الحلمات ويُحلب منه لبن البقرة؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -156,7 +156,7 @@
     "answer": "ضمة",
     "question": "ما علامة التشكيل العربية الصغيرة التي تشبه الواو وتكتب فوق الحرف وتدل على الضم؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -164,7 +164,7 @@
     "answer": "ضرس العقل",
     "question": "ما اسم آخر الأضراس ظهورًا في فم الإنسان ويكون غالبًا في نهاية الفك؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -180,7 +180,7 @@
     "answer": "ضباب دخاني",
     "question": "ما نوع تلوث الهواء الذي ينتج من امتزاج الضباب بالملوثات والدخان في المدن؟",
     "category": "بيئة",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -228,7 +228,7 @@
     "answer": "طائر نورس",
     "question": "ما الطائر البحري الأبيض أو الرمادي الذي يتردد قرب الشواطئ ويصدر صياحًا مرتفعًا؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -236,7 +236,7 @@
     "answer": "طائر فلامنغو",
     "question": "ما الطائر المائي طويل الساقين الذي يشتهر بلونه الوردي الناتج جزئيًا عن غذائه؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -244,7 +244,7 @@
     "answer": "طارق بن زياد",
     "question": "من القائد المسلم المرتبط بعبور المضيق إلى الأندلس عام 711 ميلادية؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -252,7 +252,7 @@
     "answer": "طليطلة",
     "question": "ما المدينة الإسبانية التاريخية التي كانت عاصمة مملكة القوط قبل الفتح الإسلامي للأندلس؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -308,7 +308,7 @@
     "answer": "طوق نجاة",
     "question": "ما الحلقة العائمة التي تُرمى لشخص في الماء للمساعدة في إنقاذه؟",
     "category": "ثقافة عامة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -324,7 +324,7 @@
     "answer": "طفو",
     "question": "ما الظاهرة التي تجعل بعض الأجسام تطفو فوق الماء بفعل قوة دفع السائل؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -348,7 +348,7 @@
     "answer": "طابع بريدي",
     "question": "ما القطعة الورقية التي تُلصق على الرسالة دليلًا على دفع تكلفة البريد؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -364,7 +364,7 @@
     "answer": "طاقة شمسية",
     "question": "ما مصدر الطاقة المتجددة الذي يحوّل ضوء الشمس إلى كهرباء باستخدام خلايا خاصة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -380,7 +380,7 @@
     "answer": "طائرة شراعية",
     "question": "ما الطائرة التي تستطيع التحليق مستفيدة من تيارات الهواء الصاعدة دون محرك دفع أثناء الطيران الشراعي؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -388,7 +388,7 @@
     "answer": "طِحال",
     "question": "ما العضو الموجود في الجزء العلوي الأيسر من البطن ويشارك في تنقية الدم والمناعة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -428,7 +428,7 @@
     "answer": "ظِلْف",
     "question": "ما الجزء القرني المشقوق الذي يكسو نهايات أرجل البقر والغنم بدل الحافر؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -436,7 +436,7 @@
     "answer": "ظليم",
     "question": "ما الاسم العربي الفصيح لذكر النعام؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -476,7 +476,7 @@
     "answer": "ظَنِيّ",
     "question": "ما الصفة التي تدل على أمر مبني على الظن لا على اليقين؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -500,7 +500,7 @@
     "answer": "ظبي الريم",
     "question": "ما الحيوان الصحراوي الرشيق الذي يُعرف أيضًا باسم غزال الريم، ولونه رملي شاحب؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -540,7 +540,7 @@
     "answer": "ظاهرة الاحتباس الحراري",
     "question": "ما الظاهرة التي تحتفظ فيها غازات الغلاف الجوي بجزء من حرارة الأرض؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -556,7 +556,7 @@
     "answer": "ظاهرة الانكسار",
     "question": "ما الظاهرة البصرية التي يتغير فيها اتجاه الضوء عند انتقاله بين وسطين شفافين مختلفين؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -564,7 +564,7 @@
     "answer": "ظاهرة الانعكاس",
     "question": "ما الظاهرة التي يرتد فيها الضوء عن سطح بدلًا من النفاذ عبره؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -572,7 +572,7 @@
     "answer": "ظاهرة التكاثف",
     "question": "ما الظاهرة التي يتحول فيها بخار الماء إلى قطرات على سطح زجاج بارد؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -588,7 +588,7 @@
     "answer": "ظهير أيسر",
     "question": "في كرة القدم، ما اسم المدافع الذي يشغل الجانب الأيسر من خط الدفاع؟",
     "category": "كرة قدم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -596,7 +596,7 @@
     "answer": "ظاهرة الفصول الأربعة",
     "question": "ما الظاهرة السنوية الناتجة عن ميل محور الأرض ودورانها حول الشمس فتتغير فصول السنة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -620,7 +620,7 @@
     "answer": "عدسة",
     "question": "ما الجسم البصري الشفاف الذي يكسّر الضوء ليجمعه أو يفرّقه؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -668,7 +668,7 @@
     "answer": "عقيق",
     "question": "ما حجر الزينة من عائلة الكالسيدوني يتوفر بألوان وأنماط متعددة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -684,7 +684,7 @@
     "answer": "عبّارة",
     "question": "ما وسيلة النقل المائية التي تنقل الأشخاص والمركبات بين ضفتين أو ميناءين؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -692,7 +692,7 @@
     "answer": "عُود",
     "question": "ما الآلة الموسيقية الوترية الشرقية المشهورة بجسمها الكمثري وعنقها القصير؟",
     "category": "فنون",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -716,7 +716,7 @@
     "answer": "عصف ذهني",
     "question": "ما أسلوب توليد عدد كبير من الأفكار بحرية قبل تقييمها؟",
     "category": "تعليم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -740,7 +740,7 @@
     "answer": "عمود فقري",
     "question": "ما سلسلة الفقرات العظمية الممتدة على طول ظهر الإنسان وتحمي الحبل الشوكي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -748,7 +748,7 @@
     "answer": "عُقْدة بحرية",
     "question": "ما وحدة قياس السرعة في الملاحة البحرية وتساوي ميلًا بحريًا في الساعة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -764,7 +764,7 @@
     "answer": "عَداد",
     "question": "ما الجهاز الذي يعرض عدد الاستهلاك مثل كمية الكهرباء أو الماء المستخدمة؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -780,7 +780,7 @@
     "answer": "عِلْم الفلك",
     "question": "ما العلم الذي يدرس النجوم والكواكب والمجرات والأجرام السماوية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -788,7 +788,7 @@
     "answer": "عِلْم الجبر",
     "question": "ما فرع الرياضيات الذي يستخدم الرموز والمتغيرات لحل المعادلات؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -804,7 +804,7 @@
     "answer": "غدير",
     "question": "ما الاسم الذي يطلق على تجمع طبيعي صغير من الماء في منخفض بالأرض أو مجرى هادئ؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -812,7 +812,7 @@
     "answer": "غليان",
     "question": "ما العملية التي يتحول فيها السائل إلى بخار في جميع أجزائه عند درجة معينة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -836,7 +836,7 @@
     "answer": "غاز النيون",
     "question": "ما الغاز النبيل الذي يستخدم في المصابيح الإعلانية المتوهجة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -876,7 +876,7 @@
     "answer": "غوريلا",
     "question": "ما القرد الكبير الذي يعيش في غابات وسط إفريقيا ويُعد أكبر القردة العليا الحية؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -908,7 +908,7 @@
     "answer": "غلاف صخري",
     "question": "ما الطبقة الخارجية الصلبة من الأرض التي تضم القشرة والجزء العلوي من الوشاح؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -916,7 +916,7 @@
     "answer": "غلاف مائي",
     "question": "ما الاسم الذي يطلق على جميع مياه الأرض من بحار وأنهار وجليد ومياه جوفية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -932,7 +932,7 @@
     "answer": "غسق",
     "question": "ما الوقت الذي يبدأ فيه اشتداد ظلام الليل بعد غروب الشمس؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -940,7 +940,7 @@
     "answer": "غزوة بدر",
     "question": "ما أول معركة كبرى بين المسلمين وقريش في السنة الثانية للهجرة؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -956,7 +956,7 @@
     "answer": "غزوة الخندق",
     "question": "ما الغزوة التي حفر فيها المسلمون خندقًا للدفاع عن المدينة المنورة؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -972,7 +972,7 @@
     "answer": "غار ثور",
     "question": "ما الغار الذي اختبأ فيه النبي ﷺ وأبو بكر رضي الله عنه أثناء الهجرة؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1028,7 +1028,7 @@
     "answer": "فطر",
     "question": "ما الكائن الذي لا يصنع غذاءه بالبناء الضوئي وقد ينمو على الخشب أو التربة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1084,7 +1084,7 @@
     "answer": "فيزياء",
     "question": "ما العلم الذي يدرس المادة والطاقة والقوى والحركة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1092,7 +1092,7 @@
     "answer": "فتيل",
     "question": "ما الخيط الذي يشتعل في الشمعة ويسحب الشمع السائل لتغذية اللهب؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1100,7 +1100,7 @@
     "answer": "فيروس",
     "question": "ما العامل المعدي الصغير الذي يحتاج إلى خلية حية ليتكاثر؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1124,7 +1124,7 @@
     "answer": "فولاذ",
     "question": "ما السبيكة المعدنية التي تتكون أساسًا من الحديد والكربون وتستخدم في البناء؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1132,7 +1132,7 @@
     "answer": "فوسفات",
     "question": "ما اسم الأملاح المشتقة من حمض الفوسفوريك وتدخل بعض أنواعها في صناعة الأسمدة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1148,7 +1148,7 @@
     "answer": "فصحى",
     "question": "ما الاسم الشائع للصيغة المعيارية من اللغة العربية المستخدمة في الكتابة الرسمية؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1156,7 +1156,7 @@
     "answer": "فلكلور",
     "question": "ما المصطلح الذي يشير إلى التراث الشعبي من حكايات وأغانٍ وعادات؟",
     "category": "ثقافة عامة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1164,7 +1164,7 @@
     "answer": "فيتامين",
     "question": "ما اسم المركبات العضوية التي يحتاجها الجسم بكميات صغيرة لوظائفه الحيوية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1172,7 +1172,7 @@
     "answer": "فرات",
     "question": "ما اسم النهر الكبير الذي ينبع من تركيا ويمر بسوريا والعراق؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1236,7 +1236,7 @@
     "answer": "قنديل بحر",
     "question": "ما الحيوان البحري الهلامي الذي يملك لوامس وقد يسبب لسعات؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1252,7 +1252,7 @@
     "answer": "قرش",
     "question": "ما السمك المفترس الذي يملك هيكلًا غضروفيًا وصفوفًا من الأسنان؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1260,7 +1260,7 @@
     "answer": "قياس",
     "question": "ما العملية التي نقارن فيها كمية بوحدة معيارية لتحديد مقدارها؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1308,7 +1308,7 @@
     "answer": "قشرة أرضية",
     "question": "ما الطبقة الصخرية الخارجية الأرفع من طبقات الأرض الرئيسية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1316,7 +1316,7 @@
     "answer": "قنطرة",
     "question": "ما البناء المقوس الذي يُستخدم كجسر فوق ممر أو مجرى ماء؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1324,7 +1324,7 @@
     "answer": "قضاعة",
     "question": "ما الثديي شبه المائي الماهر في السباحة الذي يصطاد الأسماك وله فراء كثيف؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
@@ -1332,7 +1332,7 @@
     "answer": "قوس قزح",
     "question": "ما الظاهرة البصرية التي تظهر فيها ألوان متدرجة في السماء بعد المطر؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1340,7 +1340,7 @@
     "answer": "قمر صناعي",
     "question": "ما الجهاز الذي يطلق إلى مدار حول الأرض لأغراض الاتصالات أو الرصد؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1356,7 +1356,7 @@
     "answer": "قافية",
     "question": "ما التشابه الصوتي في أواخر أبيات القصيدة في الشعر العربي التقليدي؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v1"
   },
   {
@@ -1388,7 +1388,7 @@
     "answer": "قيراط",
     "question": "ما الوحدة التي تستخدم لقياس كتلة الأحجار الكريمة وتساوي 200 مليغرام؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v1"
   },
   {
