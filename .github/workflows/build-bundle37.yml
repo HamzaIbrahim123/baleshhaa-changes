@@ -66,10 +66,11 @@ jobs:
           cp Bundle-37/backend/rooms/* .qa37/backend/rooms/
           cp Bundle-25/backend/rooms/package.json .qa37/backend/rooms/
           npm install --prefix .qa37/backend/rooms --no-audit --no-fund
-          ./node_modules/.bin/esbuild .qa37/backend/rooms/index.mjs --bundle --platform=node --format=esm --target=node24 --external:pg-native --outfile=.qa37/backend/rooms/index.bundle.mjs
-          printf '{"type":"module","private":true}' > .qa37/backend/rooms/package.runtime.json
-          touch -t 202601010101 .qa37/backend/rooms/index.bundle.mjs .qa37/backend/rooms/package.runtime.json
-          (cd .qa37/backend/rooms && zip -X -q ../../../Bundle-37/backend/build/rooms-function.zip index.bundle.mjs package.runtime.json)
+          mkdir -p .qa37/backend/rooms/dist
+          ./node_modules/.bin/esbuild .qa37/backend/rooms/index.mjs --bundle --platform=node --format=esm --target=node24 --external:pg-native --outfile=.qa37/backend/rooms/dist/index.mjs
+          printf '{"type":"module","private":true}' > .qa37/backend/rooms/dist/package.json
+          touch -t 202601010101 .qa37/backend/rooms/dist/index.mjs .qa37/backend/rooms/dist/package.json
+          (cd .qa37/backend/rooms/dist && zip -X -q ../../../../Bundle-37/backend/build/rooms-function.zip index.mjs package.json)
           base64 -w 0 Bundle-37/backend/build/rooms-function.zip > Bundle-37/backend/build/rooms-function.b64.txt
           unzip -t Bundle-37/backend/build/rooms-function.zip
       - name: Create exactly one Figma Make changes-only ZIP
