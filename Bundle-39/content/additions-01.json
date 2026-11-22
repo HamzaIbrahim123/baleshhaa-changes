@@ -97,8 +97,8 @@
   },
   {
     "letter": "أ",
-    "answer": "أفعى",
-    "question": "ما الاسم العربي الشائع لنوع من الزواحف عديمة الأرجل قد يكون سامًا؟",
+    "answer": "أفعى الجرس",
+    "question": "ما الأفعى الأمريكية التي تحذر خصومها بصوت خشخشة يصدر من طرف ذيلها؟",
     "category": "حيوانات",
     "difficulty": 1,
     "source_reference": "original:bundle39:editorial"
@@ -137,9 +137,9 @@
   },
   {
     "letter": "أ",
-    "answer": "أحافير",
-    "question": "ما بقايا الكائنات القديمة أو آثارها المحفوظة في الصخور؟",
-    "category": "علوم",
+    "answer": "أثقال",
+    "question": "ما الأدوات الرياضية ذات الأوزان المختلفة التي يرفعها الناس لتقوية العضلات؟",
+    "category": "رياضة",
     "difficulty": 1,
     "source_reference": "original:bundle39:editorial"
   },
