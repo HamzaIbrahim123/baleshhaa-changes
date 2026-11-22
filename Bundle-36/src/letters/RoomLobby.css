@@ -224,3 +224,28 @@
 .letters-room__main--in-game > h1,
 .letters-room__main--in-game > .letters-room__intro,
 .letters-room__main--in-game > .letters-room__eyebrow { display: none; }
+
+/* Subtle orientation frame, like the user's reference: orange sides, green top/bottom. */
+.letters-room__board { position: relative; }
+.letters-room__board::before,
+.letters-room__board::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  border-radius: 12px;
+}
+.letters-room__board::before {
+  inset: 9px;
+  z-index: 0;
+  background:
+    linear-gradient(90deg,#fa8d42 0 8%,transparent 8% 92%,#fa8d42 92% 100%),
+    linear-gradient(180deg,#36bd58 0 8%,transparent 8% 92%,#36bd58 92% 100%);
+}
+.letters-room__board::after {
+  inset: 22px;
+  z-index: 0;
+  background: #14283b;
+}
+.letters-room__board .letters-room__hex { z-index: 1; }
+.letters-room__board .letters-room__hex--selected { z-index: 10; }
+.letters-room__board .letters-room__hex--path { z-index: 9; }
