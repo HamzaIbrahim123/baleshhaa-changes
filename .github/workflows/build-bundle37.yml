@@ -67,7 +67,11 @@ jobs:
           cp Bundle-25/backend/rooms/package.json .qa37/backend/rooms/
           npm install --prefix .qa37/backend/rooms --no-audit --no-fund
           mkdir -p .qa37/backend/rooms/dist
-          ./node_modules/.bin/esbuild .qa37/backend/rooms/index.mjs --bundle --platform=node --format=esm --target=node24 --external:pg-native --outfile=.qa37/backend/rooms/dist/index.mjs
+          cat > .qa37/backend/rooms/dist/banner.js <<'EOF'
+          import { createRequire as __createRequire } from 'node:module';
+          const require = __createRequire(import.meta.url);
+          EOF
+          ./node_modules/.bin/esbuild .qa37/backend/rooms/index.mjs --bundle --platform=node --format=esm --target=node24 --external:pg-native --banner:js="$(cat .qa37/backend/rooms/dist/banner.js)" --outfile=.qa37/backend/rooms/dist/index.mjs
           printf '{"type":"module","private":true}' > .qa37/backend/rooms/dist/package.json
           touch -t 202601010101 .qa37/backend/rooms/dist/index.mjs .qa37/backend/rooms/dist/package.json
           (cd .qa37/backend/rooms/dist && zip -X -q ../../../../Bundle-37/backend/build/rooms-function.zip index.mjs package.json)
