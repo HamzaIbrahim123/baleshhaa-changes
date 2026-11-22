@@ -217,7 +217,7 @@ function HostLobby({ initialCode, onBack, onRoomStarted }: Omit<RoomLobbyProps, 
 
   return <div className="letters-room" dir="rtl">
     <Header kind="host" onBack={onBack} />
-    <main className="letters-room__main">
+    <main className={'letters-room__main'+(room && room.hostState.stage!=='lobby' ? ' letters-room__main--in-game' : '')}>
       <div className="letters-room__eyebrow">بلّشها • غرف المباريات</div>
       <h1>{room ? 'غرفة لعبة الحروف' : recovered ? 'عندك غرفة سابقة' : 'جهّز المواجهة'}</h1>
       <p className="letters-room__intro">{room ? 'الغرفة جاهزة. تابع لوحتك أو شارك رابط الشاشة.' :

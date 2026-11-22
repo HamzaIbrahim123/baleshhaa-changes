@@ -18,7 +18,6 @@ export function HostGameControls({room,onUpdate}:{room:HostRoom;onUpdate:(room:H
   const current=state.stage==='question'?state.question:null;
   const currentLetter=focused===null?null:state.letters[focused];
   const canPlay=state.stage==='playing'||state.stage==='question';
-  const activeCell=focused===null?state.startingCell:focused;
   const [busy,setBusy]=useState(false);
   const [error,setError]=useState('');
   const [counts,setCounts]=useState<Record<string,number>|null>(null);
