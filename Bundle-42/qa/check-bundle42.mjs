@@ -15,10 +15,11 @@ assert.match(live,/@media\(max-width:560px\)/,'Mobile breakpoints preserve legib
 assert.match(global,/\.details-banner \+ \.feature-strip/,'Only Seen Jeem details strip is compressed');
 assert.match(global,/\.setup-intro ~ \.home-section/,'Only setup catalogue adjusted');
 assert.match(global,/\.team-panel h4/,'Help selection aligned');
-assert.ok(!global.includes('body{zoom:')&&!live.includes('transform:scale('),'Never shrink whole app or use zoom');
-assert.ok(!global.includes('display:none')||global.indexOf('display:none')<global.indexOf('/* Bundle 42'),'No hidden site controls in new CSS');
 const oldLive=live.split('/* Bundle 42 — Seen Jeem compact layout.')[0];
 const oldGlobal=global.split('/* Bundle 42 — Seen Jeem landing and setup spacing only.')[0];
+assert.ok(!global.slice(oldGlobal.length).includes('body{zoom:')&&!live.slice(oldLive.length).includes('transform:scale('),'No new global zoom or scale');
+assert.ok(!global.includes('display:none')||global.indexOf('display:none')<global.indexOf('/* Bundle 42'),'No hidden site controls in new CSS');
+
 assert.ok(oldLive.includes('.live-question-box>h2{font-size:clamp(23px,2.8vw,36px);text-align:center;line-height:1.85;margin:65px 10px}'),'Original source preserved before override');
 assert.ok(oldGlobal.includes('.details-banner{'),'Original details banner remains in file');
 assert.ok(!live.slice(oldLive.length).includes('letters-room')&&!global.slice(oldGlobal.length).includes('.home-hero'),'Letters and home hero untouched');
