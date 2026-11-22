@@ -58,7 +58,7 @@ jobs:
           assert.match(lobby,/إنهاء الغرفة السابقة وإنشاء جديدة/);
           assert.match(lobby,/recoveredConfirm/);
           assert.match(lobby,/!nickname\(team1\) \|\| !nickname\(team2\) \|\| !bestOf/);
-          assert.match(lobby,/room\.room\.revision,\{kind:'end_match'\}/);
+          assert.match(lobby,/recovered\.room\.revision,\{kind:'end_match'\}/);
           // Current letter is clickable; previous wrong-answer actions are gone.
           assert.match(host,/const focused=state\.focusedCell\?\?state\.currentCell\?\?null/);
           assert.match(host,/if\(cell===focused\)return state\.stage==='playing'\|\|Boolean\(current&&!current\.revealed\)/);
