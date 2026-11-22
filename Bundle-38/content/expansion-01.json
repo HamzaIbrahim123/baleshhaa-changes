@@ -1,0 +1,1402 @@
+[
+  {
+    "letter": "أ",
+    "answer": "أناناس",
+    "question": "ما الفاكهة الاستوائية التي تتميز بقشرة خشنة وتاج من الأوراق الشوكية؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أرجنتين",
+    "question": "ما الدولة التي فاز منتخبها بكأس العالم لكرة القدم عام 2022؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "إبرة",
+    "question": "ما الأداة الرفيعة ذات الثقب في طرفها التي تُستخدم في الخياطة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "إسفنج",
+    "question": "ما المادة المسامية المرنة التي تُستعمل لامتصاص الماء في التنظيف؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أهرامات",
+    "question": "ما اسم المباني الحجرية الضخمة ذات الأوجه المثلثة المشهورة في الجيزة بمصر؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أمانة",
+    "question": "ما اسم الصفة الأخلاقية التي تعني حفظ حقوق الآخرين والوفاء بما اؤتمن عليه الإنسان؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "إيثار",
+    "question": "ما الخُلُق الذي يعني تقديم حاجة الآخرين على حاجة النفس؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أبجدية",
+    "question": "ما الاسم الذي يطلق على مجموعة الحروف المرتبة المستخدمة في كتابة لغة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "إبريق",
+    "question": "ما الإناء المزود بعروة وفوهة يُستخدم لصب الشاي أو الماء؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أفريقيا",
+    "question": "ما القارة التي تقع فيها دولتا كينيا ونيجيريا؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "إسطنبول",
+    "question": "ما المدينة التركية التي يفصل مضيق البوسفور بين جزأيها الأوروبي والآسيوي؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أنبوب",
+    "question": "ما الجسم المجوف الطويل الذي تمر خلاله المياه أو السوائل عادة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أمواج",
+    "question": "ماذا نسمي حركة ارتفاع سطح البحر وانخفاضه على هيئة قمم وقيعان متتابعة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "إشارة مرور",
+    "question": "ما الجهاز الضوئي الذي ينظم سير المركبات بألوانه الأحمر والأصفر والأخضر؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "إلكترون",
+    "question": "ما الجسيم دون الذري ذو الشحنة الكهربائية السالبة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أطلس",
+    "question": "ما الاسم الشائع لكتاب يضم مجموعة خرائط جغرافية؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أسنان",
+    "question": "ما الأجزاء الصلبة في الفم التي نستخدمها لقطع الطعام ومضغه؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "ألاسكا",
+    "question": "ما الولاية الأمريكية الأكبر مساحة والواقعة شمال غرب كندا؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أوزبكستان",
+    "question": "ما الدولة الآسيوية التي عاصمتها طشقند؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أندلس",
+    "question": "ما الاسم التاريخي للمناطق من شبه الجزيرة الإيبيرية التي خضعت للحكم الإسلامي؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أفق",
+    "question": "ما الخط الظاهري البعيد الذي تبدو عنده السماء ملتقية بسطح الأرض أو البحر؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أسبوع",
+    "question": "ما الفترة الزمنية التي تتكون من سبعة أيام؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أصابع",
+    "question": "ما الأجزاء الخمسة الممتدة من كف اليد عند معظم البشر؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أوعية دموية",
+    "question": "ما اسم الأنابيب التي ينقل الدم من خلالها داخل الجسم؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "أ",
+    "answer": "أكسيد الحديد",
+    "question": "ما المادة الناتجة من اتحاد الحديد بالأكسجين في عمليات الأكسدة، وتدخل بعض أنواعها في الصدأ؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بصل",
+    "question": "ما النبات الذي تُقطع طبقاته عند الطهي وقد يسبب تهيج العينين؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بكتيريا",
+    "question": "ما الكائنات الدقيقة أحادية الخلية التي لا تحتوي على نواة محاطة بغشاء؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بيضة",
+    "question": "ما الجسم الذي تضعه الدجاجة ويحتوي على صفار وبياض داخل قشرة؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بئر",
+    "question": "ما الحفرة العميقة التي تُحفر للوصول إلى المياه الجوفية؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بطاطا",
+    "question": "ما النبات الدرني الذي يُستخدم لصنع البطاطا المقلية؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بطيخ",
+    "question": "ما الفاكهة الكبيرة ذات اللب الأحمر غالبًا والقشرة الخضراء؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بقرة",
+    "question": "ما الحيوان الداجن الذي يُربى لإنتاج الحليب ولحمه؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "ببغاء",
+    "question": "ما الطائر المعروف بمنقاره المعقوف وقدرة بعض أنواعه على تقليد أصوات البشر؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بطارية",
+    "question": "ما الجهاز الذي يخزن الطاقة الكيميائية ليحوّلها إلى طاقة كهربائية؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بخار",
+    "question": "ما الحالة الغازية للماء التي تتشكل عند غليانه؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بذرة",
+    "question": "ما جزء النبات الذي يمكنه الإنبات ونمو نبات جديد في الظروف المناسبة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بلجيكا",
+    "question": "ما الدولة الأوروبية التي عاصمتها بروكسل؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بيروت",
+    "question": "ما عاصمة لبنان؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "برشلونة",
+    "question": "ما النادي الإسباني الذي يلعب مبارياته تاريخيًا في ملعب كامب نو؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بروتين",
+    "question": "ما العنصر الغذائي الذي يُبنى من الأحماض الأمينية ويساهم في بناء أنسجة الجسم؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "برمائيات",
+    "question": "ما طائفة الحيوانات الفقارية التي تضم الضفادع والسمادل؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بساط",
+    "question": "ما القطعة المنسوجة التي تُفرش على الأرض للجلوس أو الزينة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بالون",
+    "question": "ما الجسم المرن الذي يُنفخ بالهواء أو الهيليوم ويُستخدم في الاحتفالات؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بوخارست",
+    "question": "ما عاصمة رومانيا؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بريد إلكتروني",
+    "question": "ما وسيلة إرسال الرسائل الرقمية بين العناوين عبر الإنترنت؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بن",
+    "question": "ما الحبوب التي تُحمّص وتُطحن لتحضير القهوة؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "برقوق",
+    "question": "ما الفاكهة ذات النواة الواحدة والتي قد تكون أرجوانية أو صفراء أو حمراء؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "باب",
+    "question": "ما الجزء المتحرك من الجدار الذي يُفتح للدخول إلى الغرفة وإغلاقها؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بصمة",
+    "question": "ما الأثر المميز الذي تتركه الخطوط الدقيقة في طرف إصبع الإنسان؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ب",
+    "answer": "بؤبؤ",
+    "question": "ما الفتحة الداكنة في وسط قزحية العين التي يدخل الضوء عبرها؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تلفاز",
+    "question": "ما الجهاز الذي يعرض البرامج المصورة والصوتية عبر شاشة؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تمثال",
+    "question": "ما المجسم الذي ينحته الفنان على هيئة شخص أو حيوان أو شكل آخر؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تلميذ",
+    "question": "ماذا نسمي الطفل الذي يتعلم على مقاعد المدرسة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "توت",
+    "question": "ما الفاكهة الصغيرة التي تنمو في أنواع مختلفة منها التوت الأسود والأبيض؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "توازن",
+    "question": "ما القدرة التي تساعد الإنسان على الحفاظ على وضع جسمه دون سقوط؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تورنتو",
+    "question": "ما أكبر مدن كندا من حيث عدد السكان وتقع في مقاطعة أونتاريو؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تبخر",
+    "question": "ما العملية الفيزيائية التي يتحول فيها السائل إلى غاز من سطحه؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تكاثف",
+    "question": "ما العملية التي يتحول فيها بخار الماء إلى قطرات سائلة عند التبريد؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تلوث",
+    "question": "ما الاسم الذي يطلق على وجود مواد ضارة في الهواء أو الماء أو التربة؟",
+    "category": "بيئة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تيار كهربائي",
+    "question": "ما اسم حركة الشحنات الكهربائية عبر موصل؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تنفس",
+    "question": "ما العملية الحيوية التي يحصل فيها الجسم على الأكسجين ويطرح ثاني أكسيد الكربون؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تراث",
+    "question": "ما الاسم الذي يطلق على العادات والموروثات التي تنتقل من جيل لآخر؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تاج محل",
+    "question": "ما الضريح الرخامي الأبيض الشهير الموجود في مدينة أغرا الهندية؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تريليون",
+    "question": "ما العدد الذي يساوي ألف مليار في النظام العددي القصير المستخدم حديثًا؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تاريخ",
+    "question": "ما العلم الذي يدرس أحداث الماضي البشري وأسبابها ونتائجها؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تشيلسي",
+    "question": "ما النادي اللندني الذي يحمل لقب البلوز ويلعب في ملعب ستامفورد بريدج؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "ترمس",
+    "question": "ما البقول الذي يُسلق ويؤكل كوجبة خفيفة بعد نقعه وإزالة مرارته في بعض أصنافه؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تفكير",
+    "question": "ما العملية العقلية التي نستخدمها لتحليل الأفكار وحل المشكلات؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تخدير",
+    "question": "ما الإجراء الطبي الذي يمنع الإحساس بالألم أثناء العمليات الجراحية؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تمريض",
+    "question": "ما المهنة الصحية التي تتضمن متابعة المرضى وتقديم الرعاية لهم؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "ترمومتر",
+    "question": "ما الجهاز المستخدم لقياس درجة الحرارة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تشفير",
+    "question": "ما العملية التي تحول البيانات إلى صيغة غير مقروءة دون مفتاح فكها؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تربيع",
+    "question": "في الحساب، ما اسم ضرب عدد في نفسه؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تطعيم",
+    "question": "ما الإجراء الوقائي الذي يعطى فيه لقاح للجسم لتحفيز المناعة؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ت",
+    "answer": "تجمد",
+    "question": "ما العملية التي يتحول فيها الماء السائل إلى ثلج عند انخفاض حرارته؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثلاجة",
+    "question": "ما الجهاز المنزلي الذي يحافظ على برودة الطعام ويبطئ فساده؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثور",
+    "question": "ما اسم ذكر البقر البالغ؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثمرة",
+    "question": "ما الجزء من النبات الذي تتكون بداخله البذور غالبًا بعد إخصاب الزهرة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثانية",
+    "question": "ما وحدة الزمن التي يتكون منها 60 جزءًا في الدقيقة الواحدة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثلث",
+    "question": "ما الكسر الذي يمثل جزءًا واحدًا من ثلاثة أجزاء متساوية؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثمن",
+    "question": "ما المبلغ المالي الذي يُدفع مقابل شراء سلعة أو خدمة؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثقافة",
+    "question": "ما الاسم الذي يشمل معارف المجتمع وفنونه وعاداته وقيمه؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثواب",
+    "question": "ما المصطلح الذي يطلق على الجزاء الحسن على العمل الصالح في الثقافة الإسلامية؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثبات",
+    "question": "ما الكلمة التي تعني عدم التغير أو البقاء على حال واحدة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثقل",
+    "question": "ما الكلمة التي تعني الوزن الكبير أو صعوبة حمل الشيء؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثغرة",
+    "question": "ما الاسم المستخدم لخلل أمني في برنامج يمكن استغلاله للهجوم؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثنائية",
+    "question": "ما الصفة الرياضية التي تشير إلى وجود عنصرين أو جزأين؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثلاثية",
+    "question": "ماذا نسمي مجموعة مكونة من ثلاثة عناصر مترابطة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثروة",
+    "question": "ما الاسم الذي يطلق على مجموع الأموال والممتلكات ذات القيمة لدى الفرد؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثكنة",
+    "question": "ما المنشأة التي يقيم فيها الجنود للتدريب أو الإيواء؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثائر",
+    "question": "ماذا نسمي الشخص الذي يشارك في ثورة ضد نظام قائم؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثورة صناعية",
+    "question": "ما اسم مرحلة التحول التاريخي إلى الإنتاج الآلي التي بدأت في بريطانيا في القرن الثامن عشر؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثقب أسود",
+    "question": "ما الجسم الفلكي الذي يمتلك جاذبية قوية لدرجة أن الضوء لا يستطيع الإفلات من داخله؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثنائي أكسيد الكربون",
+    "question": "ما اسم الغاز ذي الصيغة الكيميائية CO2؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثلوج",
+    "question": "ما جمع كلمة «ثلج» في العربية؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثني",
+    "question": "ما المصدر من الفعل الذي يعني طي الشيء على نفسه أو جعله منحنياً؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثبات انفعالي",
+    "question": "ما الصفة التي تعني القدرة على التحكم بالمشاعر عند التعرض لضغط؟",
+    "category": "علم نفس",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثلاثون",
+    "question": "ما اسم العدد الذي يأتي بعد تسعة وعشرين وقبل واحد وثلاثين؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثمانية",
+    "question": "ما العدد الذي يمثل عدد أرجل العنكبوت؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ث",
+    "answer": "ثلاثمئة",
+    "question": "ما العدد الذي يعادل ثلاثة أمثال المئة؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جرس",
+    "question": "ما الأداة التي تصدر صوت رنين للتنبيه عند باب المنزل أو المدرسة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جبن",
+    "question": "ما الطعام الذي يصنع غالبًا من الحليب بعد تخثر بروتيناته؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جوز",
+    "question": "ما نوع المكسرات ذي القشرة الصلبة ولب يشبه شكل الدماغ؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جبل",
+    "question": "ما التضاريس الطبيعية المرتفعة ذات القمة والمنحدرات؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جنين",
+    "question": "ما اسم الكائن البشري في مرحلة نموه داخل الرحم بعد المرحلة الجنينية المبكرة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جدة",
+    "question": "ما المدينة السعودية الواقعة على ساحل البحر الأحمر وتُعد بوابة بحرية إلى مكة؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جمجمة",
+    "question": "ما الهيكل العظمي الذي يحمي الدماغ ويكوّن عظام الرأس؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جلد",
+    "question": "ما العضو الذي يغطي جسم الإنسان ويحميه من العوامل الخارجية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جريدة",
+    "question": "ما المطبوع الدوري الذي يحتوي على أخبار ومقالات وتحقيقات؟",
+    "category": "إعلام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جرثومة",
+    "question": "ما الاسم الشائع الذي يطلق على كائن دقيق قد يسبب مرضًا؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جليد",
+    "question": "ما الاسم الذي يطلق على الماء في حالته الصلبة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جمباز",
+    "question": "ما الرياضة التي تتضمن حركات التوازن والقفز والدوران على أجهزة مختلفة؟",
+    "category": "رياضة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جنوب",
+    "question": "ما الاتجاه الجغرافي المعاكس لاتجاه الشمال؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جرار",
+    "question": "ما المركبة الزراعية التي تستخدم لجر المحاريث والأدوات في الحقول؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جدار",
+    "question": "ما البناء العمودي الذي يفصل بين غرفتين أو يحيط بمكان؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جيولوجيا",
+    "question": "ما العلم الذي يدرس الصخور وبنية الأرض وتاريخها الجيولوجي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جوز الهند",
+    "question": "ما الثمرة الاستوائية ذات القشرة الليفية التي تحتوي على ماء ولب أبيض؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جهاز تنفس",
+    "question": "ما الجهاز الطبي الذي يساعد المريض على إدخال الهواء إلى الرئتين وإخراجه؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جزر القمر",
+    "question": "ما الدولة الجزرية العربية الواقعة في المحيط الهندي قرب الساحل الشرقي لإفريقيا؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جيبوتي",
+    "question": "ما الدولة الإفريقية المطلة على خليج عدن وعاصمتها تحمل اسمها؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جول",
+    "question": "ما وحدة قياس الطاقة والشغل في النظام الدولي للوحدات؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جذر تربيعي",
+    "question": "ما الاسم الرياضي للعدد الذي يعطيك العدد الأصلي عند ضربه في نفسه؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جرجير",
+    "question": "ما النبات الورقي الأخضر ذو الطعم اللاذع نسبيًا الذي يدخل في السلطات؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جراب",
+    "question": "ما الكيس أو الغلاف الذي يُحفظ فيه سيف أو أداة أو غرض صغير؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ج",
+    "answer": "جمر",
+    "question": "ما قطع الفحم أو الخشب المتوهجة بعد اشتعال النار فيها؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حجر",
+    "question": "ما الجسم الصلب الطبيعي المكون من معدن أو أكثر ويُستخدم في البناء؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حديد",
+    "question": "ما المعدن الذي رمزه الكيميائي Fe ويدخل في صناعة الفولاذ؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حمص",
+    "question": "ما البقوليات التي تُطحن مع الطحينة والليمون لإعداد طبق مشهور في بلاد الشام؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حقيبة",
+    "question": "ما الوعاء المصنوع من جلد أو قماش أو مواد أخرى لحمل الكتب أو الأغراض؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حلزون",
+    "question": "ما الرخوي الذي يحمل معظم أنواعه البرية صدفة لولبية فوق ظهره؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حرير",
+    "question": "ما النسيج الطبيعي الذي تنتجه دودة القز من خيوط شرنقتها؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حشرات",
+    "question": "ما طائفة مفصليات الأرجل التي لها ست أرجل في مرحلة البلوغ؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حنطة",
+    "question": "ما اسم آخر لنبات القمح في اللغة العربية؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حناء",
+    "question": "ما النبات الذي تُستخدم أوراقه المطحونة لصبغ الجلد والشعر؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حاسة الشم",
+    "question": "أي حاسة نستخدمها لتمييز روائح الأزهار والطعام؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حجر رشيد",
+    "question": "ما الحجر الذي ساعد العثور عليه في فهم الكتابة الهيروغليفية المصرية؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حذاء",
+    "question": "ما الشيء الذي نلبسه في القدم لحمايتها عند المشي؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حمار",
+    "question": "ما الحيوان الداجن الشبيه بالحصان الذي عُرف بحمل الأثقال؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حقل",
+    "question": "ما مساحة الأرض التي تُزرع فيها المحاصيل الزراعية؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حمض",
+    "question": "ما المادة التي تزيد تركيز أيونات الهيدروجين في المحلول المائي وفق تعريف أرهينيوس؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حريق",
+    "question": "ماذا نسمي اشتعال نار قد يسبب أضرارًا في مبنى أو غابة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حارس مرمى",
+    "question": "ما اسم اللاعب الذي يحق له إمساك الكرة بيديه داخل منطقة جزائه في كرة القدم؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حبار",
+    "question": "ما الرخوي البحري الذي يملك عادة عشرة أذرع ويمكنه نفث الحبر؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حبق",
+    "question": "ما الاسم الشعبي الشائع في بلاد الشام لنبات الريحان العطري؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حبة البركة",
+    "question": "ما البذور السوداء التي تعرف أيضًا بالحبة السوداء وتستخدم في الطعام؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حيوان منوي",
+    "question": "ما الخلية التناسلية الذكرية التي تندمج مع البويضة في عملية الإخصاب؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حفرية",
+    "question": "ما البقايا أو الآثار المحفوظة لكائن حي عاش في الماضي الجيولوجي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حمراء",
+    "question": "ما مؤنث كلمة «أحمر» في اللغة العربية؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حساب",
+    "question": "ما فرع الرياضيات الذي يركز على عمليات الجمع والطرح والضرب والقسمة؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ح",
+    "answer": "حرف جر",
+    "question": "ما الاسم النحوي لكلمات مثل «في» و«من» و«إلى» التي تجر الاسم بعدها؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خاتم",
+    "question": "ما الحلية المعدنية المستديرة التي تُلبس في الإصبع؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خلية",
+    "question": "ما الوحدة البنيوية والوظيفية الأساسية للكائن الحي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خط الاستواء",
+    "question": "ما خط العرض الوهمي عند درجة الصفر الذي يقسم الأرض إلى نصفين شمالي وجنوبي؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خزان",
+    "question": "ما الوعاء الكبير الذي يُستخدم لتخزين الماء أو الوقود؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خريف",
+    "question": "ما الفصل الذي يأتي بين الصيف والشتاء؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خس",
+    "question": "ما الخضار الورقية المستخدمة في السلطات والسندويشات؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خنفساء",
+    "question": "ما الحشرة التي تتميز معظم أنواعها بأجنحة أمامية صلبة تغطي جناحي الطيران؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خيوط",
+    "question": "ما جمع كلمة «خيط»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خوف",
+    "question": "ما الشعور الذي ينتاب الإنسان عند الإحساس بخطر أو تهديد؟",
+    "category": "علم نفس",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خفقان",
+    "question": "ما الاسم الذي يطلق على إحساس الشخص بضربات قلبه السريعة أو القوية؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خسوف",
+    "question": "ما الظاهرة الفلكية التي تحدث عندما تقع الأرض بين الشمس والقمر فتحجب ضوء الشمس عنه جزئيًا أو كليًا؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خشن",
+    "question": "ما الصفة المضادة لكلمة «ناعم» عند وصف ملمس سطح ما؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خرطوم",
+    "question": "ما العضو الطويل المرن الممتد من وجه الفيل ويُستخدم للشم والإمساك بالماء والطعام؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خضار",
+    "question": "ماذا نسمي المجموعة الغذائية التي تضم الجزر والخس والخيار والبروكلي؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خزانة",
+    "question": "ما قطعة الأثاث التي تحتوي على رفوف وأبواب لحفظ الملابس أو الأدوات؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خرافة",
+    "question": "ما الاعتقاد الشعبي الذي لا يقوم على دليل علمي ويُتداول كأنه حقيقة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خلية عصبية",
+    "question": "ما الوحدة المتخصصة التي تنقل الإشارات في الجهاز العصبي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خوارزمية",
+    "question": "ما مجموعة خطوات محددة ومنتهية تستخدم لحل مشكلة أو تنفيذ مهمة؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خردل",
+    "question": "ما النبات الذي تُصنع من بذوره صلصة صفراء أو بنية ذات طعم لاذع؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خروب",
+    "question": "ما الثمرة البنية الطويلة التي تُستخدم لصناعة شراب شعبي في بلاد الشام؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خطيب",
+    "question": "ماذا نسمي الشخص الذي يلقي الخطبة أمام الناس، مثل خطبة الجمعة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خنجر",
+    "question": "ما السلاح الأبيض القصير ذو النصل الحاد الذي يُلبس أحيانًا في الزينة التقليدية؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خريج",
+    "question": "ماذا نسمي من أنهى دراسته وحصل على شهادة من مؤسسة تعليمية؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خلايا الدم الحمراء",
+    "question": "ما خلايا الدم المسؤولة أساسًا عن نقل الأكسجين بواسطة الهيموغلوبين؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "خ",
+    "answer": "خُطاف",
+    "question": "ما اسم طائر صغير معروف بذيله المشقوق وقدرته على التقاط الحشرات أثناء الطيران؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  }
+]
