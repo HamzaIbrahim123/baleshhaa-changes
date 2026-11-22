@@ -26,7 +26,7 @@ jobs:
       - name: Parse CSS and check output
         run: |
           ./node_modules/.bin/esbuild Bundle-42/src/live-match.css --outfile=/tmp/b42-live.css --log-level=warning
-          ./node_modules/.bin/esbuild Bundle-42/src/index.css --outfile=/tmp/b42-index.css --log-level=warning --external:tailwindcss
+          ./node_modules/.bin/esbuild Bundle-42/src/index.css --outfile=/tmp/b42-index.css --log-level=warning
           test -s /tmp/b42-live.css
           test -s /tmp/b42-index.css
       - name: Pack changed files only
