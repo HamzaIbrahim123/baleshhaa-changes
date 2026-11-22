@@ -1,0 +1,19 @@
+name: Bundle 39 — Live QA test of newly expanded question inventory
+on:
+  push:
+    paths:
+      - '.github/workflows/test-bundle39-qa.yml'
+      - 'Bundle-39/qa/live-question-inventory.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Test 2209 QA questions and two real non-repeated draws
+        run: node Bundle-39/qa/live-question-inventory.mjs
