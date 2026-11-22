@@ -1,0 +1,1402 @@
+[
+  {
+    "letter": "ض",
+    "answer": "ضبع",
+    "question": "ما الحيوان آكل اللحوم المعروف بفكيه القويين وضحكته التي تشبه القهقهة في بعض أنواعه؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضريبة",
+    "question": "ما المبلغ المالي الإلزامي الذي تفرضه الدولة لتمويل الخدمات العامة؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضمان",
+    "question": "ما التعهد الذي يقدمه البائع بإصلاح المنتج أو استبداله خلال فترة معينة بشروط محددة؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضابط",
+    "question": "ما الرتبة الوظيفية التي تُطلق على العسكري الذي يقود الجنود في القوات المسلحة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضياء",
+    "question": "ما الكلمة العربية التي تعني نورًا ساطعًا أو إشراقًا؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضفيرة",
+    "question": "ما تسريحة الشعر التي تتكون من جدل ثلاث خصل أو أكثر معًا؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضمور",
+    "question": "ما المصطلح الطبي الذي يشير إلى نقصان حجم عضلة أو عضو بسبب فقدان أنسجته؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضفاف",
+    "question": "ما الاسم الذي يطلق على جانبي نهر أو مجرى ماء؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضريح",
+    "question": "ما البناء الذي يقام فوق قبر شخص تخليدًا لذكراه؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضيق",
+    "question": "ما الكلمة المضادة لكلمة «اتساع» عند وصف مساحة محدودة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضلال",
+    "question": "ما الكلمة التي تعني الابتعاد عن الصواب أو الطريق الصحيح؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضربة جزاء",
+    "question": "ما الركلة التي تُنفذ من علامة محددة قرب المرمى بعد مخالفة تستوجب ركلة جزاء؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضربة ركنية",
+    "question": "ما اسم استئناف اللعب من زاوية الملعب بعد خروج الكرة من خط المرمى بلمسة لاعب مدافع دون هدف؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضربة حرة",
+    "question": "ما الركلة التي تمنح في كرة القدم للفريق بعد ارتكاب مخالفة وتكون مباشرة أو غير مباشرة؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضوضاء",
+    "question": "ما اسم الأصوات المرتفعة والمزعجة التي قد تؤثر على السمع والتركيز؟",
+    "category": "بيئة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضرع",
+    "question": "ما عضو الثدييات الأنثوية الذي يحتوي على الحلمات ويُحلب منه لبن البقرة؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضرورة",
+    "question": "ما الكلمة التي تعني حاجة ملحّة لا يمكن الاستغناء عنها؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضرر",
+    "question": "ما الأذى الذي يلحق بشخص أو ممتلكات أو بيئة بسبب فعل معين؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضحية",
+    "question": "ما الاسم الذي يطلق على شخص أصيب بأذى نتيجة حادث أو جريمة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضمة",
+    "question": "ما علامة التشكيل العربية الصغيرة التي تشبه الواو وتكتب فوق الحرف وتدل على الضم؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضرس العقل",
+    "question": "ما اسم آخر الأضراس ظهورًا في فم الإنسان ويكون غالبًا في نهاية الفك؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضوء القمر",
+    "question": "ما الضوء المرئي لنا ليلًا نتيجة انعكاس أشعة الشمس عن سطح القمر؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضباب دخاني",
+    "question": "ما نوع تلوث الهواء الذي ينتج من امتزاج الضباب بالملوثات والدخان في المدن؟",
+    "category": "بيئة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضربة رأس",
+    "question": "في كرة القدم، ما اسم توجيه الكرة بالجبهة نحو المرمى أو الزميل؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ض",
+    "answer": "ضبط النفس",
+    "question": "ما الصفة التي تعني القدرة على السيطرة على ردود الأفعال والانفعالات؟",
+    "category": "علم نفس",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طاولة",
+    "question": "ما قطعة الأثاث ذات السطح المرتفع التي نجلس حولها لتناول الطعام أو الدراسة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طابعة",
+    "question": "ما الجهاز الذي ينقل النصوص والصور الرقمية إلى ورق؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طوب",
+    "question": "ما وحدات البناء المستطيلة التي تُصنع من الطين المحروق أو الإسمنت؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طائر نورس",
+    "question": "ما الطائر البحري الأبيض أو الرمادي الذي يتردد قرب الشواطئ ويصدر صياحًا مرتفعًا؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طائر فلامنغو",
+    "question": "ما الطائر المائي طويل الساقين الذي يشتهر بلونه الوردي الناتج جزئيًا عن غذائه؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طارق بن زياد",
+    "question": "من القائد المسلم المرتبط بعبور المضيق إلى الأندلس عام 711 ميلادية؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طليطلة",
+    "question": "ما المدينة الإسبانية التاريخية التي كانت عاصمة مملكة القوط قبل الفتح الإسلامي للأندلس؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طهارة",
+    "question": "ما الحالة التي يحرص عليها المسلم قبل الصلاة وتشمل رفع الحدث وإزالة النجاسة؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طفل",
+    "question": "ماذا نسمي الإنسان في السنوات الأولى من عمره قبل البلوغ؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طريق",
+    "question": "ما الممر الذي تسلكه المركبات والمشاة للانتقال بين الأماكن؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طعم",
+    "question": "ما الإحساس الذي تحدده مستقبلات التذوق على اللسان؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طرد",
+    "question": "في كرة القدم، ما العقوبة التحكيمية التي تُلزم اللاعب بمغادرة الملعب وعدم العودة؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طحلب",
+    "question": "ما الكائن البسيط الذي يقوم غالبًا بالبناء الضوئي ويعيش كثير من أنواعه في الماء؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طوق نجاة",
+    "question": "ما الحلقة العائمة التي تُرمى لشخص في الماء للمساعدة في إنقاذه؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طحينة",
+    "question": "ما المعجون السائل الذي يُصنع من طحن بذور السمسم المقشور؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طفو",
+    "question": "ما الظاهرة التي تجعل بعض الأجسام تطفو فوق الماء بفعل قوة دفع السائل؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طائر كناري",
+    "question": "ما الطائر الصغير الذي يربى في الأقفاص ويشتهر بصوته الغنائي ولونه الأصفر؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طبق",
+    "question": "ما الوعاء المسطح الذي يوضع فيه الطعام عند التقديم؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طابع بريدي",
+    "question": "ما القطعة الورقية التي تُلصق على الرسالة دليلًا على دفع تكلفة البريد؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طلاء",
+    "question": "ما المادة الملونة السائلة التي تُستخدم لتغطية الجدران وتغيير لونها؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طاقة شمسية",
+    "question": "ما مصدر الطاقة المتجددة الذي يحوّل ضوء الشمس إلى كهرباء باستخدام خلايا خاصة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طائرة ورقية",
+    "question": "ما اللعبة خفيفة الوزن التي تطير في الهواء وتُمسك بخيط من الأرض؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طائرة شراعية",
+    "question": "ما الطائرة التي تستطيع التحليق مستفيدة من تيارات الهواء الصاعدة دون محرك دفع أثناء الطيران الشراعي؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طِحال",
+    "question": "ما العضو الموجود في الجزء العلوي الأيسر من البطن ويشارك في تنقية الدم والمناعة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ط",
+    "answer": "طن",
+    "question": "ما وحدة الكتلة المستخدمة للحمولات الكبيرة وتساوي ألف كيلوغرام متري؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظمأ",
+    "question": "ما الكلمة الفصيحة التي تعني العطش الشديد؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظهيرة",
+    "question": "ما الفترة التي تقع في منتصف النهار عندما تكون الشمس قريبة من أعلى موضعها الظاهري؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظريف",
+    "question": "ما الصفة التي تقال للشخص خفيف الظل ولطيف الحديث؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظِلْف",
+    "question": "ما الجزء القرني المشقوق الذي يكسو نهايات أرجل البقر والغنم بدل الحافر؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظليم",
+    "question": "ما الاسم العربي الفصيح لذكر النعام؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظبية",
+    "question": "ما مؤنث كلمة «ظبي»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظلال",
+    "question": "ما جمع كلمة «ظل»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظُمَاء",
+    "question": "ما الكلمة الفصيحة التي تعني شدة الحاجة إلى الماء؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظُنون",
+    "question": "ما جمع كلمة «ظن» في استعمال يدل على الشكوك والاعتقادات؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظَنِيّ",
+    "question": "ما الصفة التي تدل على أمر مبني على الظن لا على اليقين؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظاهر",
+    "question": "ما الكلمة المضادة لكلمة «باطن»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظَهير",
+    "question": "ما الاسم الذي يطلق على شخص يساعد غيره ويسانده؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظُهْر",
+    "question": "ما اسم الصلاة المفروضة التي تؤدى بعد زوال الشمس عن وسط السماء؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظرف زمان",
+    "question": "في النحو، ما الاسم المنصوب الذي يدل على وقت وقوع الفعل مثل «صباحًا» و«ليلًا»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظرف مكان",
+    "question": "في النحو، ما الاسم الذي يدل على مكان وقوع الفعل مثل «فوق» و«تحت»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظلام دامس",
+    "question": "ما التعبير الذي يصف عتمة شديدة لا يكاد يُرى فيها شيء؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظاهرة المد والجزر",
+    "question": "ما الظاهرة البحرية التي يرتفع وينخفض فيها مستوى البحر دوريًا بفعل جاذبية القمر والشمس؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظاهرة الاحتباس الحراري",
+    "question": "ما الظاهرة التي تحتفظ فيها غازات الغلاف الجوي بجزء من حرارة الأرض؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظاهرة الكسوف",
+    "question": "ما الظاهرة التي يحجب فيها القمر ضوء الشمس عن مناطق من سطح الأرض؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظاهرة الانكسار",
+    "question": "ما الظاهرة البصرية التي يتغير فيها اتجاه الضوء عند انتقاله بين وسطين شفافين مختلفين؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظاهرة الانعكاس",
+    "question": "ما الظاهرة التي يرتد فيها الضوء عن سطح بدلًا من النفاذ عبره؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظاهرة التكاثف",
+    "question": "ما الظاهرة التي يتحول فيها بخار الماء إلى قطرات على سطح زجاج بارد؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظهير أيمن",
+    "question": "في كرة القدم، ما اسم المدافع الذي يشغل الجانب الأيمن من خط الدفاع؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظهير أيسر",
+    "question": "في كرة القدم، ما اسم المدافع الذي يشغل الجانب الأيسر من خط الدفاع؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ظ",
+    "answer": "ظاهرة الفصول الأربعة",
+    "question": "ما الظاهرة السنوية الناتجة عن ميل محور الأرض ودورانها حول الشمس فتتغير فصول السنة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عظام",
+    "question": "ما الأجزاء الصلبة التي تكوّن الهيكل العظمي وتدعم الجسم؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عضلات",
+    "question": "ما الأنسجة التي تنقبض وتسترخي لتحريك أطراف الجسم؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عدسة",
+    "question": "ما الجسم البصري الشفاف الذي يكسّر الضوء ليجمعه أو يفرّقه؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عاصفة",
+    "question": "ما الاضطراب الجوي الشديد المصحوب برياح قوية وأحيانًا أمطار أو غبار؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عصير",
+    "question": "ما المشروب الذي يُستخرج بعصر الفاكهة مثل البرتقال والرمان؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عقل",
+    "question": "ما الاسم الشائع للقدرة الإنسانية على الفهم والتفكير والاستدلال؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عدل",
+    "question": "ما المبدأ الأخلاقي الذي يعني إعطاء كل صاحب حق حقه دون ظلم؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عُملة",
+    "question": "ما الوسيلة النقدية المعتمدة للتبادل والشراء في دولة معينة؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عقيق",
+    "question": "ما حجر الزينة من عائلة الكالسيدوني يتوفر بألوان وأنماط متعددة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "علاج",
+    "question": "ما الإجراءات الطبية التي تهدف إلى تخفيف المرض أو شفائه؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عبّارة",
+    "question": "ما وسيلة النقل المائية التي تنقل الأشخاص والمركبات بين ضفتين أو ميناءين؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عُود",
+    "question": "ما الآلة الموسيقية الوترية الشرقية المشهورة بجسمها الكمثري وعنقها القصير؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عربة",
+    "question": "ما المركبة التي تُستخدم لنقل الأشخاص أو البضائع وقد تجرها حيوانات؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عَرش",
+    "question": "ما المقعد المرتفع المخصص للملك في الممالك القديمة؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عصف ذهني",
+    "question": "ما أسلوب توليد عدد كبير من الأفكار بحرية قبل تقييمها؟",
+    "category": "تعليم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عبادة",
+    "question": "ما الاسم الذي يطلق على الأعمال والأقوال التي يتقرب بها المسلم إلى الله؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عقد",
+    "question": "ما الاتفاق الذي يرتب حقوقًا والتزامات بين طرفين؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عمود فقري",
+    "question": "ما سلسلة الفقرات العظمية الممتدة على طول ظهر الإنسان وتحمي الحبل الشوكي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عُقْدة بحرية",
+    "question": "ما وحدة قياس السرعة في الملاحة البحرية وتساوي ميلًا بحريًا في الساعة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عصفورة",
+    "question": "ما مؤنث كلمة «عصفور»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عَداد",
+    "question": "ما الجهاز الذي يعرض عدد الاستهلاك مثل كمية الكهرباء أو الماء المستخدمة؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عِلْم الأحياء",
+    "question": "ما العلم الذي يدرس الكائنات الحية وبنيتها ووظائفها؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عِلْم الفلك",
+    "question": "ما العلم الذي يدرس النجوم والكواكب والمجرات والأجرام السماوية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عِلْم الجبر",
+    "question": "ما فرع الرياضيات الذي يستخدم الرموز والمتغيرات لحل المعادلات؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ع",
+    "answer": "عش",
+    "question": "ما المكان الذي تبنيه الطيور غالبًا من الأغصان لتضع فيه بيضها وتربي صغارها؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غدير",
+    "question": "ما مجرى الماء الصغير أو تجمع الماء الطبيعي الذي يكون عادة أقل حجمًا من النهر؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غليان",
+    "question": "ما العملية التي يتحول فيها السائل إلى بخار في جميع أجزائه عند درجة معينة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غاز",
+    "question": "ما حالة المادة التي لا تمتلك شكلًا أو حجمًا ثابتين وتملأ الوعاء؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غاز الهيليوم",
+    "question": "ما الغاز الخفيف غير القابل للاشتعال الذي يُستخدم أحيانًا لملء البالونات؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غاز النيون",
+    "question": "ما الغاز النبيل الذي يستخدم في المصابيح الإعلانية المتوهجة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غراء",
+    "question": "ما المادة اللاصقة التي تستخدم لجمع قطع الورق أو الخشب أو البلاستيك؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غرام",
+    "question": "ما وحدة الكتلة التي تساوي جزءًا من ألف من الكيلوغرام؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غرفة",
+    "question": "ما المساحة الداخلية المحاطة بجدران داخل مبنى وتُستخدم للنوم أو الجلوس؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غنم",
+    "question": "ما الحيوانات الداجنة التي تشمل الخراف والنعاج وتُربى للصوف واللحم والحليب؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غوريلا",
+    "question": "ما القرد الكبير الذي يعيش في غابات وسط إفريقيا ويُعد أكبر القردة العليا الحية؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غصن",
+    "question": "ما الجزء المتفرع من جذع الشجرة الذي يحمل أوراقًا وأحيانًا ثمارًا؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غرامة",
+    "question": "ما المبلغ المالي الذي يُفرض عقوبة على مخالفة قانونية أو مرورية؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غداء",
+    "question": "ما الوجبة التي يتناولها كثير من الناس في منتصف النهار؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غلاف صخري",
+    "question": "ما الطبقة الخارجية الصلبة من الأرض التي تضم القشرة والجزء العلوي من الوشاح؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غلاف مائي",
+    "question": "ما الاسم الذي يطلق على جميع مياه الأرض من بحار وأنهار وجليد ومياه جوفية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غبار",
+    "question": "ما الجسيمات الدقيقة الصلبة التي قد تبقى عالقة في الهواء؟",
+    "category": "بيئة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غسق",
+    "question": "ما الوقت الذي يبدأ فيه اشتداد ظلام الليل بعد غروب الشمس؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غزوة بدر",
+    "question": "ما أول معركة كبرى بين المسلمين وقريش في السنة الثانية للهجرة؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غزوة أحد",
+    "question": "ما الغزوة التي وقعت قرب جبل أحد في السنة الثالثة للهجرة؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غزوة الخندق",
+    "question": "ما الغزوة التي حفر فيها المسلمون خندقًا للدفاع عن المدينة المنورة؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غردقة",
+    "question": "ما المدينة المصرية المطلة على البحر الأحمر والمشهورة بالسياحة والغوص؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غار ثور",
+    "question": "ما الغار الذي اختبأ فيه النبي ﷺ وأبو بكر رضي الله عنه أثناء الهجرة؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غُربة",
+    "question": "ما شعور الإنسان بالبعد عن وطنه أو أهله والإحساس بالاغتراب؟",
+    "category": "علم نفس",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غِذاء",
+    "question": "ما المواد التي يتناولها الكائن الحي للحصول على الطاقة والعناصر اللازمة للنمو؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "غ",
+    "answer": "غياب",
+    "question": "ما الكلمة المضادة لكلمة «حضور»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فحم",
+    "question": "ما المادة السوداء الصلبة التي تتكون من الكربون وتُستخدم وقودًا للطهي أو التدفئة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فجل",
+    "question": "ما النبات الجذري الذي تؤكل جذوره الحمراء أو البيضاء وله طعم حار نسبيًا؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فستق",
+    "question": "ما نوع المكسرات التي تنمو داخل قشرة تنفتح عادة عند النضج ولها لب أخضر؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فطر",
+    "question": "ما الكائن الذي لا يصنع غذاءه بالبناء الضوئي وقد ينمو على الخشب أو التربة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فراولة",
+    "question": "ما الثمرة الحمراء المعروفة ببذورها الصغيرة الظاهرة على سطحها وطعمها الحلو؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فقاعة",
+    "question": "ما جيب الغاز الصغير المحاط بسائل أو غشاء رقيق؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فئران",
+    "question": "ما جمع كلمة «فأر»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فريسة",
+    "question": "ما الحيوان الذي يصطاده المفترس ليتغذى عليه؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فرن",
+    "question": "ما الجهاز الذي يستخدم الحرارة لخبز الخبز والكعك وطهي الطعام؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فطيرة",
+    "question": "ما المعجنات التي تُخبز محشوة أحيانًا بالجبن أو الزعتر؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فيزياء",
+    "question": "ما العلم الذي يدرس المادة والطاقة والقوى والحركة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فتيل",
+    "question": "ما الخيط الذي يشتعل في الشمعة ويسحب الشمع السائل لتغذية اللهب؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فيروس",
+    "question": "ما العامل المعدي الصغير الذي يحتاج إلى خلية حية ليتكاثر؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فلك",
+    "question": "ما المجال العلمي المرتبط بدراسة النجوم والأجرام السماوية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فرس",
+    "question": "ما الاسم العربي الفصيح للحصان الذي يستخدم للركوب والسباق؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فولاذ",
+    "question": "ما السبيكة المعدنية التي تتكون أساسًا من الحديد والكربون وتستخدم في البناء؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فوسفات",
+    "question": "ما اسم الأملاح والمركبات التي تحتوي على مجموعة الفوسفات وتستخدم في صناعة الأسمدة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فوز",
+    "question": "ما الكلمة التي تعني التغلب على المنافس في مباراة رياضية؟",
+    "category": "رياضة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فصحى",
+    "question": "ما الاسم الشائع للصيغة المعيارية من اللغة العربية المستخدمة في الكتابة الرسمية؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فلكلور",
+    "question": "ما المصطلح الذي يشير إلى التراث الشعبي من حكايات وأغانٍ وعادات؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فيتامين",
+    "question": "ما اسم المركبات العضوية التي يحتاجها الجسم بكميات صغيرة لوظائفه الحيوية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فرات",
+    "question": "ما اسم النهر الكبير الذي ينبع من تركيا ويمر بسوريا والعراق؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فتحة",
+    "question": "ما حركة التشكيل العربية التي تظهر كشرطة صغيرة فوق الحرف وتدل على الفتح؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فصل دراسي",
+    "question": "ما الفترة المحددة من العام الدراسي التي يتلقى فيها الطلاب مجموعة من المقررات؟",
+    "category": "تعليم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ف",
+    "answer": "فانوس",
+    "question": "ما أداة الإضاءة المحمولة التي تشتهر بزينة شهر رمضان؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قلعة",
+    "question": "ما الحصن الكبير المحصن بالأسوار والأبراج للدفاع عن مدينة أو منطقة؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قارة",
+    "question": "ما الكتلة البرية الكبيرة التي تضم عددًا من الدول والمناطق؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قلب",
+    "question": "ما العضو العضلي الذي يضخ الدم عبر الدورة الدموية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قطار",
+    "question": "ما وسيلة النقل التي تسير على قضبان حديدية وتحمل ركابًا أو بضائع؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قنديل بحر",
+    "question": "ما الحيوان البحري الهلامي الذي يملك لوامس وقد يسبب لسعات؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قرفة",
+    "question": "ما التابل العطري البني الذي يستخرج من اللحاء الداخلي لبعض الأشجار؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قرش",
+    "question": "ما السمك المفترس الذي يملك هيكلًا غضروفيًا وصفوفًا من الأسنان؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قياس",
+    "question": "ما العملية التي نقارن فيها كمية بوحدة معيارية لتحديد مقدارها؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قفص",
+    "question": "ما الهيكل المغلق ذي القضبان الذي قد يستخدم لإيواء الطيور؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قفزة",
+    "question": "ما الحركة التي يرتفع فيها الجسم عن الأرض باستخدام القدمين أو إحداهما؟",
+    "category": "رياضة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قميص",
+    "question": "ما قطعة الملابس التي تُلبس على الجزء العلوي من الجسم ولها أكمام عادة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قفل",
+    "question": "ما الأداة التي تستخدم لإغلاق باب أو صندوق ولا تُفتح إلا بمفتاح أو رمز؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قصر",
+    "question": "ما المبنى الكبير الفخم الذي قد يكون مقر إقامة ملك أو حاكم؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قشرة أرضية",
+    "question": "ما الطبقة الصخرية الخارجية الأرفع من طبقات الأرض الرئيسية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قنطرة",
+    "question": "ما البناء المقوس الذي يُستخدم كجسر فوق ممر أو مجرى ماء؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قضاعة",
+    "question": "ما الثديي شبه المائي الماهر في السباحة الذي يصطاد الأسماك وله فراء كثيف؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قوس قزح",
+    "question": "ما الظاهرة البصرية التي تظهر فيها ألوان متدرجة في السماء بعد المطر؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قمر صناعي",
+    "question": "ما الجهاز الذي يطلق إلى مدار حول الأرض لأغراض الاتصالات أو الرصد؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قمامة",
+    "question": "ما المخلفات غير المرغوب فيها التي يجمعها عمال النظافة من البيوت والشوارع؟",
+    "category": "بيئة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قافية",
+    "question": "ما التشابه الصوتي في أواخر أبيات القصيدة في الشعر العربي التقليدي؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قنينة",
+    "question": "ما وعاء السائل الصغير نسبيًا المصنوع من زجاج أو بلاستيك وله عنق ضيق؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قطن",
+    "question": "ما الألياف النباتية البيضاء التي تستخرج من ثمار نبات القطن وتستخدم في الملابس؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قلق",
+    "question": "ما الحالة النفسية التي تتميز بالشعور بالتوتر أو الخوف من أمر متوقع؟",
+    "category": "علم نفس",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قيراط",
+    "question": "ما الوحدة التي تستخدم لقياس كتلة الأحجار الكريمة وتساوي 200 مليغرام؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ق",
+    "answer": "قانون",
+    "question": "ما قاعدة عامة ملزمة تنظم سلوك الأفراد في المجتمع وتضعها سلطة مختصة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  }
+]
