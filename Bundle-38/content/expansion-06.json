@@ -12,7 +12,7 @@
     "answer": "دومينيكا",
     "question": "ما الدولة الجزرية الكاريبية التي عاصمتها روسو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -44,7 +44,7 @@
     "answer": "دبي",
     "question": "ما المدينة الإماراتية المشهورة ببرج خليفة ومطار دولي كبير؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -52,7 +52,7 @@
     "answer": "دريسدن",
     "question": "ما المدينة الألمانية الواقعة على نهر إلبه والمشهورة بكنيسة فراونكيرشه؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -60,7 +60,7 @@
     "answer": "ديترويت",
     "question": "ما المدينة الأمريكية المرتبطة تاريخيًا بصناعة السيارات وشركتي فورد وجنرال موتورز؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -68,7 +68,7 @@
     "answer": "دار السلام",
     "question": "ما المدينة التنزانية الساحلية التي كانت عاصمة البلاد قبل نقل العاصمة إلى دودوما؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -84,7 +84,7 @@
     "answer": "دافوس",
     "question": "ما البلدة السويسرية المعروفة باستضافة الاجتماع السنوي للمنتدى الاقتصادي العالمي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -92,7 +92,7 @@
     "answer": "دي إن إيه",
     "question": "ما الاختصار الذي يطلق على الحمض النووي الريبوزي منقوص الأكسجين حامل المعلومات الوراثية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -100,7 +100,7 @@
     "answer": "ديود",
     "question": "ما المكون الإلكتروني الذي يسمح بمرور التيار الكهربائي في اتجاه واحد أساسًا؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -108,7 +108,7 @@
     "answer": "ديسيبل",
     "question": "ما وحدة المستوى النسبي المستخدمة لقياس شدة الصوت على مقياس لوغاريتمي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -140,7 +140,7 @@
     "answer": "دبس التمر",
     "question": "ما الشراب الداكن الكثيف الذي يصنع بتركيز عصير التمر؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -204,7 +204,7 @@
     "answer": "ذُرة أكسجين",
     "question": "ما الجسيم الذي ينتمي لعنصر عدده الذري ثمانية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -228,7 +228,7 @@
     "answer": "ذُرة نحاس",
     "question": "ما ذرة العنصر الذي عدده الذري 29 ورمزه Cu؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -236,7 +236,7 @@
     "answer": "ذُرة فضة",
     "question": "ما ذرة المعدن الذي عدده الذري 47 ورمزه Ag؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -284,7 +284,7 @@
     "answer": "ذباب التسي تسي",
     "question": "ما الذباب الإفريقي المعروف بقدرته على نقل الطفيلي المسبب لمرض النوم؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -308,7 +308,7 @@
     "answer": "ذو الكفل",
     "question": "من النبي الذي ذكره القرآن الكريم ضمن الصابرين في سورة الأنبياء؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -332,7 +332,7 @@
     "answer": "ذو النورين",
     "question": "ما اللقب الذي اشتهر به الخليفة عثمان بن عفان رضي الله عنه؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -348,7 +348,7 @@
     "answer": "ذو الجناحين",
     "question": "ما اللقب المشهور للصحابي جعفر بن أبي طالب رضي الله عنه؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -356,7 +356,7 @@
     "answer": "ذي قار",
     "question": "ما اسم المعركة التاريخية بين قبائل عربية والفرس قبل الإسلام؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -364,7 +364,7 @@
     "answer": "ذَهَان",
     "question": "ما المصطلح الطبي الذي يصف فقدان الاتصال بالواقع مع أعراض كالهلاوس أو الضلالات؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -396,7 +396,7 @@
     "answer": "ذَبْذَبات فوق صوتية",
     "question": "ما الاهتزازات الصوتية التي يزيد ترددها عن الحد الأعلى للسمع البشري، نحو عشرين ألف هرتز؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -404,7 +404,7 @@
     "answer": "ريغا",
     "question": "ما عاصمة لاتفيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -412,7 +412,7 @@
     "answer": "ريكيافيك",
     "question": "ما عاصمة أيسلندا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -444,7 +444,7 @@
     "answer": "روتردام",
     "question": "ما المدينة الهولندية المشهورة بمينائها البحري الكبير عند مصب الراين؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -452,7 +452,7 @@
     "answer": "ريو دي جانيرو",
     "question": "ما المدينة البرازيلية المشهورة بتمثال المسيح الفادي وشاطئ كوباكابانا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -468,7 +468,7 @@
     "answer": "رُطب",
     "question": "ما التمر الذي وصل إلى مرحلة النضج وأصبح طريًا قبل جفافه التام؟",
     "category": "طعام",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -508,7 +508,7 @@
     "answer": "رَحِم",
     "question": "ما العضو العضلي في جسم المرأة الذي ينمو فيه الجنين أثناء الحمل؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -540,7 +540,7 @@
     "answer": "رِثاء",
     "question": "ما نوع الشعر الذي يُعبّر فيه الشاعر عن الحزن على شخص متوفى؟",
     "category": "لغة وأدب",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -548,7 +548,7 @@
     "answer": "رَشَاقة",
     "question": "ما الصفة التي تدل على خفة الحركة والتناسق في الأداء؟",
     "category": "رياضة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -588,7 +588,7 @@
     "answer": "رَجْل",
     "question": "ما العضو السفلي الذي نستخدمه للمشي والركض ويتصل بالجسم عند الورك؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -596,7 +596,7 @@
     "answer": "رَزْنامة",
     "question": "ما الكلمة العربية التي تعني التقويم أو جدول الأيام والشهور في السنة؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -628,7 +628,7 @@
     "answer": "زيورخ",
     "question": "ما المدينة السويسرية المعروفة بكونها مركزًا ماليًا كبيرًا وتقع عند بحيرة تحمل اسمها؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -644,7 +644,7 @@
     "answer": "زهير بن أبي سلمى",
     "question": "من الشاعر الجاهلي صاحب معلقة تبدأ بذكر أم أوفى وينتمي إلى شعراء المعلقات؟",
     "category": "لغة وأدب",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -652,7 +652,7 @@
     "answer": "زيد بن ثابت",
     "question": "من الصحابي الذي عُرف بكتابة الوحي والمشاركة في جمع القرآن الكريم في عهد الخلفاء؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -660,7 +660,7 @@
     "answer": "زينب بنت خزيمة",
     "question": "من زوجات النبي ﷺ التي لقبت بأم المساكين؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -700,7 +700,7 @@
     "answer": "زبد البحر",
     "question": "ما الرغوة البيضاء التي تتجمع فوق سطح الأمواج عند اضطراب البحر؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -724,7 +724,7 @@
     "answer": "زكام",
     "question": "ما الاسم الشائع لعدوى فيروسية خفيفة تصيب الأنف والحلق وتسبب سيلان الأنف؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -740,7 +740,7 @@
     "answer": "زجاج بركاني",
     "question": "ما المادة الطبيعية السوداء اللامعة التي تتكون عندما تبرد الحمم البركانية بسرعة دون تبلور؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -748,7 +748,7 @@
     "answer": "زراعة عضوية",
     "question": "ما أسلوب إنتاج المحاصيل الذي يحد من استخدام المبيدات والأسمدة الكيميائية الصناعية وفق معايير معتمدة؟",
     "category": "بيئة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -788,7 +788,7 @@
     "answer": "زُلال",
     "question": "ما المادة الشفافة المحيطة بصفار البيضة والتي تصبح بيضاء عند الطهي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -796,7 +796,7 @@
     "answer": "زُجاج معشق",
     "question": "ما نوع الزجاج الملون الذي تُجمع قطعه داخل إطارات زخرفية في نوافذ المباني؟",
     "category": "فنون",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -836,7 +836,7 @@
     "answer": "سورينام",
     "question": "ما الدولة الصغيرة الواقعة شمال أمريكا الجنوبية وعاصمتها باراماريبو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -844,7 +844,7 @@
     "answer": "ساموا",
     "question": "ما الدولة الجزرية الواقعة في المحيط الهادئ وعاصمتها أبيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -852,7 +852,7 @@
     "answer": "سان مارينو",
     "question": "ما الدولة الأوروبية الصغيرة المحاطة بالكامل بإيطاليا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -884,7 +884,7 @@
     "answer": "سراييفو",
     "question": "ما عاصمة البوسنة والهرسك؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -892,7 +892,7 @@
     "answer": "سمرقند",
     "question": "ما المدينة الأوزبكية التاريخية التي كانت محطة كبرى على طريق الحرير؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -900,7 +900,7 @@
     "answer": "سبأ",
     "question": "ما اسم المملكة العربية الجنوبية القديمة التي ورد ذكر ملكتها في قصة النبي سليمان؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -908,7 +908,7 @@
     "answer": "سد مأرب",
     "question": "ما المنشأة المائية القديمة الشهيرة في اليمن التي ارتبطت تاريخيًا بمملكة سبأ؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -916,7 +916,7 @@
     "answer": "سقراط",
     "question": "من الفيلسوف اليوناني الذي كان معلم أفلاطون واشتهر بمنهج الأسئلة والحوار؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -924,7 +924,7 @@
     "answer": "سعد بن أبي وقاص",
     "question": "من الصحابي الذي قاد المسلمين في معركة القادسية؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -956,7 +956,7 @@
     "answer": "سورة الكهف",
     "question": "ما السورة القرآنية التي تتضمن قصة أصحاب الكهف وقصة موسى مع الخضر؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1028,7 +1028,7 @@
     "answer": "شتوتغارت",
     "question": "ما المدينة الألمانية التي ترتبط بصناعة سيارات مرسيدس بنز وبورش؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1036,7 +1036,7 @@
     "answer": "شلال نياجرا",
     "question": "ما الشلالات الواقعة على الحدود بين الولايات المتحدة وكندا والتي تصل بحيرتي إيري وأونتاريو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1044,7 +1044,7 @@
     "answer": "شلالات فيكتوريا",
     "question": "ما الشلالات الواقعة على نهر زامبيزي عند الحدود بين زامبيا وزيمبابوي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1060,7 +1060,7 @@
     "answer": "شبكة عصبية",
     "question": "ما النموذج الحاسوبي المستلهم من ترابط الخلايا العصبية ويستخدم في تعلم الآلة؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1068,7 +1068,7 @@
     "answer": "شبكة الإنترنت",
     "question": "ما الشبكة العالمية التي تربط أجهزة الكمبيوتر والشبكات عبر بروتوكولات اتصال مشتركة؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1084,7 +1084,7 @@
     "answer": "شريحة ذاكرة",
     "question": "ما المكون الإلكتروني الذي يخزن بيانات رقمية داخل الأجهزة؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1100,7 +1100,7 @@
     "answer": "شحنة كهربائية",
     "question": "ما خاصية المادة التي تؤدي إلى قوى تجاذب أو تنافر كهربائي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1108,7 +1108,7 @@
     "answer": "شُعاع",
     "question": "ما خط الضوء الذي يمثل اتجاه انتقال الطاقة في البصريات الهندسية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1180,7 +1180,7 @@
     "answer": "شِفرة وراثية",
     "question": "ما مجموعة القواعد التي تحدد كيف تُترجم ثلاثيات RNA إلى أحماض أمينية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1188,7 +1188,7 @@
     "answer": "شهر قمري",
     "question": "ما المدة المرتبطة بدورة أطوار القمر وتتكون عادة من 29 أو 30 يومًا في التقويم الهجري؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1204,7 +1204,7 @@
     "answer": "صنعاء",
     "question": "ما المدينة اليمنية التاريخية التي تعد العاصمة الدستورية للجمهورية اليمنية؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1236,7 +1236,7 @@
     "answer": "صربيا",
     "question": "ما الدولة الأوروبية التي عاصمتها بلغراد؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1244,7 +1244,7 @@
     "answer": "صخر رسوبي",
     "question": "ما نوع الصخور الناتجة من تراكم الرواسب وتماسكها في طبقات؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1252,7 +1252,7 @@
     "answer": "صخر ناري",
     "question": "ما نوع الصخور التي تتكون من تبرد الصهارة أو الحمم وتصلبها؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1260,7 +1260,7 @@
     "answer": "صخر متحول",
     "question": "ما نوع الصخور التي تغيرت بنيتها بفعل الضغط والحرارة دون انصهار كامل؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1268,7 +1268,7 @@
     "answer": "صخر جيري",
     "question": "ما الصخر الرسوبي الذي يتكون أساسًا من كربونات الكالسيوم ويتفاعل مع الحمض المخفف؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1276,7 +1276,7 @@
     "answer": "صوم",
     "question": "ما الامتناع عن الطعام والشراب من الفجر إلى المغرب بنية العبادة في رمضان؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1340,7 +1340,7 @@
     "answer": "صلاة التراويح",
     "question": "ما الصلاة النافلة الجماعية المشهورة في ليالي شهر رمضان؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1372,7 +1372,7 @@
     "answer": "صلاة الاستسقاء",
     "question": "ما الصلاة التي يؤديها المسلمون لطلب نزول المطر من الله عند الجدب؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1396,7 +1396,7 @@
     "answer": "صحراء الربع الخالي",
     "question": "ما الصحراء الرملية الكبرى التي تمتد داخل شبه الجزيرة العربية وتشمل أجزاء من السعودية وعُمان والإمارات واليمن؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   }
 ]

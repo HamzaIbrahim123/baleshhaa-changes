@@ -28,7 +28,7 @@
     "answer": "كوبا",
     "question": "ما الدولة الجزرية الكاريبية التي عاصمتها هافانا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -36,7 +36,7 @@
     "answer": "كولومبيا",
     "question": "ما الدولة الأمريكية الجنوبية التي عاصمتها بوغوتا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -44,7 +44,7 @@
     "answer": "كوستاريكا",
     "question": "ما الدولة الأمريكية الوسطى التي عاصمتها سان خوسيه؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -52,7 +52,7 @@
     "answer": "كازاخستان",
     "question": "ما الدولة الواقعة في آسيا الوسطى وعاصمتها أستانا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -60,7 +60,7 @@
     "answer": "كينيا",
     "question": "ما الدولة الإفريقية التي عاصمتها نيروبي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -76,7 +76,7 @@
     "answer": "كمبوديا",
     "question": "ما الدولة الواقعة في جنوب شرق آسيا وعاصمتها بنوم بنه؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -100,7 +100,7 @@
     "answer": "كوالالمبور",
     "question": "ما عاصمة ماليزيا التشريعية ومقر البرلمان فيها؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -140,7 +140,7 @@
     "answer": "كراتشي",
     "question": "ما المدينة الباكستانية الساحلية الكبرى التي كانت عاصمة للبلاد قبل إسلام آباد؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -156,7 +156,7 @@
     "answer": "كوبالت",
     "question": "ما المعدن الانتقالي ذو الرمز Co الذي يدخل في بطاريات الليثيوم أيون؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -164,7 +164,7 @@
     "answer": "كبريت",
     "question": "ما العنصر الأصفر غير المعدني ذو الرمز S؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -220,7 +220,7 @@
     "answer": "لوكسمبورغ",
     "question": "ما الدوقية الأوروبية الكبرى الصغيرة الواقعة بين بلجيكا وألمانيا وفرنسا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -244,7 +244,7 @@
     "answer": "لاوس",
     "question": "ما الدولة الحبيسة في جنوب شرق آسيا وعاصمتها فيينتيان؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -260,7 +260,7 @@
     "answer": "لوزان",
     "question": "ما المدينة السويسرية المطلة على بحيرة جنيف والتي يوجد فيها مقر اللجنة الأولمبية الدولية؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -292,7 +292,7 @@
     "answer": "لوساكا",
     "question": "ما عاصمة زامبيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -300,7 +300,7 @@
     "answer": "لومي",
     "question": "ما عاصمة توغو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -324,7 +324,7 @@
     "answer": "ليوبليانا",
     "question": "ما عاصمة سلوفينيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -332,7 +332,7 @@
     "answer": "ليثيوم",
     "question": "ما العنصر المعدني الخفيف ذو الرمز Li المستخدم في بطاريات الهواتف؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -340,7 +340,7 @@
     "answer": "لانتانوم",
     "question": "ما العنصر الكيميائي الذي رمزه La ويعد من عناصر الأرض النادرة؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -348,7 +348,7 @@
     "answer": "ليغنين",
     "question": "ما المركب العضوي المعقد الذي يمنح جدران الخلايا النباتية الخشبية صلابتها؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -380,7 +380,7 @@
     "answer": "لودفيغ فان بيتهوفن",
     "question": "من المؤلف الموسيقي الألماني صاحب السيمفونية التاسعة الشهيرة؟",
     "category": "فنون",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -420,7 +420,7 @@
     "answer": "مالطا",
     "question": "ما الدولة الجزرية الأوروبية الواقعة جنوب صقلية وعاصمتها فاليتا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -452,7 +452,7 @@
     "answer": "منغوليا",
     "question": "ما الدولة الآسيوية الحبيسة الواقعة بين الصين وروسيا وعاصمتها أولان باتور؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -460,7 +460,7 @@
     "answer": "مقدونيا الشمالية",
     "question": "ما الدولة البلقانية التي عاصمتها سكوبيه؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -476,7 +476,7 @@
     "answer": "ميانمار",
     "question": "ما الدولة الآسيوية التي عاصمتها نايبيداو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -516,7 +516,7 @@
     "answer": "مونتيفيديو",
     "question": "ما عاصمة أوروغواي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -532,7 +532,7 @@
     "answer": "مومباي",
     "question": "ما المدينة الهندية الساحلية الكبرى التي كانت تُعرف باسم بومباي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -548,7 +548,7 @@
     "answer": "ملبورن",
     "question": "ما المدينة الأسترالية التي تستضيف بطولة أستراليا المفتوحة للتنس؟",
     "category": "رياضة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -556,7 +556,7 @@
     "answer": "مغنيسيوم",
     "question": "ما العنصر الكيميائي الذي رمزه Mg ويساهم في عمل العضلات والأعصاب؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -564,7 +564,7 @@
     "answer": "ميثان",
     "question": "ما الغاز ذي الصيغة CH4 الذي يعد المكون الرئيسي للغاز الطبيعي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -572,7 +572,7 @@
     "answer": "مول",
     "question": "ما وحدة قياس كمية المادة في النظام الدولي ويرمز إليها mol؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -620,7 +620,7 @@
     "answer": "نيوزيلندا",
     "question": "ما الدولة الجزرية الواقعة جنوب غرب المحيط الهادئ وعاصمتها ويلينغتون؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -644,7 +644,7 @@
     "answer": "ناورو",
     "question": "ما الدولة الجزرية الصغيرة جدًا في المحيط الهادئ التي لا تملك عاصمة رسمية معترفًا بها؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -692,7 +692,7 @@
     "answer": "نواكشوط",
     "question": "ما عاصمة موريتانيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -708,7 +708,7 @@
     "answer": "ناغازاكي",
     "question": "ما المدينة اليابانية التي تعرضت لقنبلة ذرية في 9 أغسطس عام 1945؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -716,7 +716,7 @@
     "answer": "نهر الأمازون",
     "question": "ما النهر العظيم الذي يعبر أمريكا الجنوبية ويعد الأكبر من حيث حجم التدفق المائي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -748,7 +748,7 @@
     "answer": "نجم قطبي",
     "question": "ما النجم الذي يظهر قريبًا من اتجاه القطب السماوي الشمالي ويُستخدم للاستدلال على الشمال؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -756,7 +756,7 @@
     "answer": "نجم سهيل",
     "question": "ما النجم اللامع المعروف عربيًا باسم سهيل واسمه الفلكي كانوبس؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -764,7 +764,7 @@
     "answer": "نيتروجين",
     "question": "ما الغاز الذي يشكل نحو 78 بالمئة من هواء الأرض الجاف؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -772,7 +772,7 @@
     "answer": "نيكل",
     "question": "ما المعدن الذي رمزه Ni ويُستخدم في السبائك وبعض البطاريات؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -788,7 +788,7 @@
     "answer": "نيوترون",
     "question": "ما الجسيم دون الذري المتعادل كهربائيًا الموجود في معظم نوى الذرات؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -852,7 +852,7 @@
     "answer": "هيوستن",
     "question": "ما المدينة الأمريكية الواقعة في تكساس والمرتبطة بمركز جونسون الفضائي التابع لناسا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -868,7 +868,7 @@
     "answer": "هيروشيما",
     "question": "ما المدينة اليابانية التي تعرضت لأول قصف ذري حربي في 6 أغسطس 1945؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -892,7 +892,7 @@
     "answer": "هضبة التبت",
     "question": "ما الهضبة الآسيوية العالية التي تُلقب بسقف العالم؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -916,7 +916,7 @@
     "answer": "هرم زوسر",
     "question": "ما الهرم المدرج الشهير الموجود في سقارة بمصر؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -940,7 +940,7 @@
     "answer": "هاجر",
     "question": "ما اسم أم النبي إسماعيل عليه السلام وزوجة إبراهيم عليه السلام وفق الروايات الإسلامية؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -948,7 +948,7 @@
     "answer": "هيموغلوبين",
     "question": "ما البروتين الموجود في كريات الدم الحمراء الذي ينقل الأكسجين؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -956,7 +956,7 @@
     "answer": "هستامين",
     "question": "ما المادة التي تفرزها خلايا مناعية وتشارك في أعراض الحساسية مثل الحكة والاحمرار؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -964,7 +964,7 @@
     "answer": "هرتز",
     "question": "ما وحدة قياس التردد التي تساوي دورة واحدة في الثانية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -988,7 +988,7 @@
     "answer": "هندسة وراثية",
     "question": "ما المجال الذي يتيح تعديل المادة الوراثية لكائن حي بوسائل تقنية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -996,7 +996,7 @@
     "answer": "هيدرولوجيا",
     "question": "ما العلم الذي يدرس المياه وحركتها وتوزيعها على الأرض؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1004,7 +1004,7 @@
     "answer": "واشنطن",
     "question": "ما عاصمة الولايات المتحدة الأمريكية؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1028,7 +1028,7 @@
     "answer": "واغادوغو",
     "question": "ما عاصمة بوركينا فاسو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1076,7 +1076,7 @@
     "answer": "وادي حنيفة",
     "question": "ما الوادي التاريخي الذي يمر بمنطقة الرياض في السعودية؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1084,7 +1084,7 @@
     "answer": "وادي الملوك",
     "question": "ما الموقع الأثري قرب الأقصر بمصر الذي يضم مقابر فراعنة الدولة الحديثة؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1116,7 +1116,7 @@
     "answer": "ولاية تكساس",
     "question": "ما الولاية الأمريكية التي عاصمتها أوستن وتقع فيها مدن دالاس وهيوستن؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1132,7 +1132,7 @@
     "answer": "ووهان",
     "question": "ما المدينة الصينية الكبرى الواقعة عند التقاء نهري اليانغتسي وهان؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1140,7 +1140,7 @@
     "answer": "وريد",
     "question": "ما الوعاء الدموي الذي يعيد الدم باتجاه القلب؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1156,7 +1156,7 @@
     "answer": "وحدة فلكية",
     "question": "ما وحدة المسافة التي تساوي تقريبًا متوسط المسافة بين الأرض والشمس؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1164,7 +1164,7 @@
     "answer": "واط",
     "question": "ما وحدة قياس القدرة في النظام الدولي وتساوي جولًا واحدًا في الثانية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1180,7 +1180,7 @@
     "answer": "وشم",
     "question": "ما الرسم أو العلامة الدائمة نسبيًا التي تُحدث في الجلد بإدخال صبغة؟",
     "category": "ثقافة عامة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1252,7 +1252,7 @@
     "answer": "يوم التروية",
     "question": "ما اليوم الثامن من ذي الحجة الذي يبدأ فيه الحجاج أعمال الحج في منى؟",
     "category": "ثقافة إسلامية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1268,7 +1268,7 @@
     "answer": "يوم الأرض",
     "question": "ما اليوم البيئي العالمي الذي يوافق 22 أبريل سنويًا؟",
     "category": "بيئة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1276,7 +1276,7 @@
     "answer": "يوم البيئة العالمي",
     "question": "ما المناسبة العالمية التي تُحتفل بها سنويًا في 5 يونيو للتوعية بحماية البيئة؟",
     "category": "بيئة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1292,7 +1292,7 @@
     "answer": "يوم الطفل العالمي",
     "question": "ما المناسبة الدولية التي توافق 20 نوفمبر وتُعنى بحقوق الأطفال؟",
     "category": "ثقافة عامة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1300,7 +1300,7 @@
     "answer": "يوم اللغة العربية",
     "question": "ما المناسبة التي تحتفل بها الأمم المتحدة يوم 18 ديسمبر تكريمًا لإحدى لغاتها الرسمية؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1308,7 +1308,7 @@
     "answer": "يوم العمال العالمي",
     "question": "ما المناسبة التي يحييها العمال في دول كثيرة يوم الأول من مايو؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1324,7 +1324,7 @@
     "answer": "ياقوت أزرق",
     "question": "ما الحجر الكريم الذي ينتمي إلى الكورندوم ويشتهر بلونه الأزرق ويسمى سافير؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1332,7 +1332,7 @@
     "answer": "ياقوت أحمر",
     "question": "ما الحجر الكريم الذي ينتمي إلى الكورندوم ويشتهر بلونه الأحمر ويسمى روبي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1364,7 +1364,7 @@
     "answer": "يونيسف",
     "question": "ما المنظمة التابعة للأمم المتحدة التي تختص بدعم حقوق الأطفال وصحتهم وتعليمهم؟",
     "category": "ثقافة عامة",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1388,7 +1388,7 @@
     "answer": "يوغا",
     "question": "ما الممارسة ذات الجذور الهندية التي تجمع بين أوضاع الجسم والتنفس والتركيز؟",
     "category": "رياضة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {

@@ -4,7 +4,7 @@
     "answer": "أيسلندا",
     "question": "ما الدولة الجزرية الأوروبية التي عاصمتها ريكيافيك؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -20,7 +20,7 @@
     "answer": "ألبانيا",
     "question": "ما الدولة الواقعة في غرب البلقان وعاصمتها تيرانا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -28,7 +28,7 @@
     "answer": "أرمينيا",
     "question": "ما الدولة القوقازية التي عاصمتها يريفان؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -36,7 +36,7 @@
     "answer": "أذربيجان",
     "question": "ما الدولة القوقازية التي عاصمتها باكو وتطل على بحر قزوين؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -44,7 +44,7 @@
     "answer": "إثيوبيا",
     "question": "ما الدولة الإفريقية التي عاصمتها أديس أبابا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -52,7 +52,7 @@
     "answer": "إريتريا",
     "question": "ما الدولة الإفريقية الواقعة على البحر الأحمر وعاصمتها أسمرة؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -60,7 +60,7 @@
     "answer": "أنغولا",
     "question": "ما الدولة الواقعة في جنوب غرب إفريقيا وعاصمتها لواندا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -108,7 +108,7 @@
     "answer": "أوروغواي",
     "question": "ما الدولة الواقعة في أمريكا الجنوبية وعاصمتها مونتيفيديو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -116,7 +116,7 @@
     "answer": "إكوادور",
     "question": "ما الدولة الواقعة على خط الاستواء في أمريكا الجنوبية وعاصمتها كيتو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -132,7 +132,7 @@
     "answer": "أندورا",
     "question": "ما الإمارة الصغيرة الواقعة بين فرنسا وإسبانيا في جبال البرانس؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -236,7 +236,7 @@
     "answer": "بنما",
     "question": "ما الدولة التي تصل برًا بين أمريكا الوسطى وأمريكا الجنوبية وتشتهر بقناة مائية تربط المحيطين؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -244,7 +244,7 @@
     "answer": "بوتان",
     "question": "ما المملكة الواقعة في جبال الهيمالايا وعاصمتها تيمفو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -252,7 +252,7 @@
     "answer": "بروناي",
     "question": "ما الدولة الصغيرة الواقعة في جزيرة بورنيو وعاصمتها بندر سري بكاوان؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -260,7 +260,7 @@
     "answer": "بوروندي",
     "question": "ما الدولة الإفريقية التي اتخذت غيتيغا عاصمة سياسية لها؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -268,7 +268,7 @@
     "answer": "بوركينا فاسو",
     "question": "ما الدولة الإفريقية التي عاصمتها واغادوغو؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -276,7 +276,7 @@
     "answer": "بيلاروسيا",
     "question": "ما الدولة الأوروبية التي عاصمتها مينسك؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -284,7 +284,7 @@
     "answer": "بوليفيا",
     "question": "ما الدولة الأمريكية الجنوبية التي عاصمتها الدستورية سوكري؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -292,7 +292,7 @@
     "answer": "بودابست",
     "question": "ما عاصمة المجر؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -308,7 +308,7 @@
     "answer": "بوغوتا",
     "question": "ما عاصمة كولومبيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -324,7 +324,7 @@
     "answer": "بابل",
     "question": "ما المدينة التاريخية في بلاد الرافدين المرتبطة بالملك حمورابي والبوابة الشهيرة لإشتار؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -404,7 +404,7 @@
     "answer": "تشاد",
     "question": "ما الدولة الإفريقية التي عاصمتها إنجامينا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -436,7 +436,7 @@
     "answer": "توغو",
     "question": "ما الدولة الإفريقية الواقعة على خليج غينيا وعاصمتها لومي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -444,7 +444,7 @@
     "answer": "تركمانستان",
     "question": "ما الدولة الواقعة في آسيا الوسطى وعاصمتها عشق آباد؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -452,7 +452,7 @@
     "answer": "تيمور الشرقية",
     "question": "ما الدولة الواقعة في جنوب شرق آسيا وعاصمتها ديلي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -460,7 +460,7 @@
     "answer": "ترينيداد وتوباغو",
     "question": "ما الدولة الكاريبية المكونة أساسًا من جزيرتين تحملان اسمها؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -468,7 +468,7 @@
     "answer": "تبليسي",
     "question": "ما عاصمة جورجيا الواقعة في منطقة القوقاز؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -476,7 +476,7 @@
     "answer": "تبوك",
     "question": "ما المدينة السعودية الواقعة شمال غرب المملكة والمشهورة باسم غزوة مرتبطة بها؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -484,7 +484,7 @@
     "answer": "تلمسان",
     "question": "ما المدينة الجزائرية التاريخية الواقعة قرب الحدود المغربية؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -532,7 +532,7 @@
     "answer": "تشريح",
     "question": "ما العلم الذي يدرس بنية الجسم وأعضاءه وأجزائه؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -564,7 +564,7 @@
     "answer": "تفاضل",
     "question": "ما فرع الرياضيات الذي يدرس معدلات التغير والمشتقات؟",
     "category": "رياضيات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -676,7 +676,7 @@
     "answer": "ثاني أكسيد الكبريت",
     "question": "ما الغاز الذي صيغته الكيميائية SO2 وينتج من احتراق الكبريت؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -684,7 +684,7 @@
     "answer": "ثاني أكسيد النيتروجين",
     "question": "ما الغاز البني المحمر الذي صيغته NO2 ويعد من ملوثات الهواء؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -692,7 +692,7 @@
     "answer": "ثلاثي أكسيد الكبريت",
     "question": "ما المركب الكيميائي الذي صيغته SO3 ويستخدم في تصنيع حمض الكبريتيك؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -700,7 +700,7 @@
     "answer": "ثابت بلانك",
     "question": "ما الثابت الفيزيائي الذي يربط طاقة الفوتون بتردده بالمعادلة E=hf؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -708,7 +708,7 @@
     "answer": "ثابت الجاذبية العام",
     "question": "ما الثابت G الذي يظهر في قانون نيوتن للجذب العام بين كتلتين؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -716,7 +716,7 @@
     "answer": "ثعلب الفنك",
     "question": "ما نوع الثعالب الصحراوية الصغيرة التي تتميز بأذنين كبيرتين جدًا؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -740,7 +740,7 @@
     "answer": "ثور المسك",
     "question": "ما الثديي القطبي الشبيه بالبقر ذو الفراء الكثيف الذي يعيش في التندرا؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -756,7 +756,7 @@
     "answer": "ثعبان المرجان",
     "question": "ما المجموعة السامة من الثعابين ذات الحلقات الملونة التي تنتشر بعض أنواعها في الأمريكتين؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -764,7 +764,7 @@
     "answer": "ثلج جاف",
     "question": "ما المادة الصلبة شديدة البرودة المصنوعة من ثاني أكسيد الكربون والتي تتسامى دون المرور بالحالة السائلة عند الضغط العادي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -796,7 +796,7 @@
     "answer": "ثقل نوعي",
     "question": "ما المصطلح الذي يعبّر عن نسبة كثافة مادة إلى كثافة مادة مرجعية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -804,7 +804,7 @@
     "answer": "جرينلاند",
     "question": "ما أكبر جزيرة في العالم غير قارية والتي تتمتع بحكم ذاتي ضمن مملكة الدنمارك؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -828,7 +828,7 @@
     "answer": "جزر سليمان",
     "question": "ما الدولة الجزرية في المحيط الهادئ التي عاصمتها هونيارا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -836,7 +836,7 @@
     "answer": "جزر الكناري",
     "question": "ما الأرخبيل الإسباني الواقع في المحيط الأطلسي قبالة الساحل الشمالي الغربي لإفريقيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -860,7 +860,7 @@
     "answer": "جنيف",
     "question": "ما المدينة السويسرية التي يقع فيها المقر الأوروبي للأمم المتحدة؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -908,7 +908,7 @@
     "answer": "جبل كليمنجارو",
     "question": "ما أعلى جبل في إفريقيا ويقع في تنزانيا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -916,7 +916,7 @@
     "answer": "جبل نيبو",
     "question": "ما الجبل الأردني المطل على البحر الميت والذي يرتبط في الموروث بموسى عليه السلام؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -948,7 +948,7 @@
     "answer": "جلوكوز",
     "question": "ما السكر الأحادي ذو الصيغة C6H12O6 ويُعد مصدرًا رئيسيًا لطاقة الخلايا؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -956,7 +956,7 @@
     "answer": "جليسرين",
     "question": "ما المادة الشفافة اللزجة المستخدمة في مستحضرات التجميل والصابون وتعرف كيميائيًا بالجليسرول؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -964,7 +964,7 @@
     "answer": "جرمانيوم",
     "question": "ما العنصر شبه الفلزي الذي رمزه Ge ويستخدم في الإلكترونيات والألياف الضوئية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -972,7 +972,7 @@
     "answer": "جبس",
     "question": "ما المادة المعدنية اللينة المكونة من كبريتات الكالسيوم المائية وتستخدم في البناء؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1084,7 +1084,7 @@
     "answer": "حصار",
     "question": "ما الإجراء العسكري الذي يمنع فيه طرف وصول الإمدادات إلى منطقة بهدف عزلها؟",
     "category": "تاريخ",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1124,7 +1124,7 @@
     "answer": "حجر جيري",
     "question": "ما الصخر الرسوبي الذي يتكون أساسًا من كربونات الكالسيوم؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1132,7 +1132,7 @@
     "answer": "حجر نيزكي",
     "question": "ما الجسم الصخري الذي يصل من الفضاء إلى سطح الأرض بعد نجاته من الاحتراق في الغلاف الجوي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1148,7 +1148,7 @@
     "answer": "حوسبة سحابية",
     "question": "ما نموذج التقنية الذي يتيح استخدام الخوادم والتخزين عبر الإنترنت عند الطلب؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1156,7 +1156,7 @@
     "answer": "حجر كريم",
     "question": "ما المادة المعدنية النادرة أو الجميلة التي تصقل وتستخدم في صناعة الحلي؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1164,7 +1164,7 @@
     "answer": "حجر صحي",
     "question": "ما الإجراء الذي تُقيّد فيه حركة شخص يُحتمل تعرضه لمرض معدٍ خلال فترة معينة؟",
     "category": "صحة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1172,7 +1172,7 @@
     "answer": "حصاد",
     "question": "ما عملية جمع المحاصيل الزراعية بعد نضجها؟",
     "category": "بيئة",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1180,7 +1180,7 @@
     "answer": "حوت أزرق",
     "question": "ما أضخم حيوان معروف عاش على كوكب الأرض من حيث الكتلة؟",
     "category": "حيوانات",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1188,7 +1188,7 @@
     "answer": "حمض الستريك",
     "question": "ما الحمض العضوي الموجود بكثرة في الحمضيات ويُستخدم منظمًا للحموضة في الأغذية؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1196,7 +1196,7 @@
     "answer": "حاسة البصر",
     "question": "ما الحاسة التي تساعد الإنسان على إدراك الألوان والأشكال باستخدام العينين؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1212,7 +1212,7 @@
     "answer": "خليج العقبة",
     "question": "ما الذراع الشمالي الشرقي للبحر الأحمر الذي تقع عليه مدينة العقبة الأردنية؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1220,7 +1220,7 @@
     "answer": "خليج عدن",
     "question": "ما الخليج الواقع بين اليمن والصومال والمتصل بالبحر العربي؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1236,7 +1236,7 @@
     "answer": "خليج المكسيك",
     "question": "ما الخليج الذي تحده الولايات المتحدة والمكسيك وكوبا في أمريكا الشمالية؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1244,7 +1244,7 @@
     "answer": "خطوط الطول",
     "question": "ما الخطوط الوهمية التي تمتد من القطب الشمالي إلى الجنوبي وتُستخدم لتحديد الموقع شرقًا وغربًا؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1260,7 +1260,7 @@
     "answer": "خوارزم",
     "question": "ما الإقليم التاريخي في آسيا الوسطى الذي نُسب إليه العالم محمد بن موسى صاحب أعمال الجبر؟",
     "category": "تاريخ وعلوم",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
@@ -1268,7 +1268,7 @@
     "answer": "خلية شمسية",
     "question": "ما العنصر الإلكتروني الذي يحوّل ضوء الشمس مباشرة إلى تيار كهربائي؟",
     "category": "تقنية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1276,7 +1276,7 @@
     "answer": "خلية دم بيضاء",
     "question": "ما الخلية الموجودة في الدم والتي تساعد الجسم على مقاومة العدوى؟",
     "category": "علوم",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1332,7 +1332,7 @@
     "answer": "خط نسخ",
     "question": "ما نوع الخط العربي الشائع في طباعة الكتب والمصاحف لوضوح حروفه؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1340,7 +1340,7 @@
     "answer": "خط رقعة",
     "question": "ما الخط العربي المستخدم كثيرًا للكتابة اليدوية السريعة والعملية؟",
     "category": "لغة عربية",
-    "difficulty": 1,
+    "difficulty": 2,
     "source_reference": "editorial:v2"
   },
   {
@@ -1364,7 +1364,7 @@
     "answer": "خريطة طبوغرافية",
     "question": "ما الخريطة التي تُمثل ارتفاعات سطح الأرض وتضاريسه باستخدام خطوط الكنتور؟",
     "category": "جغرافيا",
-    "difficulty": 1,
+    "difficulty": 3,
     "source_reference": "editorial:v2"
   },
   {
