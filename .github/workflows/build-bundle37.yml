@@ -1,0 +1,94 @@
+name: Bundle 37 — Test guarded wins and build verified files
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle37.yml'
+      - 'Bundle-37/backend/rooms/**'
+      - 'Bundle-37/src/**'
+      - 'Bundle-37/qa/**'
+  workflow_dispatch:
+concurrency:
+  group: bundle37-build
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  test-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install toolchain
+        run: npm install --no-audit --no-fund --no-save typescript@5.8.3 esbuild@0.25.12 react@19 react-dom@19 @types/react@19 @types/react-dom@19
+      - name: Test backend winning-cell confirmation and correction
+        run: |
+          node Bundle-37/qa/win-confirmation.mjs
+          node Bundle-35/qa/server-contracts.mjs
+      - name: Strictly typecheck presenter and existing room UI
+        run: |
+          mkdir -p .qa37/src/letters
+          cp Bundle-24/src/letters/engine.ts .qa37/src/letters/
+          cp Bundle-36/src/letters/RoomLobby.tsx .qa37/src/letters/
+          cp Bundle-36/src/letters/RoomLobby.css .qa37/src/letters/
+          cp Bundle-37/src/letters/* .qa37/src/letters/
+          printf "declare module '*.css';\n" > .qa37/global.d.ts
+          cat > .qa37/tsconfig.json <<'JSON'
+          {"compilerOptions":{"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","lib":["ES2022","DOM","DOM.Iterable"],"strict":true,"noEmit":true,"jsx":"react-jsx","skipLibCheck":true,"allowSyntheticDefaultImports":true,"types":["react","react-dom"]},"include":["./src/letters/**/*.ts","./src/letters/**/*.tsx","./global.d.ts"]}
+          JSON
+          ./node_modules/.bin/tsc -p .qa37/tsconfig.json
+          ./node_modules/.bin/esbuild Bundle-37/src/letters/HostGameControls.tsx --format=esm --outfile=/tmp/b37-presenter.js
+      - name: Ensure popup cannot declare winner and client opts in
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import fs from 'node:fs';
+          const host=fs.readFileSync('Bundle-37/src/letters/HostGameControls.tsx','utf8');
+          const client=fs.readFileSync('Bundle-37/src/letters/roomClient.ts','utf8');
+          const service=fs.readFileSync('Bundle-37/backend/rooms/service.mjs','utf8');
+          assert.match(host,/requireWinConfirmation:true/);
+          assert.match(host,/pendingWin && <div/);
+          assert.match(host,/role="alertdialog" aria-modal="true"/);
+          assert.match(host,/kind:'confirm_win'/);
+          assert.match(host,/kind:'reject_win'/);
+          assert.match(host,/const inFlight=useRef\(false\)/);
+          assert.match(client,/requireWinConfirmation\?: boolean/);
+          assert.match(service,/command\.requireWinConfirmation===true/);
+          assert.match(service,/if \(state\.pendingWin\)/);
+          assert.match(service,/declinedWin:\{cell,color:proposedColor\}/);
+          assert.doesNotMatch(host,/correct_answer|wrong_answer/);
+          console.log('PASS: opt-in presenter mode, modal, double-click guard and server-gated transitions');
+          JS
+      - name: Build independent Neon server function ZIP
+        run: |
+          mkdir -p .qa37/backend/rooms Bundle-37/backend/build
+          cp Bundle-37/backend/rooms/* .qa37/backend/rooms/
+          cp Bundle-25/backend/rooms/package.json .qa37/backend/rooms/
+          npm install --prefix .qa37/backend/rooms --no-audit --no-fund
+          ./node_modules/.bin/esbuild .qa37/backend/rooms/index.mjs --bundle --platform=node --format=esm --target=node24 --external:pg-native --outfile=.qa37/backend/rooms/index.bundle.mjs
+          printf '{"type":"module","private":true}' > .qa37/backend/rooms/package.runtime.json
+          touch -t 202601010101 .qa37/backend/rooms/index.bundle.mjs .qa37/backend/rooms/package.runtime.json
+          (cd .qa37/backend/rooms && zip -X -q ../../../Bundle-37/backend/build/rooms-function.zip index.bundle.mjs package.runtime.json)
+          base64 -w 0 Bundle-37/backend/build/rooms-function.zip > Bundle-37/backend/build/rooms-function.b64.txt
+          unzip -t Bundle-37/backend/build/rooms-function.zip
+      - name: Create exactly one Figma Make changes-only ZIP
+        run: |
+          cd Bundle-37
+          touch -t 202601010101 src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css
+          zip -X -q Changes-Only.zip src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css
+          unzip -Z1 Changes-Only.zip | sort > /tmp/actual37.txt
+          printf '%s\n' src/letters/roomClient.ts src/letters/HostGameControls.tsx src/letters/HostGameControls.css | sort > /tmp/expected37.txt
+          diff -u /tmp/expected37.txt /tmp/actual37.txt
+          unzip -t Changes-Only.zip
+      - name: Commit the verified artifacts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-37/Changes-Only.zip Bundle-37/backend/build/rooms-function.zip Bundle-37/backend/build/rooms-function.b64.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle 37: verified Figma changes-only ZIP and Neon rooms function'
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
