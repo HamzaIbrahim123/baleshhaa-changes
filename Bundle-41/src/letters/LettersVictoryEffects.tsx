@@ -94,7 +94,7 @@ export function LettersVictoryEffects({
 
     const newVictory = now.victoryKey && now.victoryKey !== lastWin.current &&
       (!winStage(before.stage) || before.round !== now.round);
-    if (newVictory && state.winner !== null && state.winner !== undefined) {
+    if (newVictory && now.victoryKey !== null && state.winner !== null && state.winner !== undefined) {
       lastWin.current = now.victoryKey;
       const winner = state.winner;
       setCelebration({
