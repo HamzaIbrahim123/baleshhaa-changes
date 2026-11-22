@@ -1,0 +1,1402 @@
+[
+  {
+    "letter": "ك",
+    "answer": "كلب",
+    "question": "ما الحيوان الأليف المعروف بحاسة شم قوية ويُستخدم أحيانًا في الحراسة؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كبد",
+    "question": "ما العضو الكبير في البطن الذي يساهم في إزالة السموم وإنتاج العصارة الصفراوية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كرسي",
+    "question": "ما قطعة الأثاث المصممة للجلوس ولها مقعد ومسند غالبًا؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كعكة",
+    "question": "ما المخبوز الحلو الذي يُقدم غالبًا في أعياد الميلاد والمناسبات؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كويكب",
+    "question": "ما الجرم الصخري الصغير الذي يدور حول الشمس ويتركز كثير منه بين المريخ والمشتري؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كربون",
+    "question": "ما العنصر الكيميائي الذي رمزه C ويدخل في تركيب المركبات العضوية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كركم",
+    "question": "ما البهار الأصفر المستخرج من جذمور نبات يستخدم في الكاري؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كبش",
+    "question": "ما اسم ذكر الغنم البالغ؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كيس",
+    "question": "ما الوعاء المرن المفتوح من جهة والذي يستخدم لحمل المشتريات؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كوسا",
+    "question": "ما الخضار الطويلة الخضراء المستخدمة في طبق المحشي ببلاد الشام؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كرفس",
+    "question": "ما الخضار التي تتميز بسيقان مقرمشة وأوراق عطرية وتوضع في الحساء؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كف",
+    "question": "ما الجزء الداخلي من اليد الذي يصل الأصابع بالرسغ؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كفالة",
+    "question": "ما الضمان الذي يتعهد فيه شخص بتحمل التزام شخص آخر عند الحاجة؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كسوف",
+    "question": "ما الظاهرة الفلكية التي يحدث فيها حجب للشمس جزئيًا أو كليًا من منظور راصد على الأرض؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كمان",
+    "question": "ما الآلة الموسيقية الوترية التي تُعزف عادة بواسطة قوس؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كيلومتر",
+    "question": "ما وحدة قياس الطول التي تساوي ألف متر؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كيلوغرام",
+    "question": "ما وحدة الكتلة الأساسية في النظام الدولي التي تعادل ألف غرام؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كحل",
+    "question": "ما المستحضر الذي يستخدم لتحديد العينين وتجميلهما؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كريات الدم البيضاء",
+    "question": "ما خلايا الدم التي تشارك في الدفاع المناعي عن الجسم ضد العدوى؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كهرمان",
+    "question": "ما المادة الصمغية الأحفورية التي تستخدم في الحلي وتحتفظ أحيانًا بحشرات قديمة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كاميرا",
+    "question": "ما الجهاز الذي يلتقط الصور الثابتة أو المتحركة؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كرة سلة",
+    "question": "ما اللعبة الجماعية التي يحاول فيها اللاعبون إدخال كرة في سلة مرتفعة؟",
+    "category": "رياضة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كيوي",
+    "question": "ما الفاكهة صغيرة الحجم ذات قشرة بنية وبرية ولب أخضر عادة؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كثبان رملية",
+    "question": "ما التلال التي تتشكل من تراكم الرمال بفعل حركة الرياح؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ك",
+    "answer": "كبدة",
+    "question": "ما اسم الطعام المحضر من كبد الحيوان بعد طهيه بالتوابل؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لبن",
+    "question": "ما المنتج الأبيض المصنوع بتخمير الحليب باستخدام بكتيريا نافعة؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لغة",
+    "question": "ما نظام الرموز والأصوات والقواعد الذي يستخدمه البشر للتواصل؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لعبة",
+    "question": "ما النشاط المنظم بقواعد يشارك فيه الناس للتسلية أو التنافس؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لوح",
+    "question": "ما السطح المسطح الذي تُكتب عليه الملاحظات أو الرسومات؟",
+    "category": "تعليم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لولب",
+    "question": "ما الشكل الحلزوني الذي يلتف حول محور وهو مستخدم في النوابض والبراغي؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "ليث",
+    "question": "ما الاسم العربي الفصيح الذي يُستخدم بمعنى الأسد؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "ليزر",
+    "question": "ما نوع الضوء المتماسك شديد التركيز الذي يستخدم في المسح والطب والاتصالات؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "ليف",
+    "question": "ما المادة النباتية الليفية المستخدمة في التنظيف أو صناعة الحبال؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لقمة",
+    "question": "ماذا نسمي قطعة الطعام الصغيرة التي توضع في الفم مرة واحدة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لحن",
+    "question": "ما التسلسل المنظم من النغمات الذي تتكون منه جملة موسيقية؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لقطة",
+    "question": "ما الجزء المصور من مشهد سينمائي يستمر عادة من بدء التسجيل حتى قطعه؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لاصق",
+    "question": "ما المادة التي تثبت جسمين معًا عند وضعها بين سطحيهما؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لون",
+    "question": "ما الخاصية البصرية التي ندركها نتيجة اختلاف أطوال موجات الضوء المرئي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لبان",
+    "question": "ما المادة التي تُمضغ في الفم لفترة دون ابتلاعها غالبًا؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لغز",
+    "question": "ما سؤال التفكير الذي يحتاج إلى حل غير ظاهر مباشرة أو إلى استنتاج؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لُدونة",
+    "question": "ما الخاصية التي تسمح للمادة بتغيير شكلها تغييرًا دائمًا دون انكسار عند قوة مناسبة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لطف",
+    "question": "ما الصفة التي تدل على الرفق واللين في التعامل مع الناس؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لهو",
+    "question": "ما الكلمة التي تعني التسلية أو الانشغال بنشاط للمتعة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لباب",
+    "question": "ما الاسم العربي الذي يطلق على الجزء الداخلي الخالص من الشيء كاللباب داخل الثمرة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لافتة",
+    "question": "ما اللوحة المكتوبة التي تُعلق على متجر لإظهار اسمه أو توجيه المارة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لائحة",
+    "question": "ما مجموعة التعليمات أو الأسماء المرتبة التي تُكتب لتنظيم أمر؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لوزة",
+    "question": "ما إحدى الكتلتين اللمفاويتين الموجودتين عند جانبي مؤخرة الحلق؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لسعة",
+    "question": "ما الألم أو الأثر الذي قد تتركه نحلة بعد إدخال إبرتها في الجلد؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لعبة الدومينو",
+    "question": "ما لعبة القطع المستطيلة المرقمة بنقاط التي تُرتب القطع فيها حسب الأعداد المتطابقة؟",
+    "category": "رياضة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ل",
+    "answer": "لجام",
+    "question": "ما جزء عدة الحصان الذي يثبت على رأسه ويساعد الفارس على توجيهه؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مروحة",
+    "question": "ما الجهاز ذو الشفرات الدوارة الذي يحرك الهواء لتبريد المكان؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "معدن",
+    "question": "ما المادة الطبيعية الصلبة ذات التركيب الكيميائي المحدد والبنية البلورية غالبًا؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مرآة",
+    "question": "ما السطح الأملس الذي يعكس الضوء ويظهر صور الأجسام أمامه؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "منارة",
+    "question": "ما البرج المرتفع الذي يرسل ضوءًا لإرشاد السفن قرب السواحل؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مطر",
+    "question": "ما قطرات الماء السائل التي تسقط من الغيوم إلى سطح الأرض؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "موجة",
+    "question": "ما اضطراب ينتقل عبر وسط أو فراغ وينقل طاقة دون نقل المادة معه بالضرورة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مرجان",
+    "question": "ما الكائن البحري الذي ينتمي إلى اللاسعات ويبني كثير من أنواعه الشعاب المرجانية؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مجهر",
+    "question": "ما الجهاز البصري الذي يكبّر الأجسام الدقيقة التي لا ترى بوضوح بالعين المجردة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مرمى",
+    "question": "في كرة القدم، ما الهيكل المستطيل المكون من قائمين وعارضة تحاول الفرق إدخال الكرة فيه؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مدرب",
+    "question": "ما الشخص المسؤول عن تدريب الفريق الرياضي ووضع خطته للمباراة؟",
+    "category": "رياضة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مدافع",
+    "question": "ما اللاعب الذي تتركز مهمته على إيقاف هجمات الفريق المنافس قرب مرماه؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مهاجم",
+    "question": "ما اللاعب الذي تتركز مهمته على صناعة فرص التسجيل وإحراز الأهداف قرب مرمى المنافس؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مكعب",
+    "question": "ما المجسم الهندسي الذي يتكون من ستة أوجه مربعة متساوية؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مثلث",
+    "question": "ما الشكل الهندسي الذي يتكون من ثلاثة أضلاع وثلاث زوايا؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "متحف",
+    "question": "ما المؤسسة التي تجمع المقتنيات التاريخية أو الفنية وتعرضها للجمهور؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مكتبة",
+    "question": "ما المكان الذي تجمع فيه الكتب وتُستعار أو تُقرأ للدراسة والمعرفة؟",
+    "category": "تعليم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مكنسة",
+    "question": "ما الأداة المنزلية التي تستخدم لتنظيف الأرض من الغبار والأوساخ؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "موسيقى",
+    "question": "ما الفن الذي ينظم الأصوات والإيقاعات في ألحان ومقطوعات؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "ميكروفون",
+    "question": "ما الجهاز الذي يحول الموجات الصوتية إلى إشارات كهربائية؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مسبحة",
+    "question": "ما الأداة المؤلفة من حبات متسلسلة يستخدمها البعض في الذكر والعد؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مساحة",
+    "question": "ما الكمية الرياضية التي تقيس مقدار السطح المحصور داخل شكل ثنائي الأبعاد؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "محرك",
+    "question": "ما الجهاز الذي يحول شكلًا من الطاقة إلى حركة ميكانيكية؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مناخ",
+    "question": "ما متوسط أحوال الجو المعتادة في مكان على مدى سنوات طويلة؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "مئذنة",
+    "question": "ما البرج الذي يرتفع قرب المساجد وكان يُرفع منه الأذان تقليديًا؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "م",
+    "answer": "ميتوكوندريا",
+    "question": "ما العضية الخلوية التي تنتج معظم طاقة ATP في خلايا حقيقية النواة عبر التنفس الخلوي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نسر",
+    "question": "ما الطائر الجارح الكبير المعروف بقوة بصره ومخالبه ويستخدم جناحين عريضين للتحليق؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نملة",
+    "question": "ما الحشرة الاجتماعية الصغيرة التي تعيش في مستعمرات منظمة؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نار",
+    "question": "ما الظاهرة الناتجة عن الاحتراق وترافقها حرارة وضوء؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نجار",
+    "question": "ما الحرفي الذي يعمل في صناعة الأثاث والأبواب من الخشب؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نافورة",
+    "question": "ما المنشأة التي تدفع المياه إلى الأعلى لتسقط بأشكال زخرفية؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نخلة",
+    "question": "ما الشجرة التي تنتج ثمار التمر؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "ناقة",
+    "question": "ما اسم أنثى الجمل البالغة؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نيزك",
+    "question": "ما الجسم الصخري أو المعدني الفضائي الذي يصل إلى سطح الأرض بعد مروره بالغلاف الجوي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نبات",
+    "question": "ما الكائن الحي الذي يصنع معظم أنواعه غذاءه باستخدام ضوء الشمس في عملية البناء الضوئي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "ناطحة سحاب",
+    "question": "ما المبنى الشاهق ذو الطوابق العديدة الذي يرتفع كثيرًا فوق المباني المجاورة؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نفط",
+    "question": "ما السائل الأحفوري الخام المستخرج من باطن الأرض ويُكرر لإنتاج الوقود؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نحاس",
+    "question": "ما المعدن ذو اللون الأحمر المائل للبني ورمزه الكيميائي Cu؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نيوتن",
+    "question": "من العالم الإنجليزي الذي صاغ قوانين الحركة الثلاثة ووضع قانون الجاذبية الكونية؟",
+    "category": "تاريخ وعلوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نواة",
+    "question": "ما الجزء المحاط بغشاء في الخلايا حقيقية النواة ويحتوي معظم مادتها الوراثية؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نور",
+    "question": "ما الكلمة العربية التي تعني الضوء أو الإشراق؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نشيد",
+    "question": "ما النص الغنائي الذي يؤديه جمع من الناس في المناسبات الوطنية أو المدرسية؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نسيج",
+    "question": "ما مجموعة الخلايا المتشابهة التي تؤدي وظيفة مشتركة في جسم الكائن الحي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نفق",
+    "question": "ما الممر المحفور تحت الأرض أو الجبال لمرور المركبات أو القطارات؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نقود",
+    "question": "ما الأوراق والعملات المعدنية المستخدمة في البيع والشراء؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نغم",
+    "question": "ما الصوت الموسيقي الذي يتميز بارتفاع محدد ومُدة زمنية؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نسبة مئوية",
+    "question": "ما الكمية الرياضية التي تُعبّر عن جزء من كل مقداره مئة؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نظارة",
+    "question": "ما الأداة ذات العدستين التي توضع أمام العينين لتحسين الرؤية أو حمايتها؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نشا",
+    "question": "ما الكربوهيدرات المخزنة في النباتات والموجودة بكثرة في البطاطا والأرز؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نتيجة",
+    "question": "ما الاسم الذي يطلق على حاصل العملية الحسابية أو المخرج النهائي لاختبار؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ن",
+    "answer": "نقطة",
+    "question": "ما العلامة الصغيرة في نهاية الجملة الخبرية في علامات الترقيم؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هيدروجين",
+    "question": "ما العنصر الكيميائي الأخف الذي يحمل الرمز H؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هيل",
+    "question": "ما البهار العطري الذي يُضاف إلى القهوة العربية وبعض الحلويات؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هيكل عظمي",
+    "question": "ما مجموعة العظام التي تدعم الجسم وتحمي أعضاءه؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هضبة",
+    "question": "ما تضاريس الأرض المرتفعة ذات السطح شبه المستوي مقارنة بالمناطق المحيطة؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هزة أرضية",
+    "question": "ما الاهتزاز الذي يحدث لسطح الأرض نتيجة إطلاق طاقة من داخلها؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هبة",
+    "question": "ما المال أو الشيء الذي يعطى لشخص بلا مقابل على سبيل التبرع؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هدوء",
+    "question": "ما الحالة التي تقل فيها الضوضاء والحركة والاضطراب؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هرمون",
+    "question": "ما المادة الكيميائية التي تفرزها غدد في الجسم لتنظيم وظائف أعضاء أخرى؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "همزة",
+    "question": "ما الحرف العربي الذي يكتب بأشكال منها «أ» و«إ» و«ء»؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هوية",
+    "question": "ما مجموعة البيانات أو الصفات التي تميز شخصًا عن غيره؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هتاف",
+    "question": "ما الصيحة المرتفعة التي يرددها جمهور لتشجيع فريق رياضي؟",
+    "category": "رياضة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هدنة",
+    "question": "ما الاتفاق المؤقت على وقف القتال بين طرفين متحاربين؟",
+    "category": "تاريخ",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هوليوود",
+    "question": "ما الحي في لوس أنجلوس المرتبط تاريخيًا بصناعة السينما الأمريكية؟",
+    "category": "فنون",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هجاء",
+    "question": "ما النوع الأدبي الذي يُعبّر فيه الشاعر عن الذم والسخرية من شخص أو أمر؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هجرة الطيور",
+    "question": "ما انتقال الطيور الموسمي بين مناطق التكاثر والشتاء؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هداف",
+    "question": "ما لقب اللاعب الذي يسجل عددًا كبيرًا من الأهداف في دوري أو بطولة؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هكتار",
+    "question": "ما وحدة المساحة المستخدمة في الزراعة وتساوي عشرة آلاف متر مربع؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هلام",
+    "question": "ما المادة شبه الصلبة التي تحتفظ بسائل داخل بنية شبكية مثل بعض أنواع الجل؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هواية",
+    "question": "ما النشاط الذي يمارسه الشخص في وقت فراغه للمتعة دون أن يكون عملًا أساسيًا؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هجوم",
+    "question": "في كرة القدم، ما المصطلح الذي يطلق على تحركات الفريق نحو مرمى الخصم بهدف التسجيل؟",
+    "category": "كرة قدم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هضم",
+    "question": "ما العملية التي يفتت فيها الجسم الطعام إلى مواد بسيطة قابلة للامتصاص؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هشاشة العظام",
+    "question": "ما المرض الذي تقل فيه كثافة العظم وتزداد احتمالات تعرضه للكسر؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هرب",
+    "question": "ما المصدر أو الفعل الذي يدل على الفرار من خطر أو مكان؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هدير",
+    "question": "ما الاسم الذي يطلق على صوت قوي متصل مثل صوت البحر الهائج؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ه",
+    "answer": "هَرّ",
+    "question": "ما الاسم العربي الفصيح الذي يطلق على القط المنزلي؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وزن",
+    "question": "ما الكمية التي تقيس قوة جذب الجاذبية لجسم معين وتُقاس بالنيوتن؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "ولادة",
+    "question": "ما العملية التي يخرج فيها الطفل من رحم أمه عند اكتمال الحمل أو انتهائه؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وعد",
+    "question": "ما التعهد الذي يقدمه شخص بالقيام بأمر في المستقبل؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وداع",
+    "question": "ما الكلمة التي تطلق على مفارقة شخص مع إلقاء التحية عند الرحيل؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وجبة",
+    "question": "ما كمية الطعام التي يتناولها الشخص في وقت محدد مثل الإفطار أو الغداء؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وجه",
+    "question": "ما الجزء الأمامي من الرأس الذي يضم العينين والأنف والفم؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وحيد القرن",
+    "question": "ما الحيوان الضخم ذو الجلد السميك المعروف بوجود قرن أو قرنين فوق أنفه؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وحي",
+    "question": "ما اسم الإبلاغ الإلهي للأنبياء في المفهوم الإسلامي؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وتد",
+    "question": "ما المسمار الطويل أو القطعة التي تثبت بها الخيمة في الأرض؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وسائط متعددة",
+    "question": "ما المصطلح الذي يجمع النص والصوت والصورة والفيديو في محتوى رقمي واحد؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وظيفة",
+    "question": "ما العمل المنتظم الذي يؤديه شخص مقابل أجر؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وصلة",
+    "question": "ما القطعة التي تربط أنبوبين أو سلكين لتكوين اتصال بينهما؟",
+    "category": "تقنية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "ورشة",
+    "question": "ما المكان الذي يعمل فيه الحرفيون لإصلاح الآلات أو صنع الأشياء؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وعاء",
+    "question": "ما الجسم المجوف الذي يوضع فيه الطعام أو الماء أو مواد أخرى؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وميض",
+    "question": "ما الضوء السريع القصير الذي يظهر لحظة ثم يختفي؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وسام",
+    "question": "ما الشارة التي تُمنح تكريمًا لشخص تقديرًا لإنجاز أو خدمة؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وشاح",
+    "question": "ما قطعة القماش الطويلة التي تلبس حول الرقبة أو الكتفين للزينة والدفء؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وقاية",
+    "question": "ما الإجراءات التي تُتخذ لتجنب الإصابة بمرض أو حدوث خطر؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وابل",
+    "question": "ما الاسم العربي الذي يطلق على المطر الشديد الغزير؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وباء",
+    "question": "ما انتشار مرض معدٍ على نطاق واسع في مجتمع خلال فترة محددة فوق المستوى المتوقع؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وجود",
+    "question": "ما الكلمة المضادة لكلمة «عدم» في الفلسفة واللغة؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "ولاء",
+    "question": "ما الصفة التي تعني الإخلاص والانتماء إلى شخص أو جماعة أو وطن؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وئام",
+    "question": "ما الكلمة التي تعني الانسجام والاتفاق بين الأشخاص؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وطواط",
+    "question": "ما الاسم العربي الذي يطلق على الخفاش؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "و",
+    "answer": "وحدة قياس",
+    "question": "ما المعيار المتفق عليه الذي تُقاس به كمية مثل المتر للطول؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يرقة",
+    "question": "ما المرحلة التي تخرج فيها الحشرة من البيضة قبل التحول إلى عذراء أو حشرة بالغة في الحشرات كاملة التحول؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يخت",
+    "question": "ما القارب المجهز غالبًا للرحلات البحرية والنزهات؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يابس",
+    "question": "ما الصفة المضادة لكلمة «رطب» عند وصف شيء فقد رطوبته؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يود",
+    "question": "ما العنصر الكيميائي الذي رمزه I ويُستخدم في بعض المطهرات؟",
+    "category": "علوم",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يونان",
+    "question": "ما الدولة الأوروبية التي تقع فيها مدينة أثينا؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يرقان",
+    "question": "ما الحالة الطبية التي يصفر فيها الجلد وبياض العينين بسبب ارتفاع البيليروبين؟",
+    "category": "صحة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يقين",
+    "question": "ما الكلمة العربية التي تعني العلم الجازم الذي لا شك فيه؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يَمّ",
+    "question": "ما الكلمة الفصيحة التي تعني البحر الواسع؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يَعسوب",
+    "question": "ما الحشرة الطائرة ذات الجسم الطويل والجناحين الشفافين المزدوجين التي تصطاد البعوض؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يتيم",
+    "question": "ما الاسم الذي يُطلق على الطفل الذي فقد أباه قبل البلوغ في اصطلاح الفقه الإسلامي؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يربوع",
+    "question": "ما القارض الصحراوي الصغير ذو الرجلين الخلفيتين الطويلتين الذي يتحرك بالقفز؟",
+    "category": "حيوانات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "ينبوع",
+    "question": "ما الموقع الطبيعي الذي تتدفق منه مياه جوفية إلى سطح الأرض؟",
+    "category": "جغرافيا",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يوم الجمعة",
+    "question": "ما يوم الأسبوع الذي تقام فيه صلاة الجمعة الجماعية للمسلمين؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يوم عرفة",
+    "question": "ما اليوم التاسع من ذي الحجة الذي يقف فيه الحجاج بعرفة؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يوم عاشوراء",
+    "question": "ما اليوم العاشر من شهر محرم في التقويم الهجري؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يوم النحر",
+    "question": "ما اليوم العاشر من ذي الحجة الذي يبدأ فيه عيد الأضحى؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يوميات",
+    "question": "ما اسم الملاحظات التي يدوّن فيها الإنسان أحداث كل يوم وتجربته الشخصية؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "ياردة",
+    "question": "ما وحدة الطول البريطانية التي تساوي ثلاثة أقدام أو 0.9144 متر؟",
+    "category": "رياضيات",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يانسون",
+    "question": "ما النبات العطري ذو البذور الصغيرة الذي يُستخدم لتحضير مشروب عشبي؟",
+    "category": "طعام",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يافطة",
+    "question": "ما الاسم الشائع للوحة المكتوبة التي تُعلّق أمام متجر أو على طريق؟",
+    "category": "ثقافة عامة",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يَسار",
+    "question": "ما الاتجاه المقابل لليمين؟",
+    "category": "لغة عربية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يحيى",
+    "question": "من النبي الذي كان ابن زكريا عليهما السلام؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يوسف",
+    "question": "من النبي الذي وردت قصته مفصلة في سورة تحمل اسمه ووُصف بأنه ابن يعقوب؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يعقوب",
+    "question": "من النبي الذي كان والد يوسف عليهما السلام؟",
+    "category": "ثقافة إسلامية",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  },
+  {
+    "letter": "ي",
+    "answer": "يَنّ",
+    "question": "ما اسم العملة الرسمية المستخدمة في اليابان؟",
+    "category": "اقتصاد",
+    "difficulty": 1,
+    "source_reference": "editorial:v1"
+  }
+]
