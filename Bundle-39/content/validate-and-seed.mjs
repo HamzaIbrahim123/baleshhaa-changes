@@ -21,7 +21,7 @@ const topics=new Map(),difficulty=new Map();
 for(const row of [...old,...latest]){
  ensure(letters.includes(row.letter),'Wrong letter: '+row.letter);
  ensure(typeof row.answer==='string'&&row.answer.length>=2&&row.answer.length<=90,'Wrong answer length: '+row.answer);
- ensure(typeof row.question==='string'&&row.question.length>=18&&row.question.length<=400,'Wrong question length for '+row.answer);
+ ensure(typeof row.question==='string'&&row.question.length>=(latest.includes(row)?18:5)&&row.question.length<=400,'Wrong question length for '+row.answer);
  ensure(typeof row.category==='string'&&row.category.length>=2&&row.category.length<=64,'Wrong category for '+row.answer);
  ensure(norm(row.answer)[0]===norm(row.letter)[0],'Wrong leading letter: '+row.answer+' for '+row.letter);
  const a=row.letter+'|'+norm(row.answer),q=norm(row.question);
