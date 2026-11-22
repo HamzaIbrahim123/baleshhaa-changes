@@ -10,7 +10,7 @@ import {createHash} from 'node:crypto';
 const dirname=path.dirname(fileURLToPath(import.meta.url));
 const letters=[...'أبتثجحخدذرزسشصضطظعغفقكلمنهوي'];
 const originals=Array.from({length:4},(_,i)=>JSON.parse(fs.readFileSync(path.join(dirname,'../../Bundle-35/content',`pilot-0${i+1}.json`),'utf8'))).flat();
-const added=Array.from({length:4},(_,i)=>JSON.parse(fs.readFileSync(path.join(dirname,`expansion-0${i+1}.json`),'utf8'))).flat();
+const added=Array.from({length:8},(_,i)=>JSON.parse(fs.readFileSync(path.join(dirname,`expansion-0${i+1}.json`),'utf8'))).flat();
 const normalize=s=>s.normalize('NFKC').trim().replace(/[\u064B-\u065F\u0670\u0640]/g,'')
   .replace(/[إآٱأ]/g,'أ').replace(/\s+/g,' ').toLowerCase();
 const assert=(bool,message)=>{if(!bool)throw Error(message);};
@@ -33,11 +33,11 @@ for(const item of [...originals,...added]){
  counts[item.letter]++;cats.set(item.category,(cats.get(item.category)||0)+1);
 }
 assert(originals.length===280,'pilot not 280');
-assert(added.length===700,'expansion not 700');
-assert(letters.every(x=>counts[x]===35),'not 35 per Arabic letter: '+JSON.stringify(counts));
+assert(added.length===1400,'expansion not 1400');
+assert(letters.every(x=>counts[x]===60),'not 60 per Arabic letter: '+JSON.stringify(counts));
 const digest=createHash('sha256').update(JSON.stringify(added)).digest('hex');
 const quote=s=>"'"+String(s).replaceAll("'","''")+"'";
-const batches=Array.from({length:5},(_,i)=>added.slice(i*140,(i+1)*140));
+const batches=Array.from({length:10},(_,i)=>added.slice(i*140,(i+1)*140));
 function sqlFor(batch){
  const vals=batch.map(x=>'('+[x.letter,x.question,x.answer,x.category].map(quote).join(',')+','+x.difficulty+')').join(',\n');
  return `INSERT INTO public.letter_questions
@@ -49,7 +49,7 @@ function sqlFor(batch){
  ON CONFLICT DO NOTHING;`;
 }
 if(process.argv.includes('--sql')){
- process.stdout.write('-- Curated 700 original Arabic QAs. Dataset SHA256 '+digest+'\nBEGIN;\n');
+ process.stdout.write('-- Curated 1400 original Arabic QAs. Dataset SHA256 '+digest+'\nBEGIN;\n');
  for(const batch of batches)process.stdout.write(sqlFor(batch)+'\n');
  process.stdout.write('COMMIT;\n');
 }else{

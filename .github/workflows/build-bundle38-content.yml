@@ -22,15 +22,15 @@ jobs:
         run: node Bundle-38/content/validate-and-seed.mjs
       - name: Generate deterministic, idempotent seed SQL
         run: |
-          node Bundle-38/content/validate-and-seed.mjs --sql > Bundle-38/content/seed-added-700.sql
-          test "$(grep -c 'INSERT INTO public.letter_questions' Bundle-38/content/seed-added-700.sql)" -eq 5
+          node Bundle-38/content/validate-and-seed.mjs --sql > Bundle-38/content/seed-added-1400.sql
+          test "$(grep -c 'INSERT INTO public.letter_questions' Bundle-38/content/seed-added-700.sql)" -eq 10
       - name: Commit verified SQL only
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add Bundle-38/content/seed-added-700.sql
           if ! git diff --cached --quiet; then
-            git commit -m 'Bundle 38: generate verified 700-question idempotent seed SQL'
+            git commit -m 'Bundle 38: generate verified 1400-question idempotent seed SQL'
             git fetch origin main
             git rebase origin/main
             git push
