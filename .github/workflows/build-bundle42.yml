@@ -1,0 +1,52 @@
+name: Bundle 42 — Validate compact Seen Jeem UI and package changed CSS
+on:
+  push:
+    paths:
+      - '.github/workflows/build-bundle42.yml'
+      - 'Bundle-42/src/**'
+      - 'Bundle-42/qa/**'
+  workflow_dispatch:
+concurrency:
+  group: bundle42-build
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install CSS parser/bundler
+        run: npm install --no-audit --no-fund --no-save esbuild@0.25.12
+      - name: Run regression tests
+        run: node Bundle-42/qa/check-bundle42.mjs
+      - name: Parse CSS and check output
+        run: |
+          ./node_modules/.bin/esbuild Bundle-42/src/live-match.css --outfile=/tmp/b42-live.css --log-level=warning
+          ./node_modules/.bin/esbuild Bundle-42/src/index.css --outfile=/tmp/b42-index.css --log-level=warning --external:tailwindcss
+          test -s /tmp/b42-live.css
+          test -s /tmp/b42-index.css
+      - name: Pack changed files only
+        run: |
+          cd Bundle-42
+          rm -f Changes-Only.zip
+          touch -t 202601010101 src/live-match.css src/index.css
+          zip -X -9 -q Changes-Only.zip src/live-match.css src/index.css
+          unzip -Z1 Changes-Only.zip | sort > /tmp/actual-b42
+          printf '%s\n' src/index.css src/live-match.css | sort > /tmp/expected-b42
+          diff -u /tmp/expected-b42 /tmp/actual-b42
+          unzip -t Changes-Only.zip
+      - name: Commit audited ZIP
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Bundle-42/Changes-Only.zip
+          if ! git diff --cached --quiet; then
+            git commit -m 'Bundle 42: tested compact Seen Jeem CSS-only ZIP'
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
