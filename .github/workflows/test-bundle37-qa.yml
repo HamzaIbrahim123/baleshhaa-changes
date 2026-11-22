@@ -1,0 +1,19 @@
+name: Bundle 37 — Real Neon QA winning-path confirmation
+on:
+  push:
+    paths:
+      - '.github/workflows/test-bundle37-qa.yml'
+      - 'Bundle-37/qa/qa-real-winning-room.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  qa-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Real QA two-screen room win confirmation test
+        run: node Bundle-37/qa/qa-real-winning-room.mjs
