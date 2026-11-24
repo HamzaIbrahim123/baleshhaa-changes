@@ -54,7 +54,7 @@ for(let round=1;round<=3;round++){
     state=await send({kind:'open_question',cell});
     state=await send({kind:'cycle_cell_color',cell,requireWinConfirmation:true});
     if(winColor==='green'){
-      assert.equal(state.pendingWin?.proposedColor,null,'orange step must not preempt green win');
+      assert.equal(state.pendingWin??null,null,'orange step must not preempt green win');
       state=await send({kind:'cycle_cell_color',cell,requireWinConfirmation:true});
     }
     if(!last){
