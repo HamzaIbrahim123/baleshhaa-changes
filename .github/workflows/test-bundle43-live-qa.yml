@@ -1,0 +1,19 @@
+name: Bundle 43 — Real Neon QA multi-round fixed-color game
+on:
+  push:
+    paths:
+      - '.github/workflows/test-bundle43-live-qa.yml'
+      - 'Bundle-43/qa/live-fixed-colors.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Real QA room — orange first, green second, orange final
+        run: node Bundle-43/qa/live-fixed-colors.mjs
