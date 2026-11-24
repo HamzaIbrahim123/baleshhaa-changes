@@ -66,7 +66,7 @@ for(let round=1;round<=3;round++){
       assert.equal(state.pendingWin?.winner,expectedWinner,'winning team index fixed in round '+round);
       const before=await view();
       assert.equal(before.winner,null,'viewer cannot see winner before host confirmation');
-      assert.equal(before.owners[cell],null,'winning cell is not committed without confirmation');
+      assert.equal(before.owners[cell],winColor==='orange'?null:'orange','keep previous cell ownership until confirmation');
       state=await send({kind:'confirm_win'});
       assert.equal(state.winner,expectedWinner,'correct winner for round '+round);
       assert.equal(state.owners[cell],winColor,'same winning color in round '+round);
