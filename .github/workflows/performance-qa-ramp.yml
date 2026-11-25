@@ -1,0 +1,22 @@
+name: Performance — controlled QA ramp to 30 devices
+on:
+  push:
+    paths:
+      - '.github/workflows/performance-qa-ramp.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: baleshhaa-qa-load-baseline
+  cancel-in-progress: false
+jobs:
+  ramp:
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Run QA stages 10, 20, 30 devices (stop on first failed target)
+        run: node Performance/qa-ramp.mjs
