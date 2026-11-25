@@ -1,0 +1,30 @@
+name: Performance — k6 Seen Jeem and mixed QA
+on:
+  push:
+    paths:
+      - '.github/workflows/performance-k6-mixed.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: baleshhaa-qa-load-baseline
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: grafana/setup-k6-action@v1
+        with:
+          k6-version: '1.2.3'
+      - name: Run bounded QA-only k6 scenarios
+        run: k6 run --quiet Performance/k6-mixed-qa.js
+      - name: Save aggregate metrics only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: k6-qa-summary
+          path: k6-summary.json
+          if-no-files-found: warn
+          retention-days: 14
