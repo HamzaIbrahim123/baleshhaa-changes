@@ -14,8 +14,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - name: Install pinned audio and syntax build tools
+        run: npm install --no-save --no-package-lock esbuild@0.25.12 @ffmpeg-installer/ffmpeg@1.1.0 @ffprobe-installer/ffprobe@2.1.2
       - name: Encode licensed local audio, level-match and validate
         run: |
+          FFMPEG=$(node -p "require('@ffmpeg-installer/ffmpeg').path")
+          FFPROBE=$(node -p "require('@ffprobe-installer/ffprobe').path")
           mkdir -p public/audio/codenames
           for f in audio-source/*; do
             cue=$(basename "$f"); cue=${cue%.*}
@@ -29,13 +33,12 @@ jobs:
               opening|victoryMusic) dur=3.1; level=-16 ;;
               *) exit 1 ;;
             esac
-            ffmpeg -v error -y -i "$f" -t "$dur" -af "loudnorm=I=$level:TP=-2:LRA=7" -ar 44100 -ac 2 -codec:a libmp3lame -b:a 112k "public/audio/codenames/$cue.mp3"
-            ffprobe -v error -show_entries format=duration,size -of csv=p=0 "public/audio/codenames/$cue.mp3"
+            "$FFMPEG" -v error -y -i "$f" -t "$dur" -af "loudnorm=I=$level:TP=-2:LRA=7" -ar 44100 -ac 2 -codec:a libmp3lame -b:a 112k "public/audio/codenames/$cue.mp3"
+            "$FFPROBE" -v error -show_entries format=duration,size -of csv=p=0 "public/audio/codenames/$cue.mp3"
           done
           test "$(find public/audio/codenames -name '*.mp3' | wc -l)" -eq 12
       - name: Parse changed TypeScript and exercise game rules and motion regression
         run: |
-          npm install --no-save --no-package-lock esbuild@0.25.12
           for f in src/codenames/*.ts src/codenames/*.tsx; do node_modules/.bin/esbuild "$f" --outfile=/tmp/cn-check.js; done
           node_modules/.bin/esbuild src/codenames/motion.css --outfile=/tmp/cn-check.css
           mkdir -p /tmp/cn-events
