@@ -1,0 +1,40 @@
+name: Bundle 52 QA build
+on:
+  push:
+    branches: [bundle-52-changes-only]
+    paths: ['.github/workflows/verify-bundle52.yml']
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test qa/codenames-engine.test.mjs qa/codenames-api.test.mjs
+      - name: Build QA function and parse changed frontend
+        run: |
+          cd backend/codenames
+          npm install --no-package-lock
+          npm install --no-save --no-package-lock esbuild@0.25.12
+          node build-function.mjs
+          cd ../..
+          for f in src/codenames/*.ts src/codenames/*.tsx; do
+            backend/codenames/node_modules/.bin/esbuild "$f" --outfile=/tmp/cn-check.js
+          done
+          unzip -t Changes-Only.zip
+      - name: Publish verified QA function package to this branch only
+        run: |
+          base64 -w0 backend/build/codenames-function.zip > backend/build/codenames-function.b64.txt
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git add -f backend/build/codenames-function.b64.txt
+          git commit -m "Bundle 52: verified QA function deployment bytes"
+          git push origin HEAD:bundle-52-changes-only
+      - uses: actions/upload-artifact@v4
+        with:
+          name: codenames-qa-function
+          path: backend/build/codenames-function.zip
