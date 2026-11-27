@@ -38,3 +38,5 @@ jobs:
         with:
           name: codenames-qa-function
           path: backend/build/codenames-function.zip
+
+# Rerun against revised manual-cut API contract.
