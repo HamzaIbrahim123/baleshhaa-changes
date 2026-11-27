@@ -11,3 +11,5 @@ correct / opponent / defeat — Wyzowl SFX Kit, https://github.com/wyzowl/sfx-ki
 Source license manifests:
 https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/LICENSES.md
 https://github.com/OmniTender-Systems/game-audio-assets/tree/378269191f4219775f113d52dcf7ce7d5c810b5f/vendor/kenney/music-jingles
+
+Opening mix riser: Diim_1 — https://freesound.org/people/Diim_1/sounds/867126/ (CC0); musical stingers are layered from the credited Kenney and Wyzowl samples.
