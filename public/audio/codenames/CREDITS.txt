@@ -1,0 +1,13 @@
+Code Names Bundle 53 — CC0 1.0 Universal audio (https://creativecommons.org/publicdomain/zero/1.0/). Transcoded, trimmed and volume-matched for local playback. No runtime third-party requests.
+mark — adh.dreaming, https://freesound.org/people/adh.dreaming/sounds/671105/
+confirm — qubodup, https://freesound.org/people/qubodup/sounds/60013/
+clue — Sky_Motion, https://freesound.org/people/Sky_Motion/sounds/511418/
+turn — LilMati, https://freesound.org/people/LilMati/sounds/702773/
+assassin — Kinoton, https://freesound.org/people/Kinoton/sounds/347561/
+victory — qubodup, https://freesound.org/people/qubodup/sounds/222517/
+neutral — Kenney, https://kenney.nl/assets/impact-sounds
+opening / victoryMusic — Kenney Hit jingles HIT00 / HIT15, https://kenney.nl/assets/music-jingles
+correct / opponent / defeat — Wyzowl SFX Kit, https://github.com/wyzowl/sfx-kit/tree/92780e7ab0cdfb557497a988089c47f46e8c7412
+Source license manifests:
+https://github.com/Barty-Bart/motion-graphics/blob/3d83d987d658601d8a1269eb691622bdcd427335/skills/sound-effects/LICENSES.md
+https://github.com/OmniTender-Systems/game-audio-assets/tree/378269191f4219775f113d52dcf7ce7d5c810b5f/vendor/kenney/music-jingles

@@ -1,0 +1,64 @@
+/* Bundle 51: presentation only. No timers or rules are changed on the server. */
+.cn-sound-toggle{display:grid;place-items:center;border:1px solid #45556a;border-radius:9px;background:#1c2b3e;color:#e4c99a;min-width:40px;height:40px;cursor:pointer}
+.cn-sound-toggle[aria-pressed=true]{color:#aab9c9}
+.cn-sound-toggle:focus-visible{outline:3px solid #9cb2ff;outline-offset:2px}
+.cn-word-card.cn-in-flight{visibility:hidden}
+.cn-reveal-layer,.cn-victory-layer{position:fixed;inset:0;pointer-events:none;z-index:85;font-family:'Readex Pro',sans-serif}
+.cn-reveal-dim{position:absolute;inset:0;background:#07111e;animation:cn-dim var(--cn-reveal-ms) both}
+.cn-flying-card{--edge:#e9d8b8;--face:#faebcf;--accent:#bda57d;--ink:#5e4938;position:absolute;left:var(--cn-x);top:var(--cn-y);width:var(--cn-w);height:var(--cn-h);background:var(--edge);border-radius:10px;padding:6px;transform-origin:center;box-shadow:0 14px 45px #0008;animation:cn-card-flight var(--cn-reveal-ms) cubic-bezier(.2,.75,.2,1) both}
+.cn-flying-card.cn-card-red,.cn-flying-true.cn-card-red{--edge:#9c343e;--face:#cf5960;--accent:#f18a87;--ink:#591f2a}
+.cn-flying-card.cn-card-blue,.cn-flying-true.cn-card-blue{--edge:#205a85;--face:#458fc0;--accent:#8ccde7;--ink:#123d61}
+.cn-flying-card.cn-card-neutral,.cn-flying-true.cn-card-neutral{--edge:#c0c3bc;--face:#e9ede4;--accent:#f5f6f1;--ink:#435750}
+.cn-flying-card.cn-card-assassin,.cn-flying-true.cn-card-assassin{--edge:#20242c;--face:#373c47;--accent:#697181;--ink:#11151d}
+.cn-flying-face{position:relative;display:flex;align-items:flex-end;height:100%;border:1px solid var(--accent);border-radius:6px;background:var(--face);padding:5px;overflow:hidden}
+.cn-flying-word{width:100%;background:var(--ink);border-radius:3px;padding:5px 3px;color:white;text-align:center;font-family:Alexandria,'Readex Pro',sans-serif;font-size:clamp(11px,1.4vw,20px);line-height:1.2;font-weight:600;overflow-wrap:anywhere}
+.cn-flying-true{position:absolute;inset:0;background:var(--edge);padding:6px;border-radius:10px;animation:cn-true-color var(--cn-reveal-ms) both;overflow:hidden}
+.cn-flying-cover{position:absolute;inset:6px;background:var(--face);border-radius:6px;overflow:hidden;border:1px solid var(--accent);display:grid;place-items:center;animation:cn-agent-slide var(--cn-reveal-ms) cubic-bezier(.2,.8,.2,1) both}
+.cn-flying-cover img{width:100%;height:100%;object-fit:contain}
+.cn-reveal-caption{position:absolute;top:min(calc(100% - 48px),calc(50% + var(--cn-h)*.8 + 24px));left:50%;transform:translateX(-50%);padding:8px 16px;background:#172639;color:#fff;border:1px solid #e4c99a;border-radius:8px;font-size:14px;text-align:center;white-space:nowrap;animation:cn-reveal-label var(--cn-reveal-ms) both}
+.cn-outcome-correct{border-color:#68d4a6}.cn-outcome-assassin{border-color:#f18a87}
+@keyframes cn-dim{0%,100%{opacity:0}22%,78%{opacity:.48}}
+@keyframes cn-card-flight{0%,100%{transform:translate(0,0) scale(1)}25%,73%{transform:translate(var(--cn-dx),var(--cn-dy)) scale(var(--cn-zoom))}}
+@keyframes cn-true-color{0%,30%{opacity:0}38%,100%{opacity:1}}
+@keyframes cn-agent-slide{0%,39%{transform:translateX(110%)}61%,100%{transform:translateX(0)}}
+@keyframes cn-reveal-label{0%,39%,100%{opacity:0}48%,76%{opacity:1}}
+.cn-turn-flash{position:fixed;top:110px;left:50%;transform:translateX(-50%);z-index:65;display:flex;align-items:center;gap:8px;color:#fff;background:#1c2b3e;padding:9px 16px;border:1px solid var(--cn-turn);border-radius:9px;pointer-events:none;animation:cn-turn-in 1s both;--cn-turn:#f18a87}
+.cn-turn-blue{--cn-turn:#8ccde7}.cn-turn-flash i{width:9px;height:9px;background:var(--cn-turn);border-radius:50%}
+@keyframes cn-turn-in{0%,100%{opacity:0;transform:translate(-50%,-8px)}15%,85%{opacity:1;transform:translate(-50%,0)}}
+.cn-victory-layer{--win:#f18a87;--win-dark:#591f2a;display:grid;place-items:center}
+.cn-victory-blue{--win:#8ccde7;--win-dark:#123d61}
+.cn-victory-scrim{position:absolute;inset:0;background:#08111bea;animation:cn-win-fade var(--cn-win-ms) both}
+.cn-victory-panel{width:min(440px,calc(100vw - 32px));position:relative;overflow:hidden;text-align:center;display:grid;justify-items:center;gap:7px;padding:23px;background:linear-gradient(155deg,#1c2b3e,var(--win-dark));border:1px solid var(--win);border-radius:19px;box-shadow:0 18px 80px #0008;color:#fff;animation:cn-win-panel var(--cn-win-ms) both}
+.cn-victory-panel small{letter-spacing:2px;color:var(--win);font-size:10px;direction:ltr}
+.cn-victory-character{position:relative;width:min(230px,80%);height:130px;display:grid;place-items:center;border:1px solid var(--win);border-radius:10px;background:var(--win-dark);overflow:hidden}
+.cn-victory-character img{width:100%;height:100%;object-fit:contain}
+.cn-victory-panel strong{color:var(--win);font-size:clamp(26px,5vw,38px);line-height:1.3}
+.cn-victory-panel h2{font-size:21px;margin:0}.cn-victory-panel p{font-size:13px;color:#e4e8ee}
+.cn-victory-radar{position:absolute;inset:-80px;background:repeating-radial-gradient(circle at 50% 40%,transparent 0 36px,var(--win) 37px 38px,transparent 39px 58px);opacity:.08;pointer-events:none;animation:cn-radar 2s ease-out both}
+@keyframes cn-radar{from{transform:scale(.5)}to{transform:scale(1.25)}}
+@keyframes cn-win-fade{0%,100%{opacity:0}12%,86%{opacity:1}}
+@keyframes cn-win-panel{0%,100%{opacity:0;transform:translateY(12px) scale(.96)}14%,86%{opacity:1;transform:translateY(0) scale(1)}}
+.cn-clue-flash{animation-timing-function:cubic-bezier(.2,.75,.25,1);box-shadow:0 16px 52px #0009;z-index:70}
+@media(prefers-reduced-motion:reduce){.cn-flying-card{animation:none;transform:translate(var(--cn-dx),var(--cn-dy))}.cn-flying-true,.cn-flying-cover{animation:none;opacity:1;transform:none}.cn-reveal-dim{animation:none;opacity:.2}.cn-reveal-caption{animation:none;opacity:1;top:calc(50% + var(--cn-h)/2 + 14px)}.cn-victory-panel,.cn-victory-scrim,.cn-turn-flash{animation:none}.cn-victory-radar{animation:none}}
+
+.cn-game[data-cn-turn-flash="red"] .cn-score-red,.cn-game[data-cn-turn-flash="blue"] .cn-score-blue{animation:cn-score-pulse .8s ease-out both}@keyframes cn-score-pulse{0%,100%{box-shadow:none}35%{box-shadow:0 0 0 4px #e4c99a44}}@media(prefers-reduced-motion:reduce){.cn-game[data-cn-turn-flash] .cn-game-score{animation:none}}
+
+/* Bundle 53 — cinematic presentation; no countdown audio. */
+.cn-audio-dialog{width:min(400px,calc(100vw - 32px));margin:auto;border:1px solid #4b5d72;border-radius:16px;background:#1c2b3e;color:#fff;padding:22px;box-shadow:0 24px 80px #0009;font-family:'Readex Pro',sans-serif}
+.cn-audio-dialog::backdrop{background:#07111dcc}.cn-audio-dialog header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #405269;padding-bottom:12px}.cn-audio-dialog header small{font-size:10px;letter-spacing:1.5px;color:#e4c99a;direction:ltr;display:block}.cn-audio-dialog h2{font-size:22px;margin:4px 0}.cn-audio-close{border:0;border-radius:8px;background:#2c3e53;color:white;width:36px;height:36px;font-size:24px;cursor:pointer}.cn-audio-master,.cn-audio-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:17px 0;font-size:14px}.cn-audio-master input,.cn-audio-row input{accent-color:#efb74f}.cn-audio-row{display:grid;gap:10px}.cn-audio-row span{display:flex;justify-content:space-between}.cn-audio-row b{color:#e4c99a}.cn-audio-row input{width:100%;cursor:pointer}.cn-audio-preview{border-top:1px solid #405269;padding-top:12px}.cn-audio-preview small,.cn-audio-dialog p{font-size:12px;color:#aab9c9}.cn-audio-preview>div{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.cn-audio-preview button{border:1px solid #64748b;color:#fff;background:#26374b;padding:7px 9px;border-radius:7px;font-size:12px}.cn-audio-preview button:disabled{opacity:.5}.cn-audio-dialog p{margin:14px 0}.cn-audio-dialog>.btn{width:100%}
+.cn-reveal-layer{--fx:#e4c99a}.cn-fx-red{--fx:#f18a87}.cn-fx-blue{--fx:#8ccde7}.cn-reveal-assassin{--fx:#e06369}.cn-reveal-neutral{--fx:#b8c7be}
+.cn-impact-ring{position:absolute;left:50%;top:50%;width:clamp(140px,30vw,360px);aspect-ratio:1;border:2px solid var(--fx);border-radius:50%;box-shadow:0 0 35px var(--fx),inset 0 0 30px var(--fx);animation:cn-impact-ring var(--cn-reveal-ms) both;opacity:0}
+.cn-reveal-vignette{position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 30%,var(--fx) 180%);animation:cn-vignette var(--cn-reveal-ms) both;opacity:0}
+.cn-reveal-neutral .cn-impact-ring,.cn-reveal-neutral .cn-reveal-vignette{display:none}
+.cn-reveal-assassin .cn-flying-card{animation:cn-assassin-flight var(--cn-reveal-ms) both cubic-bezier(.2,.75,.2,1)}.cn-reveal-assassin .cn-reveal-dim{background:#020407}.cn-reveal-assassin .cn-reveal-caption{background:#241419;border-color:#e06369}
+.cn-reveal-correct .cn-reveal-caption{border-color:var(--fx);box-shadow:0 0 20px color-mix(in srgb,var(--fx),transparent 50%)}
+.cn-game[data-cn-reveal="assassin"] .cn-board-area{animation:cn-board-shake .24s .56s both}
+@keyframes cn-impact-ring{0%,32%{opacity:0;transform:translate(-50%,-50%) scale(.55)}38%{opacity:.55}68%,100%{opacity:0;transform:translate(-50%,-50%) scale(1.65)}}
+@keyframes cn-vignette{0%,32%,100%{opacity:0}42%{opacity:.29}74%{opacity:0}}
+@keyframes cn-assassin-flight{0%,100%{transform:translate(0,0) scale(1)}25%,34%,73%{transform:translate(var(--cn-dx),var(--cn-dy)) scale(var(--cn-zoom))}39%{transform:translate(calc(var(--cn-dx) - 6px),var(--cn-dy)) scale(var(--cn-zoom))}44%{transform:translate(calc(var(--cn-dx) + 5px),var(--cn-dy)) scale(var(--cn-zoom))}49%{transform:translate(var(--cn-dx),var(--cn-dy)) scale(var(--cn-zoom))}}
+@keyframes cn-board-shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+.cn-clock-urgent .cn-clock-arc{stroke:#c16a2b}.cn-clock-urgent b{color:#a74d20}.cn-game[data-cn-urgent="true"] .cn-turn-panel{border-color:#d9a36d}
+.cn-turn-flash{min-width:min(300px,calc(100vw - 32px));justify-content:center;padding:14px 20px;box-shadow:0 12px 35px #0006;overflow:hidden}.cn-turn-flash span{display:grid;gap:3px;text-align:center}.cn-turn-flash small{font-size:9px;letter-spacing:1.8px;color:var(--cn-turn);direction:ltr}.cn-turn-flash strong{font-size:18px}.cn-turn-flash:after{content:'';position:absolute;inset:auto 0 0;height:2px;background:var(--cn-turn);transform-origin:right;animation:cn-transfer-line 1s linear both}@keyframes cn-transfer-line{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.cn-victory-panel{width:min(500px,calc(100vw - 32px));padding:27px;box-shadow:0 20px 100px #0009,0 0 45px color-mix(in srgb,var(--win),transparent 65%)}.cn-victory-character{height:150px}.cn-win-seal{width:36px;height:36px;display:grid;place-items:center;border:1px solid var(--win);border-radius:50%;color:var(--win);font-size:21px;font-weight:800}.cn-confetti{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:2}.cn-confetti i{position:absolute;top:50%;left:50%;width:6px;height:11px;border-radius:2px;background:var(--h);opacity:0;animation:cn-confetti 1.3s var(--d) ease-out both}@keyframes cn-confetti{0%{transform:rotate(var(--a)) translateX(20px) rotate(0);opacity:0}12%{opacity:.9}75%{opacity:.8}100%{transform:rotate(var(--a)) translateX(var(--r)) rotate(220deg);opacity:0}}
+.cn-mission-layer{position:fixed;inset:0;z-index:72;display:grid;place-items:center;background:#08111bd9;pointer-events:none;animation:cn-win-fade 2.4s both;color:#fff;font-family:'Readex Pro',sans-serif}.cn-mission-card{width:min(460px,calc(100vw - 32px));display:grid;justify-items:center;gap:10px;padding:24px;border:1px solid #d5b779;border-radius:16px;background:#172639;box-shadow:0 15px 75px #0008;animation:cn-win-panel 2.4s both;text-align:center}.cn-mission-card>small{direction:ltr;font-size:11px;letter-spacing:2px;color:#e4c99a}.cn-mission-card strong{font-size:32px;color:#f6ce7a}.cn-mission-card p{color:#c9d5e2;font-size:14px}.cn-mission-card button{pointer-events:auto;color:#e4c99a;background:transparent;border:1px solid #657287;border-radius:8px;padding:7px 16px;cursor:pointer}.cn-mission-agents{display:flex;gap:8px;max-width:100%;overflow:hidden}.cn-mission-agents img{width:calc(50% - 4px);max-width:170px;object-fit:contain;border-radius:8px}
+@media(prefers-reduced-motion:reduce){.cn-impact-ring,.cn-reveal-vignette,.cn-confetti{display:none}.cn-game[data-cn-reveal="assassin"] .cn-board-area{animation:none}.cn-reveal-assassin .cn-flying-card{animation:none;transform:translate(var(--cn-dx),var(--cn-dy))}.cn-mission-layer,.cn-mission-card,.cn-turn-flash:after{animation:none}}

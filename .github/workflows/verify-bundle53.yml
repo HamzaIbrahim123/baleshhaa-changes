@@ -1,0 +1,56 @@
+name: Bundle 53 cinematic QA
+on:
+  push:
+    branches: [bundle-53-changes-only]
+    paths: ['.github/workflows/verify-bundle53.yml']
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Encode licensed local audio, level-match and validate
+        run: |
+          mkdir -p public/audio/codenames
+          for f in audio-source/*; do
+            cue=$(basename "$f"); cue=${cue%.*}
+            case "$cue" in
+              mark) dur=0.35; level=-21 ;;
+              confirm) dur=0.85; level=-18 ;;
+              clue|turn) dur=1.2; level=-18 ;;
+              correct|opponent|neutral) dur=1.3; level=-16 ;;
+              assassin) dur=1.9; level=-13 ;;
+              victory|defeat) dur=2.0; level=-16 ;;
+              opening|victoryMusic) dur=3.1; level=-16 ;;
+              *) exit 1 ;;
+            esac
+            ffmpeg -v error -y -i "$f" -t "$dur" -af "loudnorm=I=$level:TP=-2:LRA=7" -ar 44100 -ac 2 -codec:a libmp3lame -b:a 112k "public/audio/codenames/$cue.mp3"
+            ffprobe -v error -show_entries format=duration,size -of csv=p=0 "public/audio/codenames/$cue.mp3"
+          done
+          test "$(find public/audio/codenames -name '*.mp3' | wc -l)" -eq 12
+      - name: Parse changed TypeScript and exercise game rules and motion regression
+        run: |
+          npm install --no-save --no-package-lock esbuild@0.25.12
+          for f in src/codenames/*.ts src/codenames/*.tsx; do node_modules/.bin/esbuild "$f" --outfile=/tmp/cn-check.js; done
+          node_modules/.bin/esbuild src/codenames/motion.css --outfile=/tmp/cn-check.css
+          mkdir -p /tmp/cn-events
+          node_modules/.bin/esbuild src/codenames/gameEvents.ts --format=esm --outfile=/tmp/cn-events/gameEvents.js
+          CN_EVENTS_JS=/tmp/cn-events/gameEvents.js node --test qa/codenames-motion.test.mjs qa/codenames-engine.test.mjs
+      - name: Package changes only and publish
+        run: |
+          zip -q Changes-Only.zip src/codenames/GameMotion.tsx src/codenames/CodeNamesLobby.tsx src/codenames/CodeNamesBoard.tsx src/codenames/gameEvents.ts src/codenames/gameSound.ts src/codenames/AudioSettings.tsx src/codenames/motion.css qa/codenames-motion.test.mjs public/audio/codenames/CREDITS.txt public/audio/codenames/*.mp3
+          unzip -t Changes-Only.zip
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git add -f Changes-Only.zip public/audio/codenames/*.mp3
+          git commit -m "Bundle 53 verified local MP3 assets and changes-only ZIP"
+          git push origin HEAD:bundle-53-changes-only
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bundle53-changes
+          path: Changes-Only.zip
