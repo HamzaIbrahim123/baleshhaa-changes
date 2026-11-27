@@ -1,9 +1,0 @@
-<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Red suspicion">
-<circle id="Team dot" cx="8" cy="8" r="8" fill="#BD3447"/>
-<g id="Player silhouette">
-<path id="Vector" d="M8 7.5C9.10457 7.5 10 6.60457 10 5.5C10 4.39543 9.10457 3.5 8 3.5C6.89543 3.5 6 4.39543 6 5.5C6 6.60457 6.89543 7.5 8 7.5Z" fill="white"/>
-<path id="Vector_2" d="M4 12.5V11C4 9.93913 4.42143 8.92172 5.17157 8.17157C5.92172 7.42143 6.93913 7 8 7C9.06087 7 10.0783 7.42143 10.8284 8.17157C11.5786 8.92172 12 9.93913 12 11V12.5H4Z" fill="white"/>
-</g>
-</g>
-</svg>
